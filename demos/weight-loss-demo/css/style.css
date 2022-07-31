@@ -1,0 +1,698 @@
+/**********************************/
+/********** General CSS ***********/
+/**********************************/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #003200;
+    font-weight: 400;
+    background: #ffffff;
+}
+
+a {
+    color: #006400;
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    color: #003200;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: #003200;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+
+
+/**********************************/
+/***** Layout & Section Title *****/
+/**********************************/
+.main-wrapper {
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background: #006400;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.container .col-lg-5 {
+    background: #006400;
+}
+
+.container .col-lg-7 {
+    background: #ffffff;
+}
+
+.section-title {
+    padding: 0 15px;
+    text-align: right;
+}
+
+.section-title h2 {
+    color: #FFD700;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-title p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
+
+@media(max-width: 992px) {
+    .section-title {
+        padding: 30px 15px;
+        text-align: left;
+    }
+}
+
+@media(max-width: 568px) {
+    .main-wrapper {
+        margin: 0;
+        border-radius: 0;
+    }
+    
+    .section-title {
+        padding: 30px 0;
+    }
+    
+    .section-title h2 {
+        font-size: 40px;
+        letter-spacing: 0;
+    }
+    
+    .section-title p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+
+
+/**********************************/
+/******* Layout Background ********/
+/**********************************/
+.header .header-content,
+.feature .feature-content,
+.speech .speech-content,
+.review .review-carousel,
+.contact .contact-content {
+    margin: 0 -15px;
+    padding: 90px 30px;
+    background: linear-gradient(rgba(256, 215, 000, .9), rgba(256, 215, 000, .9)), url(../img/bg-1.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.about .about-content,
+.work .work-content,
+.product .product-items,
+.faq #accordion {
+    margin: 0 -15px;
+    padding: 90px 30px;
+    background: linear-gradient(rgba(256, 215, 000, .95), rgba(256, 215, 000, .8)), url(../img/bg-2.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+@media(max-width: 568px) {
+    .header .header-content,
+    .feature .feature-content,
+    .speech .speech-content,
+    .review .review-carousel,
+    .contact .contact-content,
+    .about .about-content,
+    .work .work-content,
+    .product .product-items,
+    .faq #accordion {
+        padding: 60px 15px;
+    }
+}
+
+
+
+/**********************************/
+/********** Header Style **********/
+/**********************************/
+.header .header-content h3 {
+    font-size: 40px;
+    color: #006400;
+}
+
+.header .header-content ul {
+    margin: 0 0 25px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header .header-content ul li {
+    font-size: 25px;
+    margin: 0 0 5px 20px;
+}
+
+.header .header-content ul li::before {
+    position: absolute;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #006400;
+    left: 32px;
+}
+
+@media(max-width: 568px) {
+    .header .header-content ul li::before {
+        left: 16px;
+    }
+}
+
+.header .header-content .btn {
+    padding: 6px 20px;
+    font-size: 22px;
+    color: #FFD700;
+    background: #006400;
+}
+
+.header .header-content .btn:hover {
+    color: #006400;
+    background: #ffffff;
+}
+
+.header .header-content .btn i {
+    margin-right: 8px;
+}
+
+
+
+/**********************************/
+/******** Header Nav Style ********/
+/**********************************/
+.header-nav {
+    position: relative;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    overflow: hidden;
+}
+
+.header-nav .navbar {
+    background: #003200 !important;
+}
+
+.header-nav.nav-sticky .navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background: #003200 !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    z-index: 999;
+}
+
+.header-nav .navbar-dark .nav-link {
+    color: #ffffff;
+}
+
+.header-nav .navbar-dark .nav-link:focus,
+.header-nav .navbar-dark .nav-link:hover,
+.header-nav .navbar-dark .nav-link.active {
+    color: #FFD700;
+}
+
+@media(min-width: 992px) {
+    .header-nav .navbar-brand {
+        display: none;
+    }
+}
+
+
+
+/**********************************/
+/********** About Style ***********/
+/**********************************/
+.about .about-img {
+    padding-top: 15px;
+}
+
+.about .about-img img {
+    width: 100%;
+}
+
+@media (max-width: 767.98px) {
+    .about .about-img .col-md-4 {
+        margin-bottom: 30px;
+    }
+    
+    .about .about-img .col-md-4:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**********************************/
+/********* Feature Style **********/
+/**********************************/
+.feature .feature-content {
+    text-align: center;
+}
+
+.feature .feature-content .row {
+    margin-bottom: 30px;
+}
+
+.feature .feature-content .row:last-child {
+    margin-bottom: 0px;
+}
+
+.feature .feature-item i {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.feature .feature-item h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feature .feature-item p {
+    margin-bottom: 0;
+}
+
+.feature .feature-item img {
+    width: 100%;
+}
+
+@media (max-width: 767.98px) {
+    .feature .feature-item img {
+        margin: 30px 0;
+    }
+}
+
+
+
+/**********************************/
+/*********** Work Style ***********/
+/**********************************/
+.work .work-content p {
+    margin-bottom: 30px;
+}
+
+.work .work-item i {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.work .work-item h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.work .work-item p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+    .work .work-content .col-md-4 {
+        margin-bottom: 30px;
+    }
+    
+    .work .work-content .col-md-4:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**********************************/
+/********** Speech Style **********/
+/**********************************/
+.speech .speech-img {
+    margin-bottom: 30px;
+}
+
+.speech .speech-img img {
+    width: 100%;
+}
+
+.speech .speech-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.speech .speech-content ul li {
+    margin: 0 0 5px 20px;
+}
+
+.speech .speech-content ul li::before {
+    position: absolute;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #006400;
+    left: 30px;
+}
+
+@media (max-width: 767.98px) {
+    .speech .speech-img .col-md-6 {
+        margin-bottom: 30px;
+    }
+    
+    .speech .speech-img .col-md-6:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 568px) {
+    .speech .speech-content ul li::before {
+        left: 15px;
+    }
+}
+
+
+
+/**********************************/
+/********** Review Style **********/
+/**********************************/
+.review .review-carousel {
+    padding: 90px 15px;
+    width: calc(100% + 30px);
+}
+
+.review .review-item {
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.review .review-img {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.review .review-item img {
+    width: 100%;
+}
+
+.review .review-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.review .review-content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.review .review-content h4 {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.review .review-content p {
+    margin: 0;
+}
+
+.review .owl-nav,
+.review .owl-dots {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.review .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(000, 100, 000, .3);
+}
+
+.review .owl-dot.active {
+    background: rgba(000, 100, 000, 1);
+}
+
+
+
+/**********************************/
+/********* Product Style **********/
+/**********************************/
+.product .product-item {
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background: #FFD700;
+}
+
+.product .product-item .product-img {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.product .product-img img {
+    width: 100%;
+}
+
+.product .product-content {
+    position: relative;
+    width: 100%;
+}
+
+.product .product-content h2 {
+    font-size: 18px;
+}
+
+.product .product-content h3 {
+    font-size: 25px;
+}
+
+.product .product-content .btn {
+    color: #FFD700;
+    background: #006400;
+}
+
+.product .product-content .btn:hover {
+    color: #006400;
+    background: #ffffff;
+}
+
+@media (max-width: 767.98px) {
+    .product .product-item {
+        margin-bottom: 30px;
+    }
+    
+    .product .col-md-4:last-child .product-item {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**********************************/
+/*********** FAQs Style ***********/
+/**********************************/
+.faq .card {
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 0;
+}
+
+.faq .card:last-child {
+    margin-bottom: 0;
+}
+
+.faq .card-header {
+    padding: 0;
+    border: none;
+    background: #006400;
+}
+
+.faq .card-header span {
+    display: block;
+    float: left;
+    width: 50px;
+    height: auto;
+    padding: 15px 0;
+    text-align: center;
+    color: #FFD700;
+    background: #006400;
+}
+
+.faq .card-header a {
+    display: block;
+    float: right;
+    width: calc(100% - 50px);
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    background: #FFD700;
+}
+
+.faq .card-header [data-toggle="collapse"]:after {
+    font-family: 'font Awesome 5 Free';
+    content: "\f107";
+    float: right;
+    margin-right: 15px;
+    color: #006400;
+    font-size: 14px;
+    font-weight: 900;
+    transition: .3s;
+}
+
+.faq .card-header [data-toggle="collapse"][aria-expanded="true"]:after {
+    font-family: 'font Awesome 5 Free';
+    content: "\f106";
+    float: right;
+    margin-right: 15px;
+    color: #006400;
+    font-size: 14px;
+    font-weight: 900;
+    transition: .3s;
+}
+
+.faq .card-body {
+    color: #FFD700;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    background: #006400;
+}
+
+
+
+/**********************************/
+/********* Contact Style **********/
+/**********************************/
+.contact .contact-content h2 {
+    font-size: 30px;
+}
+
+.contact .contact-content h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content h3 i {
+    width: 20px;
+    color: #006400;
+    margin-right: 5px;
+}
+
+.contact .contact-content .btn {
+    margin: 10px 0 15px 0;
+    font-size: 18px;
+    color: #FFD700;
+    background: #006400;
+}
+
+.contact .contact-content .btn:hover {
+    color: #006400;
+    background: #ffffff;
+}
+
+.contact .contact-social {
+    position: relative;
+    width: 100%;
+}
+
+.contact .contact-social a {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    width: 40px;
+    height: 40px;
+    padding: 9px 0;
+    text-align: center;
+    font-size: 16px;
+    background: #006400;
+    border-radius: 4px;
+}
+
+.contact .contact-social a i {
+    color: #FFD700;
+}
+
+.contact .contact-social a:hover {
+    background: #ffffff;
+}
+
+.contact .contact-social a:hover i {
+    color: #006400;
+}
+
+
+
+/**********************************/
+/********** Footer Style **********/
+/**********************************/
+.footer {
+    padding: 30px;
+    background: #003200;
+}
+
+.footer .col-lg-6:first-child p {
+    text-align: left;
+}
+
+.footer .col-lg-6:last-child p {
+    text-align: right;
+}
+
+@media (max-width: 767.98px) {
+    .footer .col-lg-6:first-child p,
+    .footer .col-lg-6:last-child p {
+        text-align: center;
+    }
+}
+
+.footer p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer p a {
+    color: #FFD700;
+    font-weight: 700;
+}
+
+.footer p a:hover {
+    color: #ffffff;
+}

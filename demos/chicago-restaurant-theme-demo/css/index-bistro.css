@@ -1,0 +1,1220 @@
+/*------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*------------------------------------------------------------------------------*/
+/* Template Name: Chicago */
+/* Version: 1.0 Initial Release */
+/* Build Date: 07-29-2016 */
+/* Author: Fox Teams */
+/* Website: foxthemes.com */
+/* Copyright: (C) 2016 */
+/*-------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Text setting
+3. Header
+4. 1 block
+5. 2 block
+6. 3 block
+7. 4 block
+8. 5 block
+9. 6 block
+10. 7 block
+11. 8 block
+12. 9 block
+13. Color change
+
+
+-------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,900,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+  font-family: 'Copperplate';
+  src: url("../fonts/copperplate_regular.eot"), url("../fonts/copperplate_regular.woff") format("woff"), url("../fonts/copperplate_regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+*,
+h5,
+h4,
+h6,
+p,
+span,
+a {
+  font-family: 'Roboto', sans-serif; }
+
+h3 {
+  font-family: 'Copperplate', serif; }
+
+h2 {
+  font-family: 'Alegreya', sans-serif; }
+
+h1 {
+  font-family: 'Copperplate', serif; }
+
+.wpc-bg1 {
+  background-color: #f7f7f7; }
+
+h2 {
+  color: #f0ae11;
+  font-size: 37px;
+  font-weight: 400; }
+
+h3 {
+  color: #333;
+  font-size: 38px;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+/*--------------------------------------------------------------------------------------*/
+/*Header*/
+/*--------------------------------------------------------------------------------------*/
+.main-menu .sub-menu {
+  top: 100%; }
+
+.wpc-header-menu-light.active .main-menu .sub-menu,
+.wpc-header-menu-light .main-menu .sub-menu a,
+.main-menu .sub-menu {
+  background-color: #000;
+  color: #fff; }
+
+.wpc-header-menu {
+  background-color: #000; }
+
+.wpc-navigation {
+  z-index: 2; }
+
+.logo2 a {
+  color: #f0ae11; }
+
+.main-menu {
+  padding: 0; }
+  .main-menu li {
+    margin: 0 30px; }
+
+.wpc-after-elem {
+  position: fixed;
+  left: -50%;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  top: -195px;
+  width: 325px;
+  height: 325px;
+  background-color: #000; }
+  .wpc-after-elem:after {
+    content: '';
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 1px solid #f0ae11;
+    border: 1px solid #f0ae11;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    position: absolute; }
+
+.wpc-header-menu-light {
+  border: none; }
+
+.wpc-header-menu .menu-item a.active {
+  color: #f0ae11; }
+
+.wpc-header-menu .menu-item {
+  padding: 0; }
+  .wpc-header-menu .menu-item.logo {
+    position: relative;
+    min-width: 300px;
+    margin: 0;
+    margin-right: 20px; }
+    .wpc-header-menu .menu-item.logo:before {
+      content: '';
+      display: inline-block;
+      width: 28px;
+      height: 26px;
+      background: transparent url("../img/bistro/logo-ico.png") center 100% no-repeat;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 3; }
+    .wpc-header-menu .menu-item.logo a {
+      color: #f0ae11;
+      font-family: 'Alegreya', sans-serif;
+      font-size: 27px;
+      font-style: italic;
+      line-height: 51px;
+      z-index: 4;
+      min-width: 180px;
+      display: inline-block;
+      background-color: transparent;
+      left: 0;
+      right: 0;
+      margin: auto;
+      line-height: 80px; }
+      .wpc-header-menu .menu-item.logo a:hover:before, .wpc-header-menu .menu-item.logo a:hover:after, .wpc-header-menu .menu-item.logo a:before, .wpc-header-menu .menu-item.logo a:before, .wpc-header-menu .menu-item.logo a:after {
+        opacity: 1;
+        width: 25px;
+        height: 2px;
+        display: block;
+        background-color: #f0ae11; }
+  .wpc-header-menu .menu-item a {
+    padding: 0 25px;
+    display: inline-block;
+    z-index: 3;
+    background-color: #000;
+    position: relative;
+    line-height: 78px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+.wpc-header-menu-light.active .menu-item a,
+.wpc-header-menu-light.active .menu-item.logo::after,
+.wpc-header-menu-light.active {
+  background-color: #000; }
+
+.wpc-header-menu-light.active .menu-item a {
+  color: #fff; }
+
+.wpc-header-menu-light.active .menu-item.logo a {
+  color: #f0ae11; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 1 block*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-info-block:after {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.wpc-bistro-info-block h2 {
+  color: #f0ae11;
+  font-size: 50px;
+  font-style: italic;
+  line-height: 70px;
+  line-height: 70px; }
+
+.wpc-bistro-info-block h1 {
+  color: white;
+  font-size: 52px;
+  width: 100%;
+  display: block;
+  padding-top: 15px;
+  font-weight: 600;
+  letter-spacing: 14px;
+  padding-bottom: 70px;
+  text-transform: uppercase;
+  position: relative; }
+  .wpc-bistro-info-block h1:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    margin: auto;
+    width: 540px;
+    height: 16px;
+    content: '';
+    display: inline-block;
+    background: transparent url("../img/bistro/h-after.png") 0 0 no-repeat; }
+
+.wpc-bistro-info-block p {
+  color: #fffefe;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 2 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-about-bistro {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.wpc-bistro-img1 {
+  float: right; }
+
+.wpc-bistro-text {
+  position: relative;
+  z-index: 2;
+  text-align: center; }
+  .wpc-bistro-text h2 {
+    color: #f0ae11;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 57px;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 1px; }
+  .wpc-bistro-text h3 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    position: relative; }
+    .wpc-bistro-text h3:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 20px;
+      margin: auto;
+      width: 405px;
+      height: 13px;
+      margin: auto;
+      content: '';
+      display: inline-block;
+      background: transparent url("../img/bistro/h-after2.png") 0 0 no-repeat; }
+  .wpc-bistro-text span {
+    display: inline-block;
+    max-width: 470px;
+    opacity: 0.7;
+    letter-spacing: 1.6px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 40px; }
+  .wpc-bistro-text p {
+    display: block;
+    letter-spacing: .3px;
+    max-width: 455px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #888;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 14px; }
+  .wpc-bistro-text a {
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 70px;
+    letter-spacing: 2px;
+    color: #fff;
+    line-height: 45px;
+    background-color: #f0ae11;
+    text-transform: uppercase;
+    -webkit-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in; }
+    .wpc-bistro-text a:hover {
+      opacity: .8; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 3 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-bistro-quote {
+  background-color: #f0ae11;
+  padding: 100px 0 115px;
+  text-align: center;
+  position: relative; }
+  .wpc-bistro-quote span {
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    max-width: 900px;
+    line-height: 25px;
+    letter-spacing: 2.5px;
+    font-size: 18px;
+    font-style: italic; }
+    .wpc-bistro-quote span:before, .wpc-bistro-quote span:after {
+      top: -20px;
+      position: absolute;
+      content: ',,';
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 75px;
+      color: #fff;
+      opacity: .3;
+      font-weight: bold; }
+    .wpc-bistro-quote span:after {
+      right: -65px; }
+    .wpc-bistro-quote span:before {
+      left: -65px;
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1); }
+  .wpc-bistro-quote h4 {
+    position: relative;
+    color: white;
+    margin-top: 80px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase; }
+    .wpc-bistro-quote h4:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: -45px;
+      margin: auto;
+      width: 241px;
+      height: 12px;
+      margin: auto;
+      content: '';
+      display: inline-block;
+      background: transparent url("../img/bistro/h-after3.png") 0 0 no-repeat; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 4 block */
+/*--------------------------------------------------------------------------------------*/
+.wpt-dish-bg h2 {
+  color: #f0ae11;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 2px;
+  font-style: italic; }
+
+.wpt-dish-bg h3 {
+  color: #333;
+  letter-spacing: 10px;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 48px;
+  text-transform: uppercase; }
+  .wpt-dish-bg h3:after {
+    width: 405px;
+    height: 13px;
+    background: transparent url("../img/bistro/h-after2.png") 0 0 no-repeat; }
+
+.wpc-dishes .tabs-header li:hover,
+.wpc-dishes .tabs-header li.active:hover,
+.wpc-dishes .tabs-header li,
+.wpc-dishes .tabs-header li.active {
+  border: none; }
+
+.wpt-dish-tabs h4 {
+  color: #f0ae11;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 75px;
+  margin-bottom: 65px; }
+
+.wpc-dishes-info {
+  position: relative; }
+  .wpc-dishes-info:before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    border-bottom: 2px dotted #cbcbcb;
+    left: 45px;
+    top: 28px; }
+  .wpc-dishes-info span {
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+    width: 100%; }
+  .wpc-dishes-info h6 {
+    font-size: 16px;
+    z-index: 2;
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    font-weight: 500;
+    line-height: 26px;
+    color: #333; }
+
+.wpc-dishes-info:after {
+  display: none; }
+
+.wpc-dishes-logo {
+  width: auto;
+  height: auto; }
+  .wpc-dishes-logo a {
+    width: auto;
+    height: auto; }
+
+.wpc-header {
+  text-align: center; }
+
+.wpt-bistro-dish {
+  background-size: contain;
+  background-position: center bottom;
+  border-bottom: 1px solid #ebebeb; }
+  .wpt-bistro-dish h3 {
+    position: relative; }
+    .wpt-bistro-dish h3:after {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      left: 0;
+      right: 0;
+      bottom: -35px;
+      margin: auto;
+      width: 405px;
+      height: 13px;
+      background: transparent url("../img/bistro/h-after2.png") 0 0 no-repeat; }
+  .wpt-bistro-dish:after {
+    display: none; }
+
+.wpc-dishes .tabs-header li a {
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent; }
+
+.wpc-dishes .tabs-header li.active a {
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f0ae11;
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #f0ae11; }
+
+.wpc-dishes .tabs-header a {
+  color: #333;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.wpt-dish-itemH .wpc-dishes-price span {
+  color: #f0ae11;
+  font-family: 'Alegreya', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  line-height: 26px;
+  font-weight: 100;
+  background-color: #fff;
+  position: relative;
+  z-index: 2; }
+
+.wpc-dishes .tabs-header li {
+  padding: 0 50px; }
+
+.wpc-dishes .tabs-header a {
+  letter-spacing: 2.5px; }
+
+.wpt-dish-itemH .wpc-dishes-info {
+  padding-left: 45px; }
+
+.wpt-dish-itemH .wpc-dishes-price {
+  text-align: right; }
+
+.wpc-tabs-body h6 {
+  padding-top: 10px;
+  padding-bottom: 0; }
+
+.wpc-dishes-info span {
+  max-width: 770px;
+  display: inline-block; }
+
+.wpt-dish-item {
+  margin-bottom: 35px; }
+
+.wpt-dish-item:nth-child(2n) {
+  padding-left: 0; }
+
+.wpt-dish-itemH .wpc-dishes-price {
+  padding: 0;
+  padding-right: 20px;
+  height: 100%;
+  margin-top: 5px; }
+  .wpt-dish-itemH .wpc-dishes-price span {
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 0; }
+
+.wpt-dish-tabs .tabs-item {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 770px; }
+
+.wpc-dishes-logo img {
+  border-radius: 0;
+  max-width: none;
+  max-height: auto; }
+
+.wpt-dish-tabs h4 {
+  padding-left: 0; }
+
+.wpt-dish-item {
+  padding-right: 0; }
+
+.wpt-dish-itemH .wpc-dishes-logo {
+  margin-left: 20px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 6 block*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-bistro-discount .wpc-info-block-body h3:after {
+  bottom: 0; }
+
+.wpc-bistro-discount .wpc-bistro-dis-item a {
+  background-color: transparent; }
+
+.wpc-bistro-discount h2 {
+  color: #f0ae11;
+  font-size: 37px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 57px; }
+
+.wpc-bistro-discount h3 {
+  color: white;
+  font-size: 38px;
+  font-weight: 400;
+  letter-spacing: 11px;
+  line-height: 57px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-bottom: 30px; }
+  .wpc-bistro-discount h3:after {
+    width: 241px;
+    height: 12px;
+    bottom: 10px;
+    background: transparent url("../img/bistro/h-after.png") 0 0 no-repeat; }
+
+.wpc-bistro-discount p {
+  color: white;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 400;
+  max-width: 850px;
+  display: block; }
+
+.wpc-bistro-discount a {
+  display: inline-block;
+  margin-top: 50px;
+  color: #fffefe;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #f0ae11;
+  padding: 0 25px;
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in; }
+  .wpc-bistro-discount a:hover {
+    opacity: .8; }
+
+.wpc-bistro-dis-body a {
+  background-color: transparent;
+  margin: 50px 20px 0;
+  padding: 0 30px; }
+
+.wpc-bistro-dis-body img {
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+  display: inline-block !important;
+  opacity: .5; }
+  .wpc-bistro-dis-body img:hover {
+    opacity: 1; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 6 block*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-bistro-propose-item {
+  padding: 95px 0 100px;
+  text-align: center; }
+  .wpc-bistro-propose-item h4 {
+    color: #f0ae11;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 38px; }
+  .wpc-bistro-propose-item span {
+    color: #888;
+    display: inline-block;
+    max-width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 26px; }
+
+.wpc-bistro-propose h2 {
+  color: #f0ae11;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: -1px; }
+
+.wpc-bistro-propose h3 {
+  color: #333;
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: 9px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  position: relative; }
+  .wpc-bistro-propose h3:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -35px;
+    margin: auto;
+    width: 405px;
+    height: 13px;
+    margin: auto;
+    content: '';
+    display: inline-block;
+    background: transparent url("../img/bistro/h-after2.png") 0 0 no-repeat; }
+
+.wpc-bistro-propose a {
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding: 0 50px;
+  background-color: #000; }
+
+.wpc-center-block {
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.wpc-bistro-order {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-size: cover;
+  text-align: center; }
+  .wpc-bistro-order a {
+    display: inline-block;
+    padding: 0 45px;
+    line-height: 50px;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #171717;
+    -webkit-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in; }
+    .wpc-bistro-order a:hover {
+      opacity: .8; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 7 block*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-bistro-info-block2 {
+  text-align: center; }
+  .wpc-bistro-info-block2 h2 {
+    color: #f0ae11;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 57px; }
+  .wpc-bistro-info-block2 h3 {
+    color: #333;
+    font-size: 38px;
+    font-weight: 900;
+    padding-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    position: relative;
+    padding-bottom: 70px; }
+    .wpc-bistro-info-block2 h3:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 40px;
+      margin: auto;
+      width: 405px;
+      height: 13px;
+      margin: auto;
+      content: '';
+      display: inline-block;
+      background: transparent url("../img/bistro/h-after2.png") 0 0 no-repeat; }
+  .wpc-bistro-info-block2 p {
+    color: #888;
+    display: inline-block;
+    max-width: 500px;
+    letter-spacing: .5px;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 400; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 9 block*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-bistro-footer h4 {
+  color: #f0ae11;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1.4px;
+  margin-bottom: 40px; }
+
+.wpc-bistro-footer span {
+  color: white;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 300;
+  display: inline-block;
+  max-width: 350px; }
+
+.wpc-bistro-footer li {
+  position: relative;
+  padding-left: 40px;
+  padding-bottom: 25px; }
+
+.wpc-bistro-footer i {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  top: 5px; }
+
+.wpc-footer-map .wpc-map {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  margin: 0; }
+
+.wpc-subscribe {
+  text-align: center;
+  background-color: #171717;
+  padding: 45px 0 45px; }
+  .wpc-subscribe span {
+    color: rgba(255, 255, 255, 0.2);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+.wpc-footer-info {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .wpc-footer-info:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.wpc-footer-info-body {
+  padding: 95px 50px 55px;
+  position: relative;
+  z-index: 2;
+  min-height: 400px; }
+
+.wpc-bistro-slider {
+  padding: 50px 0;
+  background-color: red; }
+  .wpc-bistro-slider h2 {
+    color: #f0ae11;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 57px; }
+  .wpc-bistro-slider h3 {
+    color: #333;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 57px;
+    text-transform: uppercase; }
+
+/*--------------------------------------------------------------------------------------*/
+/* Color change*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-testi-body h5,
+.wpc-hour span i,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu .tabs-header li.active a,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu-body span,
+.wpc-blog-h3-item-body .wpc-blog-h3-by h4,
+.wpc-blog-h3-item-body .wpc-blog-h3-info span:before,
+.wpc-blog-h3-item-body h3,
+.wpc-our-wrap .wpc-service-item span,
+.wpc-our-wrap .wpc-service-item .wpc-our-wrap-mail,
+.wpc-select-form-item .bootstrap-select.btn-group .dropdown-toggle .caret,
+.wpc-select-form-item1 .caret,
+.wpc-service-item span i,
+.wpc-hour span i,
+.wpc-testi-body h5,
+.wpc-blog-post .wpc-blog-post-info span:before,
+.wpc-b-posts-info span:before,
+.wpc-mains span,
+.wpc-blog-post-aside form button:before,
+.wpc-dishes .tabs-header li:hover a,
+.wpc-comments h4,
+.wpt-dish-ib-price span .wpc-add-com h4,
+.wpc-comments-text span:before,
+.wpc-dishes-price span,
+.wpc-dishes .tabs-header li.active a,
+.wpc-proposes-text span i,
+.wpc-select-form .icon-left:before {
+  color: #f0ae11; }
+
+.wpc-food-menu2-bg2,
+.wpc-comments h4,
+.wpc-add-com h4,
+.wpc-add-com input,
+.wpc-add-com textarea,
+.wpc-blog-post-aside form input,
+.wpc-dishes .tabs-header li:hover,
+.wpc-dishes .tabs-header li.active {
+  border-color: #f0ae11; }
+
+.wpc-proposes-t-bg:hover:after,
+.wpc-service-logo,
+.wpc-tabs-more,
+.wpc-team-item h3:after,
+.wpc-info-block6:after,
+.wpc-comments-text a,
+.wpc-info-block4 a,
+.wpc-add-com button,
+.wpc-contact-form button,
+.wpc-food-menu2-about a,
+.wpc-food-menu2-bg2 .wpc-food-menu2-chef a,
+.pagination .swiper-active-switch,
+.wpc-select-form-item .wpc-find-but,
+.wpc-testi .swiper-container .swiper-active-switch {
+  background-color: #f0ae11; }
+
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle:focus,
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle,
+.wpc-select-form-item1 input {
+  border-bottom: 1px solid #f0ae11; }
+
+.wpc-service-logo:after,
+.wpc-our-menu .tabs-header li:hover,
+.wpc-our-menu .tabs-header li.active,
+.wpc-blog-h3-item {
+  border: 2px solid #f0ae11; }
+
+.pagination .swiper-active-switch:after {
+  border: 1px solid #f0ae11; }
+
+.wpc-info-block h3:after {
+  width: 405px;
+  height: 13px;
+  bottom: 40px;
+  background: transparent url("../img/bistro/h-after2.png") 0 0 no-repeat; }
+
+.wpc-info-block4 h3,
+.wpc-select-form h3,
+.wpc-our-menu h3,
+.wpc-info-block6 .wpc-header h3,
+.wpc-info-block5 h2 {
+  font-size: 38px; }
+
+.wpc-info-block5 h3 {
+  font-size: 30px; }
+
+.wpc-mains.wpc-header h3:after,
+.wpc-dishes h3:after,
+.wpt-map h3:after,
+.wpc-team h3:after,
+.wpc-info-block2 h3:after,
+.wpc-proposes.wpc-header h3:after,
+.wpc-info-block2 h3:after,
+.wpc-testi h3:after,
+.wpc-select-form h3:after,
+.wpc-our-service .wpc-header h3:after,
+.wpc-product-text .wpc-header h3:after,
+.wpc-blog-h3 h3:after {
+  width: 405px;
+  height: 13px;
+  background: transparent url("../img/bistro/h-after2.png") 0 0 no-repeat; }
+
+.wpc-blog-h3-item-body h5:after {
+  width: 240px;
+  height: 12px;
+  background: transparent url("../img/bistro/h-after4.png") 0 0 no-repeat; }
+
+.wpc-product-logo1 {
+  background: url("../img/bistro/product-logo1.png") 0 0px no-repeat; }
+
+.wpc-product-logo2 {
+  background: url("../img/bistro/product-logo2.png") 0 0px no-repeat; }
+
+.wpc-product-logo3 {
+  background: url("../img/bistro/product-logo3.png") 0 0px no-repeat; }
+
+.wpc-product-logo4 {
+  background: url("../img/bistro/product-logo4.png") 0 0px no-repeat; }
+
+.wpc-header-menu .menu-item a:after,
+.wpc-header-menu .menu-item a:before {
+  display: none; }
+
+.wpc-header-menu .menu-item a:hover {
+  color: #f0ae11; }
+
+.wpc-contact-form form {
+  width: 100%;
+  max-width: 100%; }
+
+.wpc-contact-info {
+  padding-bottom: 50px; }
+
+.wpc-header-menu-light.active .menu-item a {
+  background-color: transparent; }
+
+.wpc-food-menu {
+  background-size: contain;
+  background-position: bottom right;
+  background-color: #fff; }
+
+.wpc-header-menu .menu-item li a {
+  line-height: 50px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1500px) {
+  .main-menu li {
+    margin: 0; } }
+
+@media only screen and (max-width: 1200px) {
+  .wpc-dishes-info {
+    max-width: 100%; }
+  .wpc-bistro-quote span {
+    font-size: 16px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .wpc-about-bistro:after,
+  .wpc-header-menu .menu-item.logo a:after,
+  .wpc-header-menu .menu-item.logo a:before,
+  .wpc-about-bistro:before {
+    display: none; }
+  .wpc-header-menu .menu-item .menu-item a {
+    line-height: 60px; }
+  .wpc-bistro-info-block h1 {
+    font-size: 38px; }
+  .wpc-bistro-propose h3,
+  .wpc-bistro-discount h3,
+  .wpt-dish-bg h3,
+  .wpc-bistro-text h3 {
+    font-size: 35px; }
+  .wpc-bistro-propose h2,
+  .wpc-bistro-discount h2,
+  .wpt-dish-bg h2,
+  .wpc-bistro-info-block h2,
+  .wpc-bistro-text h2 {
+    font-size: 30px; }
+  .wpc-header-menu .menu-item a {
+    padding: 0 10px; }
+  .wpc-dishes-logo a {
+    float: right; }
+  .wpc-bistro-quote span:before {
+    left: -25px; }
+  .wpc-bistro-quote span:after {
+    right: -25px; }
+  .wpc-bistro-dis-body a {
+    margin: 50px 0 0;
+    padding: 0 15px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 991px) {
+  .wpc-bistro-img,
+  .wpc-bs-img-info {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  .wpc-navigation.active .main-menu {
+    margin-top: 80px; }
+  .wpc-about-bistro {
+    background: none !important; }
+  .wpc-header-menu-light .menu-item-has-children .main-menu .sub-menu,
+  .wpc-header-menu-light .menu-item-has-children .main-menu .sub-menu a,
+  .wpc-header-menu-light .menu-item-has-children.active > .sub-menu a,
+  .wpc-header-menu-light .menu-item-has-children.active > .sub-menu,
+  .wpc-header-menu-light .wpc-navigation.active .main-menu {
+    background-color: #000;
+    color: #fff; }
+  .wpc-bistro-discount h3,
+  .wpc-bistro-info-block h1,
+  .wpc-bistro-propose h3,
+  .wpc-bistro-info-block2 h3 {
+    padding-bottom: 20px; }
+  .wpc-after-elem,
+  .wpc-bistro-info-block h1:after,
+  .wpc-bistro-quote:after,
+  .wpc-about-bistro:before,
+  .wpc-about-bistro:after,
+  .wpc-bistro-propose h3:after,
+  .wpc-bistro-text h3:after,
+  .wpc-bistro-info-block2 h3:after,
+  .wpc-bistro-discount h3:after,
+  .wpc-header-menu .menu-item a:hover:after,
+  .wpc-header-menu .menu-item a:hover:before {
+    display: none; }
+  .wpc-header-menu .menu-item a {
+    line-height: 60px; }
+  .menu-item-has-children > a span:before {
+    margin-top: 0; }
+  .wpc-header-menu-light .menu-item-has-children .main-menu .sub-menu,
+  .wpc-header-menu-light .menu-item-has-children .main-menu .sub-menu a,
+  .wpc-header-menu-light .menu-item-has-children.active > .sub-menu a,
+  .wpc-header-menu-light .menu-item-has-children.active > .sub-menu,
+  .wpc-header-menu-light .wpc-navigation.active .main-menu,
+  .wpc-header-menu .menu-item a {
+    background-color: transparent; }
+  .menu-item-has-children > a span {
+    color: #fff; }
+  .wpc-bistro-quote {
+    padding: 50px 0; }
+  .wpc-bistro-quote h4 {
+    margin-top: 20px; }
+  .wpc-dishes-logo {
+    text-align: center; }
+    .wpc-dishes-logo a {
+      float: none; }
+  .wpc-dishes-info {
+    padding-left: 0;
+    padding-right: 30px; }
+  .wpt-dish-tabs h4 {
+    text-align: center;
+    padding-left: 0; }
+  .wpc-bistro-propose span {
+    padding: 30px 0 30px; }
+  .wpc-center-block {
+    border: none; }
+  .wpc-footer-info-body {
+    padding: 50px;
+    min-height: 325px; }
+  .wpc-bistro-footer li:last-child {
+    padding-bottom: 0; }
+  .wpt-dish-item,
+  .wpt-dish-item:nth-child(2n),
+  .wpt-dish-itemH .wpc-dishes-info {
+    padding-left: 15px; }
+  .wpc-bistro-text,
+  .wpc-bistro-info-block2 {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-food-menu {
+    background: none !important; }
+  .wpc-mains.wpc-header h3:after,
+  .wpc-dishes h3:after,
+  .wpt-map h3:after,
+  .wpc-team h3:after,
+  .wpc-info-block2 h3:after,
+  .wpc-proposes.wpc-header h3:after,
+  .wpc-info-block2 h3:after,
+  .wpc-testi h3:after,
+  .wpc-select-form h3:after,
+  .wpc-our-service .wpc-header h3:after,
+  .wpc-product-text .wpc-header h3:after,
+  .wpc-info-block h3:after,
+  .wpc-blog-h3 h3:after {
+    display: none; }
+  .wpc-swiper h3,
+  .wpc-about-form h3,
+  .wpc-our-service .wpc-header h3,
+  .wpc-proposes .wpc-header h3,
+  .wpc-our-menu h3,
+  .wpc-info-block h3,
+  .wpc-info-block2 h3,
+  .wpc-dishes h3,
+  .wpc-about-title h3,
+  .wpc-select-form h3,
+  .wpc-info-b3 .wpc-header h3,
+  .wpc-info-block4 h3,
+  .wpc-bistro-info-block2 h3,
+  .wpc-info-block5 h2,
+  .wpc-blog-post h3,
+  .wpc-info-block6 .wpc-info-price span,
+  .wpc-info-block6 .wpc-header h3,
+  h3,
+  .wpc-story-text.wpc-info-block2 .wpc-header h3,
+  .wpc-team h3 {
+    font-size: 28px;
+    padding-bottom: 20px;
+    margin: 0; }
+  .wpc-bistro-img1 {
+    display: none; }
+  .wpc-bistro-text h3 {
+    padding-bottom: 20px; }
+  .wpc-bistro-dis-body a {
+    margin: 0 0 30px; }
+  .wpc-bistro-propose-item {
+    padding: 30px 0; }
+  .wpt-dish-itemH .wpc-dishes-price {
+    padding-right: 0; }
+  .wpt-dish-itemH .wpc-dishes-price {
+    position: static; }
+  .wpt-dish-item,
+  .wpt-dish-item:nth-child(2n) {
+    padding-right: 15px; }
+  .wpc-bistro-quote h4:after {
+    display: none; }
+  .wpc-bistro-quote span {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-bistro-quote span:before,
+  .wpc-bistro-quote span:after {
+    display: none; }
+  .wpc-bistro-discount h3 {
+    letter-spacing: 6px; }
+  .wpc-our-menu h3:after {
+    display: none; }
+  .nav-menu-icon {
+    top: 27px; }
+  .wpc-header-menu .menu-item a {
+    position: static; }
+  .menu-item-has-children > a span:before {
+    height: 60px;
+    line-height: 60px; }
+  .wpc-header-menu-light .menu-item-has-children.active > .sub-menu {
+    background-color: #fff; }
+  .wpc-header-menu-light .menu-item-has-children.active > .sub-menu a {
+    color: #000; }
+  .wpc-header-menu-light .main-menu .sub-menu a {
+    background-color: transparent; }
+  .wpc-header-menu .main-menu li li {
+    padding-left: 30px; }
+  .wpc-header-menu .main-menu li {
+    padding-left: 15px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .wpc-bistro-info-block h1 {
+    font-size: 30px; }
+  .wpc-bistro-propose h3,
+  .wpc-bistro-discount h3,
+  .wpt-dish-bg h3,
+  .wpc-bistro-text h3 {
+    font-size: 25px;
+    line-height: 1.1; }
+  .wpt-dish-itemH .wpc-dishes-price span {
+    font-size: 20px; }
+  .wpc-info-block4-body {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-bistro-dis-body a {
+    display: block;
+    text-align: center; }
+  .wpc-dishes-info:before {
+    display: none; } }
+
+/* Custom, iPhone Retina */

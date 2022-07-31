@@ -1,0 +1,40 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 11/04/2016 08:48
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon.eot");
+  src: url("../fonts/flaticon.eot") format("embedded-opentype"),
+       url("../fonts/flaticon.woff") format("woff"),
+       url("../fonts/flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.html#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-clock:before { content: "\f100"; }
+.flaticon-clock-1:before { content: "\f101"; }
+.flaticon-gps:before { content: "\f102"; }
+.flaticon-icon-57641:before { content: "\f103"; }
+.flaticon-icon-66767:before { content: "\f104"; }
+.flaticon-letter:before { content: "\f105"; }
+.flaticon-letter-1:before { content: "\f106"; }
+.flaticon-microphone:before { content: "\f107"; }
+.flaticon-note:before { content: "\f108"; }

@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from html.themedemo.co/rome/rome-events_calendar.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Jul 2022 03:55:36 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/libraries.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<title>Rome</title>
+</head>
+<body>
+  <div class="page-preloader"><span class="spinner"></span></div>
+	<div class="modal-window">
+		<div id="modal">
+			<div class="arcticmodal-close">x</div>
+			<div class="modal-search">
+                <h3>Search</h3>
+				<form action="#" method="post">
+					<fieldset>
+						<input type="text" name="search" value="" placeholder="Search">
+						<input type="submit" value="Search">
+					</fieldset>
+				</form>
+			</div>
+		</div>  
+	</div>
+	<!-- HEADER -->
+	<div class="wpc-header">
+        <!-- Header menu -->
+        <div class="wpc-navigation fixed-menu">
+        <div class="container no-padd">
+                <nav>
+                    <ul class="main-menu">
+                        <li class="menu-item menu-item-has-children"><a href="index.html">Home</a>
+                            <ul class="sub-menu menu-item-has-children">
+                                <li class="menu-item active"><a href="rome-home2.html">Home Two</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item current-menu-parent"><a href="rome-about.html">about us</a></li>
+                        <li class="menu-item"><a href="rome-team.html">our team</a></li>
+                        <li class="menu-item menu-item-has-children active">
+                            <a href="rome-events.html">events</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item active"><a href="rome-events_calendar.html">events calendar</a></li>
+                                <li class="menu-item"><a href="rome-events_timeline.html">events timeline</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="rome-sermons.html">Sermons</a></li>
+                    </ul>
+                    <div class="logo"><a href="../index.html">rome</a></div>
+                    <ul class="main-menu">
+                        <li class="menu-item"><a href="rome-blog.html">blog</a></li>
+                        <li class="menu-item current-menu-parent menu-item-has-children">
+                            <a href="rome-gallery.html">gallery</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="rome-gallery-grid.html">gallery grid</a></li>
+                                <li class="menu-item"><a href="rome-gallery-masonry.html">gallery masonry</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="contact-us.html">contact us</a></li>
+                        <li class="menu-item menu-item-has-children"><a href="#">pages</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="rome-404.html">Rome 404</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="nav-menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                    <div class="search-form">
+                        <a href="#modal_window"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Header menu -->
+		</div>
+	<!-- Header baner -->
+	<div class="rome-baner-container t-center">
+		<img src="img/img-63.jpg" alt="" class="bg_img">
+		<span class="bgc-overlay"></span>
+		<section class="rome-heading rome-heading-black t-center">
+			<h1><span>our events</span></h1>
+			<div class="rome-heading-content white-text">
+				<p>Aenean eget egestas arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas</p>
+			</div>
+		</section>
+	</div>
+	<!-- Header baner -->
+	<!-- TIMELINE-Calendar -->
+    <div class="container no-padd marg-lg-t100 marg-md-t100 marg-sm-t70 marg-xs-t70 marg-lg-b100 marg-md-b100 marg-sm-b70 marg-xs-b70">
+        <div class="tabs-calendar">
+                <div class="tabs-header-calendar clearfix">
+                    <ul>
+                        <li><a href="#">march</a></li>
+                        <li class="active"><a href="#">april</a></li>
+                        <li><a href="#">may</a></li>
+                        <li><a href="#">June</a></li>
+                    </ul>
+                </div>
+                <div class="tabs-content-calendar">
+                    <div class="tabs-item-calendar">
+                        <div class="swiper-container rome-slider-calendar" data-autoplay="false" data-loop="1" data-speed="1000" data-slides-per-view="responsive" data-add-slides="1" data-xs-slides="2" data-sm-slides="2" data-md-slides="3" data-lg-slides="3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" data-value="1">
+                                    <div class="swiper-calendar-text swiper-calendar-text-active">
+                                        saturday 15th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="2">
+                                    <div class="swiper-calendar-text">
+                                        sunday 16th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="3">
+                                    <div class="swiper-calendar-text">
+                                        monday 17th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="4">
+                                    <div class="swiper-calendar-text">
+                                        monday 18th april
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination"></div>
+                            <div class="swiper-arrow-left"><span>‹</span></div>
+                            <div class="swiper-arrow-right"><span>›</span></div>
+                        </div>
+                       <div class="c-show c1">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">15 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-65.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c2">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">16 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c3">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-65.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">17 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c4">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">18 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-item-calendar active">                        
+                        <div class="swiper-container rome-slider-calendar" data-autoplay="false" data-loop="1" data-speed="1000" data-slides-per-view="responsive" data-add-slides="1" data-xs-slides="2" data-sm-slides="2" data-md-slides="3" data-lg-slides="3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" data-value="5">
+                                    <div class="swiper-calendar-text swiper-calendar-text-active">
+                                        saturday 12th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="6">
+                                    <div class="swiper-calendar-text">
+                                        sunday 13th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="7">
+                                    <div class="swiper-calendar-text">
+                                        monday 14th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="8">
+                                    <div class="swiper-calendar-text">
+                                        monday 15th april
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination"></div>
+                            <div class="swiper-arrow-left"><span>‹</span></div>
+                            <div class="swiper-arrow-right"><span>›</span></div>
+                        </div>
+                        <div class="c-show c5">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">12 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-65.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c6">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">13 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c7">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-65.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">14 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c8">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">15 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-item-calendar">                        
+                        <div class="swiper-container rome-slider-calendar" data-autoplay="false" data-loop="1" data-speed="1000" data-slides-per-view="responsive" data-add-slides="1" data-xs-slides="2" data-sm-slides="2" data-md-slides="3" data-lg-slides="3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" data-value="9">
+                                    <div class="swiper-calendar-text swiper-calendar-text-active">
+                                        saturday 10th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="10">
+                                    <div class="swiper-calendar-text">
+                                        sunday 11th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="11">
+                                    <div class="swiper-calendar-text">
+                                        monday 12th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="12">
+                                    <div class="swiper-calendar-text">
+                                        monday 13th april
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination"></div>
+                            <div class="swiper-arrow-left"><span>‹</span></div>
+                            <div class="swiper-arrow-right"><span>›</span></div>
+                        </div>
+                        <div class="c-show c9">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">10 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-65.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c10">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">11 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c11">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-65.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">12 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c12">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">13 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-item-calendar">                        
+                        <div class="swiper-container rome-slider-calendar" data-autoplay="false" data-loop="1" data-speed="1000" data-slides-per-view="responsive" data-add-slides="1" data-xs-slides="2" data-sm-slides="2" data-md-slides="3" data-lg-slides="3">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" data-value="13">
+                                    <div class="swiper-calendar-text swiper-calendar-text-active">
+                                        saturday 5th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="14">
+                                    <div class="swiper-calendar-text">
+                                        sunday 6th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="15">
+                                    <div class="swiper-calendar-text">
+                                        monday 7th april
+                                    </div>
+                                </div>
+                                <div class="swiper-slide" data-value="16">
+                                    <div class="swiper-calendar-text">
+                                        monday 8th april
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination"></div>
+                            <div class="swiper-arrow-left"><span>‹</span></div>
+                            <div class="swiper-arrow-right"><span>›</span></div>
+                        </div>
+                        <div class="c-show c13">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">5 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-65.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c14">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">6 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c15">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-65.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">7 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-show c16">
+                            <div class="calendar-block clearfix">
+                                <div class="calendar-photo">
+                                  <img src="img/img-67.jpg" alt=""/>
+                                </div>
+                                <div class="calendar-info">
+                                    <div class="calendar-info-title"><a href="rome-event-details.html">8 Lorem Ipsum Dolor Sit Amet</a></div>
+                                    <div class="calendar-info-subtitle"><span>Hampshire, Royaume-Uni, 30 Commercial Road </span></div>
+                                    <div class="calendar-info-text"><p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium. Phasellus blandit ultrices magna, non imperdiet nisl finibus sed ictum diam ut libero tortor. Mauris vitae quam sed lacus ultrices fermentum. </p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- TIMELINE-Calendar -->
+	   <!-- FOOTER -->
+    <footer class="rome-colorful-footer">
+        <div class="rome-row-footer clearfix">
+            <div class="rome-col-dark-bgc">
+                <div class="rome-col-left">
+                    <h4 class="marg-lg-b45 marg-xs-b20">Rome</h4>
+                    <p>Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique nulla tincidunt quis dolor fermentum risusstibulum rhoncus dolor fermentum risusVestibulumdui ut pellentesque congue. Mauris tristique nulla tincidunt quis  rhoncus dui ut pellentesque congue. Ttristique nulla tincidunt quis dolor ferm rhoncus dolorrhoncus dolorentum. risusVestibulum rhoncus congue.</p>
+                </div>
+            </div>
+            <div class="rome-col-yellow-bgc">
+                <div class="rome-col-right">
+                    <div class="rome-contact-item clearfix marg-lg-b45 marg-xs-b15"><i class="fa fa-map-marker" aria-hidden="true"></i><span>65, Prothemers Tower-1200 D Block Comilla, Bangladesh</span></div>
+                    <div class="rome-contact-item clearfix marg-lg-b45 marg-xs-b15"><i class="fa fa-envelope" aria-hidden="true"></i><span><a href="../index.html" class="__cf_email__" data-cfemail="b7fed9d1d8f7d4dfc2c5d4df99d4d8da">[email&#160;protected]</a></span></div>
+                    <div class="rome-contact-item clearfix marg-lg-b45 marg-xs-b15"><i class="fa fa-phone" aria-hidden="true"></i><span>+8805-5823-582</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="rome-copyright">
+            2016 All Rights Reserved. <a href="index.html">Rome</a>.
+        </div>
+    </footer>
+    <!-- FOOTER -->
+	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/libraries.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+<!-- Mirrored from html.themedemo.co/rome/rome-events_calendar.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Jul 2022 03:55:39 GMT -->
+</html>

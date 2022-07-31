@@ -1,0 +1,1275 @@
+/*------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*------------------------------------------------------------------------------*/
+/* Template Name: Chicago */
+/* Version: 1.0 Initial Release */
+/* Build Date: 07-29-2016 */
+/* Author: Fox Teams */
+/* Website: foxthemes.com */
+/* Copyright: (C) 2016 */
+/*-------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Text setting
+3. Header
+4. 1 block
+5. 2 block
+6. 3 block
+7. 4 block
+8. 5 block
+9. 6 block
+10. Color style
+
+-------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900&amp;subset=latin,cyrillic);
+header,
+h2 {
+  font-family: 'Droid Serif', serif;
+  color: #fcc601;
+  font-size: 29px; }
+
+h1,
+h5,
+h3,
+h4,
+h6 {
+  font-family: 'Montserrat', serif;
+  font-weight: 100; }
+
+*,
+p,
+span,
+a {
+  font-family: 'Lato', serif; }
+
+/*--------------------------------------------------------------------------------------*/
+/* HEADER*/
+/*--------------------------------------------------------------------------------------*/
+.main-menu li a {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.main-menu {
+  padding: 0 10px; }
+
+.wpc-header-menu .menu-item {
+  padding: 0; }
+
+.wpc-header-menu .menu-item .menu-item {
+  padding: 0 10px; }
+
+.nav-menu-icon i,
+.nav-menu-icon i:before,
+.nav-menu-icon i:after {
+  background-color: #fff; }
+
+.wpc-header-menu-light.active i,
+.wpc-header-food.active .nav-menu-icon i:before,
+.wpc-header-food.active .nav-menu-icon i:after {
+  background-color: #000; }
+
+.wpc-header-food {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+.logo {
+  float: left; }
+  .logo a {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 85px;
+    color: #fcc601; }
+
+.wpc-header-menu .menu-item a:before {
+  top: auto;
+  left: 0;
+  background-color: #fcc601;
+  right: 0; }
+
+.wpc-header-menu .menu-item a.active {
+  color: #fcc601; }
+  .wpc-header-menu .menu-item a.active:before {
+    top: auto;
+    width: 100%;
+    left: 0;
+    background-color: #fcc601;
+    right: 0; }
+
+.wpc-header-menu .menu-item a:hover:before {
+  top: auto;
+  width: 100%;
+  left: 0;
+  background-color: #fcc601;
+  right: 0; }
+
+.wpc-header-menu .menu-item a:after {
+  display: none; }
+
+.main-menu li li:last-child {
+  padding: 0;
+  margin: 0; }
+
+.wpc-header-menu-light.active .menu-item a.active:before {
+  left: 0; }
+
+.main-menu {
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0; }
+  .main-menu li {
+    margin: 0 25px;
+    padding: 0; }
+    .main-menu li:last-child {
+      padding-right: 0;
+      margin-right: 0; }
+      .main-menu li:last-child a {
+        padding-right: 0; }
+    .main-menu li a {
+      letter-spacing: 2px;
+      margin-bottom: -1px;
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 400;
+      color: #fff;
+      text-transform: uppercase; }
+      .main-menu li a.active {
+        color: #fcc601; }
+      .main-menu li a:hover {
+        color: #fcc601; }
+    .main-menu li li {
+      padding: 0; }
+
+.main-menu .menu-item .menu-item a {
+  color: #fff;
+  padding: 5px 0; }
+
+.wpc-header-food.active .main-menu .sub-menu a {
+  color: #333; }
+
+.main-menu .sub-menu {
+  top: 100%;
+  background: #171717; }
+  .main-menu .sub-menu a {
+    opacity: 0.72;
+    color: white;
+    border: none; }
+
+.wpc-navigation {
+  display: block;
+  width: 100%;
+  max-width: 1270px; }
+
+.wpc-header-menu-light.active .menu-item a.active,
+.wpc-header-menu-light.active .menu-item.logo a {
+  color: #fcc601;
+  position: relative;
+  z-index: 2; }
+
+.wpc-info-block2 .wpc-header {
+  padding-left: 0; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 1 block*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-food-home h2 {
+  color: #fcc601;
+  font-size: 38px;
+  letter-spacing: -2px;
+  font-weight: 600;
+  line-height: 70px; }
+
+.wpc-food-home h1 {
+  color: white;
+  font-size: 58px;
+  font-weight: 100;
+  line-height: 70px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  letter-spacing: 6px;
+  padding-bottom: 60px;
+  position: relative; }
+  .wpc-food-home h1:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 603px;
+    height: 21px;
+    background: transparent url("../img/fast-food/h-after.png") 0 0 no-repeat;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
+.wpc-food-home p {
+  opacity: 0.7;
+  color: #fffefe;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 27px;
+  letter-spacing: .3px;
+  max-width: 550px; }
+
+.wpc-food-home .wpc-info-block-body {
+  position: relative;
+  z-index: 2; }
+
+.wpc-popup-body {
+  z-index: 1;
+  top: -85px;
+  left: -65px;
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: calc(100% + 130px);
+  height: calc(100% + 185px);
+  overflow: hidden; }
+  .wpc-popup-body:after {
+    content: '';
+    display: inline-block;
+    width: calc(100% - 145px);
+    height: 1px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+  .wpc-popup-body:before {
+    content: '';
+    display: inline-block;
+    width: calc(100% - 145px);
+    height: 1px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
+.wpc-popup-item {
+  width: 145px;
+  height: 145px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  top: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 0;
+  border-radius: 50%;
+  position: absolute; }
+  .wpc-popup-item:nth-child(2) {
+    right: 0;
+    left: auto;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%); }
+  .wpc-popup-item:nth-child(3) {
+    right: 0;
+    left: auto;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%); }
+  .wpc-popup-item:nth-child(4) {
+    right: auto;
+    left: auto;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%); }
+
+.wpc-popup-item-h:before {
+  content: '';
+  display: inline-block;
+  height: calc(100% - 145px);
+  width: 2px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  bottom: 0;
+  top: 0;
+  left: 0;
+  margin: auto; }
+
+.wpc-popup-item-h:after {
+  content: '';
+  display: inline-block;
+  height: calc(100% - 145px);
+  width: 2px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  bottom: 0;
+  top: 0;
+  right: 0;
+  margin: auto; }
+
+/*--------------------------------------------------------------------------------------*/
+/*2 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-about-food {
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.wpc-info-block2 h3 {
+  font-weight: 100;
+  letter-spacing: 5px;
+  word-spacing: -2px;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  position: relative; }
+  .wpc-info-block2 h3:after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
+.wpc-info-block2 span {
+  padding-bottom: 25px; }
+
+.wpc-food-text span {
+  display: inline-block;
+  max-width: 430px;
+  word-spacing: 0;
+  letter-spacing: 0; }
+
+.wpc-food-text p {
+  display: inline-block;
+  max-width: 450px;
+  line-height: 27px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 3 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-services-food {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #202020;
+  background-size: 100%;
+  position: relative;
+  text-align: right; }
+  .wpc-services-food .wpc-food-text {
+    padding-top: 115px;
+    padding-bottom: 40px;
+    padding-right: 85px;
+    background-color: #202020; }
+  .wpc-services-food h2 {
+    color: #fcc601;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 54px; }
+  .wpc-services-food h3 {
+    margin-top: 10px;
+    margin-bottom: 125px;
+    letter-spacing: 8px;
+    word-spacing: 1px;
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 54px;
+    text-transform: uppercase;
+    position: relative; }
+    .wpc-services-food h3:after {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      bottom: -30px;
+      left: auto;
+      right: 0;
+      margin: auto;
+      width: 462px;
+      height: 17px;
+      background: transparent url("../img/fast-food/h-after2.png") 0 0 no-repeat; }
+  .wpc-services-food p {
+    opacity: 0.7;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 545px;
+    margin-bottom: 0;
+    word-spacing: 3px; }
+  .wpc-services-food .wpc-food-item {
+    min-height: auto;
+    border: none;
+    margin: 0 0 90px; }
+
+.wpc-food-item-logo {
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  background-color: #fff;
+  right: 0;
+  border-radius: 50%;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+  .wpc-food-item-logo:hover {
+    border: 5px solid rgba(252, 198, 1, 0.25); }
+
+.wpc-services-food-img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 4 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-food-propos {
+  text-align: center; }
+  .wpc-food-propos h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    position: relative; }
+    .wpc-food-propos h3:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -5px;
+      margin: auto;
+      width: 462px;
+      height: 17px;
+      background: transparent url("../img/fast-food/h-after2.png") 0 0 no-repeat; }
+
+.wpc-food-hide {
+  position: absolute;
+  padding: 0 93px;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(81, 81, 81, 0.8);
+  height: 100%;
+  width: 100%;
+  padding-top: 160px;
+  text-align: center; }
+  .wpc-food-hide:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    bottom: 30px;
+    right: 30px;
+    left: 30px;
+    top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.15); }
+  .wpc-food-hide h5 {
+    color: #fcc601;
+    font-family: 'Lato', serif;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    margin-bottom: 35px; }
+  .wpc-food-hide p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px; }
+  .wpc-food-hide span {
+    display: inline-block;
+    line-height: 22px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    letter-spacing: 1px; }
+  .wpc-food-hide i {
+    color: #fcc601;
+    font-size: 17px;
+    font-weight: 800; }
+
+.wpc-food-prop-item {
+  min-height: 450px;
+  background-size: cover;
+  position: relative; }
+  .wpc-food-prop-item:hover .wpc-food-hide {
+    opacity: 1; }
+
+.wpc-spec-food {
+  margin-left: auto;
+  margin-right: auto; }
+  .wpc-spec-food h2 {
+    letter-spacing: 1px; }
+
+.wpc-wrap-more {
+  margin-top: 125px;
+  margin-bottom: 130px;
+  text-align: center; }
+  .wpc-wrap-more .wpc-tabs-more {
+    padding: 0 65px; }
+
+.wpc-tabs-body .wpc-tabs-more {
+  margin-top: 50px;
+  line-height: 50px;
+  color: #333;
+  font-weight: 900;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  padding: 0 40px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 5 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-food-dish {
+  position: relative;
+  padding-top: 95px;
+  background-size: cover;
+  background-color: #f4f4f4; }
+  .wpc-food-dish .tabs-header a {
+    color: #333;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 28px;
+    text-transform: uppercase; }
+  .wpc-food-dish .wpc-tabs-more,
+  .wpc-food-dish .wpt-dish-tabs {
+    position: relative;
+    z-index: 2; }
+  .wpc-food-dish h3 {
+    padding-top: 20px;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    color: #333;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 54px;
+    text-transform: uppercase; }
+  .wpc-food-dish .tabs-header li,
+  .wpc-food-dish .tabs-header li.active {
+    border: none;
+    padding: 0 26px; }
+  .wpc-food-dish .wpc-popup-body {
+    top: -20px;
+    width: calc(100% + 300px);
+    left: -150px;
+    height: calc(100% + 45px); }
+
+.wpt-dish-bg {
+  background-color: #f4f4f4; }
+
+.wpt-dish-bg:after {
+  display: none; }
+
+.wpc-dishes .tabs-header li:hover {
+  border: none; }
+
+.wpc-dishes-logo img {
+  border-radius: 0; }
+
+.wpc-tabs-body h6 {
+  padding-bottom: 0;
+  position: relative;
+  width: 100%; }
+  .wpc-tabs-body h6:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    border-bottom: 1px dotted #d5d5d5;
+    bottom: 2px;
+    left: 35px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+.wpc-fast-food-menu {
+  padding-left: 90px;
+  padding-right: 90px;
+  background-size: cover;
+  text-align: center; }
+  .wpc-fast-food-menu .wpc-popup-body {
+    width: calc(100% + 2px);
+    height: calc(100% + 190px);
+    left: 0;
+    top: -75px; }
+  .wpc-fast-food-menu .wpc-popup-item-h:after,
+  .wpc-fast-food-menu .wpc-popup-item-h:before {
+    background-color: rgba(51, 51, 51, 0.11); }
+  .wpc-fast-food-menu .wpc-popup-body:before,
+  .wpc-fast-food-menu .wpc-popup-body:after,
+  .wpc-fast-food-menu .wpc-popup-item {
+    border: 1px solid rgba(51, 51, 51, 0.11); }
+
+.wpc-fast-food-text {
+  margin-top: 310px;
+  margin-bottom: 315px; }
+  .wpc-fast-food-text .wpc-header {
+    position: relative; }
+  .wpc-fast-food-text h2 {
+    color: #fcc601;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1; }
+  .wpc-fast-food-text h3 {
+    color: #333;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 55px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    position: relative; }
+    .wpc-fast-food-text h3:after {
+      content: '';
+      width: 462px;
+      height: 17px;
+      background: transparent url("../img/fast-food/h-after2.png") 0 0 no-repeat;
+      display: inline-block;
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      margin: auto; }
+  .wpc-fast-food-text span {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 6 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-footer-info-body {
+  min-height: 430px;
+  margin-right: 15px;
+  position: relative;
+  z-index: 2;
+  background-color: #fff; }
+
+.wpc-fast-food-footer {
+  position: relative; }
+  .wpc-fast-food-footer:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); }
+  .wpc-fast-food-footer .wpc-contact-map {
+    width: 50%; }
+  .wpc-fast-food-footer .wpc-map {
+    margin-left: 0;
+    float: left;
+    width: 100%;
+    height: 430px; }
+  .wpc-fast-food-footer .wpc-header {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 75px; }
+  .wpc-fast-food-footer h2 {
+    color: #fcc601;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 54px; }
+  .wpc-fast-food-footer h3 {
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    position: relative; }
+    .wpc-fast-food-footer h3:after {
+      content: '';
+      width: 462px;
+      height: 17px;
+      background: transparent url("../img/fast-food/h-after2.png") 0 0 no-repeat;
+      display: inline-block;
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      margin: auto; }
+  .wpc-fast-food-footer h5 {
+    color: #fcc601;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .wpc-fast-food-footer span {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .3px;
+    font-family: 'Roboto', sans-serif; }
+  .wpc-fast-food-footer input,
+  .wpc-fast-food-footer textarea {
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%; }
+  .wpc-fast-food-footer input::-webkit-input-placeholder,
+  .wpc-fast-food-footer textarea::-webkit-input-placeholder,
+  .wpc-fast-food-footer input::-moz-placeholder,
+  .wpc-fast-food-footer textarea::-moz-placeholder {
+    color: #999; }
+
+.wpc-food-footer-body {
+  max-width: 1270px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.wpc-footer-info,
+.wpc-footer-form {
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
+  border-radius: 0; }
+
+.wpc-footer-info {
+  width: 47%;
+  float: left;
+  padding: 55px 15px 55px 60px;
+  position: relative; }
+  .wpc-footer-info ul {
+    margin-bottom: 50px; }
+    .wpc-footer-info ul:last-child {
+      margin-bottom: 0; }
+
+.wpc-footer-form {
+  min-height: 430px;
+  padding: 45px 65px 50px;
+  position: relative; }
+  .wpc-footer-form form {
+    z-index: 2;
+    position: relative; }
+  .wpc-footer-form input,
+  .wpc-footer-form textarea {
+    display: inline-block;
+    margin-bottom: 22px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    opacity: 0.7;
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400; }
+  .wpc-footer-form input:focus,
+  .wpc-footer-form textarea:focus {
+    outline: none; }
+  .wpc-footer-form input::-webkit-input-placeholder,
+  .wpc-footer-form textarea::-webkit-input-placeholder,
+  .wpc-footer-form input::-moz-placeholder,
+  .wpc-footer-form textarea::-moz-placeholder {
+    color: #999; }
+  .wpc-footer-form textarea {
+    min-height: 120px;
+    resize: vertical; }
+  .wpc-footer-form button {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 42px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 30px;
+    background-color: #fcc601;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    margin-left: 5px;
+    letter-spacing: 1px; }
+    .wpc-footer-form button:hover {
+      opacity: .8;
+      border: none;
+      outline: none; }
+
+.wpc-food-copyright {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  margin-top: 110px;
+  margin-bottom: 20px; }
+  .wpc-food-copyright span {
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+    font-weight: 300;
+    letter-spacing: .4px; }
+  .wpc-food-copyright a {
+    color: #fcc601;
+    font-weight: 700; }
+
+.wpc-dishes-info:after {
+  display: none; }
+
+/*--------------------------------------------------------------------------------------*/
+/* Color change*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-mains.wpc-header h3:after,
+.wpc-dishes h3:after,
+.wpt-map h3:after,
+.wpc-team h3:after,
+.wpc-info-block2 h3:after,
+.wpc-proposes.wpc-header h3:after,
+.wpc-info-block2 h3:after,
+.wpc-testi h3:after,
+.wpc-select-form h3:after,
+.wpc-our-service .wpc-header h3:after,
+.wpc-our-menu h3:after,
+.wpc-product-text .wpc-header h3:after,
+.wpc-blog-h3 h3:after,
+.wpc-info-block h3:after,
+.wpc-blog-h3-item-body h5:after {
+  width: 462px;
+  height: 17px;
+  background: transparent url("../img/fast-food/h-after2.png") center no-repeat; }
+
+.wpt-dish-bg {
+  position: relative; }
+  .wpt-dish-bg:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); }
+
+.wpc-food-dish:after {
+  display: none; }
+
+.wpc-dishes .tabs-header li,
+.wpc-dishes .tabs-header li.active {
+  border: none; }
+
+.logo2 a,
+.wpc-header-menu-light.active .menu-item a:hover {
+  color: #fcc601; }
+
+.wpc-testi-body h5,
+.wpc-hour span i,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu .tabs-header li.active a,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu-body span,
+.wpc-blog-h3-item-body .wpc-blog-h3-by h4,
+.wpc-blog-h3-item-body .wpc-blog-h3-info span:before,
+.wpc-blog-h3-item-body h3,
+.wpc-our-wrap .wpc-service-item span,
+.wpc-our-wrap .wpc-service-item .wpc-our-wrap-mail,
+.wpc-select-form-item .bootstrap-select.btn-group .dropdown-toggle .caret,
+.wpc-select-form-item1 .caret,
+.wpc-service-item span i,
+.wpc-hour span i,
+.wpc-testi-body h5,
+.wpc-blog-post .wpc-blog-post-info span:before,
+.wpc-b-posts-info span:before,
+.wpc-mains span,
+.wpc-blog-post-aside form button:before,
+.wpc-dishes .tabs-header li:hover a,
+.wpc-comments h4,
+.wpt-dish-ib-price span .wpc-add-com h4,
+.wpc-comments-text span:before,
+.wpc-dishes-price span,
+.wpc-dishes .tabs-header li.active a,
+.wpc-proposes-text span i,
+.wpc-select-form .icon-left:before {
+  color: #fcc601; }
+
+.wpc-food-menu2-bg2,
+.wpc-comments h4,
+.wpc-add-com h4,
+.wpc-add-com input,
+.wpc-add-com textarea,
+.wpc-blog-post-aside form input,
+.wpc-dishes .tabs-header li:hover,
+.wpc-dishes .tabs-header li.active {
+  border-color: #fcc601; }
+
+.wpc-service-logo,
+.wpc-tabs-more,
+.wpc-info-block6:after,
+.wpc-comments-text a,
+.wpc-info-block4 a,
+.wpc-add-com button,
+.wpc-contact-form button,
+.wpc-food-menu2-about a,
+.wpc-food-menu2-bg2 .wpc-food-menu2-chef a,
+.pagination .swiper-active-switch,
+.wpc-select-form-item .wpc-find-but,
+.wpc-testi .swiper-container .swiper-active-switch {
+  background-color: #fcc601; }
+
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle:focus,
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle,
+.wpc-select-form-item1 input {
+  border-bottom: 1px solid #fcc601; }
+
+.wpc-service-logo:after,
+.wpc-our-menu .tabs-header li:hover,
+.wpc-our-menu .tabs-header li.active,
+.wpc-blog-h3-item {
+  border: 2px solid #fcc601; }
+
+.pagination .swiper-active-switch:after {
+  border: 1px solid #fcc601; }
+
+.wpc-product-logo1 {
+  background: url("../img/fast-food/product-logo1.png") 0 0px no-repeat; }
+
+.wpc-product-logo2 {
+  background: url("../img/fast-food/product-logo2.png") 0 0px no-repeat; }
+
+.wpc-product-logo3 {
+  background: url("../img/fast-food/product-logo3.png") 0 0px no-repeat; }
+
+.wpc-product-logo4 {
+  background: url("../img/fast-food/product-logo4.png") 0 0px no-repeat; }
+
+.wpc-food-menu {
+  background-size: contain;
+  background-position: bottom right; }
+
+.wpc-blog-h3-item-body h5:after {
+  width: 230px;
+  height: 17px;
+  background: transparent url("../img/fast-food/h-after3.png") center no-repeat; }
+
+.main-menu .menu-item li {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1800px) {
+  .wpc-about-food,
+  .wpc-services-food {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top; } }
+
+@media only screen and (max-width: 1600px) {
+  .main-menu li {
+    margin-right: 0; }
+  .wpc-header-menu .menu-item {
+    padding: 0 30px; }
+  .wpc-food-dish .wpc-popup-body {
+    width: calc(100% + 30px);
+    left: -15px;
+    height: calc(100% + 30px);
+    top: -15px; }
+  .wpc-services-food .wpc-food-item {
+    padding-left: 15px; }
+  .wpc-popup-body {
+    width: calc(100% + 30px);
+    height: calc(100% + 100px);
+    top: -50px;
+    left: -15px; }
+  .wpc-food-dish {
+    background-size: contain;
+    background-position: bottom; }
+  .wpc-header-food {
+    padding: 0; }
+  .logo {
+    padding-left: 15px; } }
+
+@media only screen and (max-width: 1200px) {
+  .wpc-food-dish .wpc-popup-body,
+  .wpc-fast-food-menu .wpc-popup-body {
+    display: none; }
+  .wpc-footer-info {
+    padding-bottom: 0; }
+  .wpc-header-menu .menu-item {
+    padding: 0; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .wpc-food-copyright {
+    margin-top: 20px; }
+  .wpc-services-food .wpc-food-text {
+    padding-top: 50px; }
+  .wpc-services-food h3 {
+    margin-bottom: 50px; }
+  .wpc-fast-food-text {
+    margin: 100px 0; }
+  .wpc-header-menu-light .menu-item a {
+    color: #fff; }
+  .wpc-header-menu .menu-item.logo:after {
+    display: none; }
+  .wpc-info-block-body .wpc-popup-body {
+    display: none; }
+  .wpc-services-food .wpc-food-text {
+    text-align: center;
+    padding-top: 50px; }
+  .wpc-food-item-logo {
+    position: static;
+    margin-left: auto;
+    margin-right: auto; }
+  .wpc-services-food .wpc-food-item {
+    padding-left: 15px;
+    padding-right: 15px; }
+    .wpc-services-food .wpc-food-item p {
+      margin-left: auto;
+      margin-right: auto; }
+  .wpc-services-food .wpc-food-text {
+    padding-right: 0; }
+  .wpc-food-item-logo {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  .wpc-services-food h3:after {
+    left: 0;
+    right: 0; }
+  .wpc-food-prop-item {
+    min-height: 450px; }
+  .wpc-services-food .wpc-food-item {
+    margin-bottom: 50px; }
+  .wpc-fast-food-menu {
+    background: none; }
+  .wpc-footer-info {
+    padding: 30px 30px 50px; }
+  .wpc-fast-food-footer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    text-align: center; }
+    .wpc-fast-food-footer .wpc-header {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+  .wpc-footer-info,
+  .wpc-footer-form {
+    border: none; }
+  .wpc-about-food {
+    background: none !important; }
+  .wpc-sushi-text h2,
+  .wpc-our-service h2,
+  .wpc-sushi-prop h2,
+  .wpc-sushi-dish h2,
+  .wpc-sushi-text2 h2,
+  .wpc-sushi-info h2 {
+    font-size: 50px; }
+  .wpc-sushi-info h1,
+  .wpc-sushi-prop h3,
+  .wpc-sushi-dish h3,
+  .wpc-sushi-text2 h3,
+  .wpc-sushi-our-service .wpc-header h3,
+  .wpc-sushi-text h3 {
+    font-size: 65px; }
+  .wpc-info-block h3.fz-110 {
+    font-size: 55px; }
+  .wpc-header-menu .menu-item {
+    padding: 0 5px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 991px) {
+  .wpc-footer-info-body,
+  .wpc-footer-info,
+  .wpc-footer-form {
+    background-color: transparent; }
+  .wpc-fast-food-footer span {
+    color: #fff; }
+  .wpc-services-food-img {
+    display: none; }
+  .wpc-footer-form {
+    min-height: 0; }
+  .nav-menu-icon {
+    top: 25px; }
+  .wpc-bs-img-info {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  .wpc-header-menu-light.active .menu-item a.active {
+    position: static; }
+  .wpc-header-food.active .main-menu .sub-menu a {
+    color: #fff; }
+  .wpc-fast-food-footer {
+    padding-top: 0; }
+  .wpc-food-home h1 {
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 2px; }
+  .wpc-sushi-info h1,
+  .wpc-sushi-prop h3,
+  .wpc-sushi-dish h3,
+  .wpc-sushi-text2 h3,
+  .wpc-sushi-our-service .wpc-header h3,
+  .wpc-sushi-text h3,
+  .wpc-fast-food-footer h3,
+  .wpc-fast-food-text h3,
+  .wpc-info-block2 h3,
+  .wpc-food-propos h3,
+  .wpc-food-dish h3,
+  .wpc-services-food h3 {
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 2px;
+    padding-right: 0;
+    padding-left: 0; }
+  .wpc-select-form h3,
+  .wpc-our-service .wpc-header h3 {
+    font-size: 40px; }
+  .wpc-our-service .wpc-header h2,
+  .wpc-fast-food-footer h2 {
+    font-size: 30px; }
+  .wpc-header-menu.active-mob .wpc-navigation {
+    width: 100%; }
+  .wpc-info-block2 h3 {
+    padding-bottom: 0; }
+    .wpc-info-block2 h3:after {
+      display: none; }
+  .wpc-food-home h1 {
+    padding-bottom: 30px; }
+    .wpc-food-home h1:after {
+      display: none; }
+  .wpc-fast-food-footer h3:after,
+  .wpc-fast-food-text h3:after,
+  .wpc-food-propos h3:after,
+  .wpc-services-food h3:after {
+    display: none; }
+  .wpc-about-food .wpc-food-text {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-fast-food-menu {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-info-block h3.fz-110 {
+    font-size: 40px; }
+  .wpc-navigation.active .main-menu {
+    height: 100%; }
+  .wpc-header-menu-light .wpc-navigation.active .main-menu {
+    background-color: #000; }
+  .main-menu li {
+    margin: 0;
+    padding: 0 0;
+    text-align: center; }
+    .main-menu li a {
+      color: #fff; }
+  .wpc-header-menu-light.active .menu-item a {
+    color: #fff; }
+  .menu-item-has-children > a span {
+    top: 0;
+    bottom: auto; }
+  .wpc-fast-food-footer .wpc-contact-map {
+    width: 100%; }
+  .wpc-footer-info {
+    width: 100%;
+    padding: 30px; }
+  .wpc-food-propos h3 {
+    padding-bottom: 0; }
+  .wpc-navigation.active .main-menu {
+    margin-top: 0; }
+  .wpc-header-menu-light .wpc-navigation.active .main-menu {
+    position: fixed;
+    top: 80px;
+    left: 0; }
+  .menu-item-has-children > a span:before {
+    margin-top: 0; }
+  .main-menu li:last-child {
+    padding: 0;
+    margin: 0; }
+  .logo {
+    float: none; }
+  .wpc-header-menu.active-mob .wpc-navigation {
+    margin-top: 0;
+    top: 0; }
+  .wpc-header-menu .menu-item {
+    padding: 0; }
+  .main-menu li:last-child {
+    padding-left: 15px; }
+  .wpc-header-menu .logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .main-menu li li:last-child {
+    padding-left: 0;
+    margin-left: 10px; }
+  .wpc-header-menu .main-menu li {
+    padding-left: 0; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 650px) {
+  .wpc-select-form h3,
+  .wpc-our-service .wpc-header h3 {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 480px) {
+  .wpc-footer-form {
+    padding: 0 40px 50px; }
+  .wpc-mains.wpc-header h3:after,
+  .wpc-dishes h3:after,
+  .wpt-map h3:after,
+  .wpc-team h3:after,
+  .wpc-info-block2 h3:after,
+  .wpc-proposes.wpc-header h3:after,
+  .wpc-info-block2 h3:after,
+  .wpc-testi h3:after,
+  .wpc-select-form h3:after,
+  .wpc-our-service .wpc-header h3:after,
+  .wpc-our-menu h3:after,
+  .wpc-product-text .wpc-header h3:after,
+  .wpc-blog-h3 h3:after,
+  .wpc-info-block h3:after,
+  .wpc-blog-h3-item-body h5:after {
+    display: none; }
+  .wpc-info-block h3,
+  .wpc-team h3,
+  .wpc-fast-food-footer h3,
+  .wpc-testi h3,
+  .wpc-our-service .wpc-header h3,
+  .wpc-blog-h3 h3,
+  .wpc-story-text.wpc-info-block2 .wpc-header h3 {
+    padding-bottom: 20px;
+    margin-bottom: 0; }
+  .wpc-our-menu h3 {
+    padding-bottom: 40px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .wpc-services-food .wpc-food-item {
+    max-height: 200px;
+    margin-bottom: 30px; } }
+
+.wpc-services-food .wpc-food-item {
+  min-height: 1px; }

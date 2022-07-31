@@ -1,0 +1,9 @@
+  =>  Template Name    : Zoofari - Zoo & Safari Park Website Template
+
+  =>  Template Link    : https://datalytika.org/zoo-website-template
+
+  =>  Template License : https://datalytika.org/license (or read the LICENSE.txt file)
+
+  =>  Template Author  : HTML Websites
+
+  =>  Author Website   : https://datalytika.org

@@ -1,0 +1,126 @@
+.cover-slider__wrap {
+  position: relative;
+  color: #fff;
+  line-height: 2;
+  min-height:  67em;
+  font-weight: bold;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+}
+.cover-slider__inner > h1 {
+    font-size: 100px;
+    font-weight: 600;
+}
+.cover-slider__inner > p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.cover-slider__inner {
+    left: 0;
+	top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 790px;
+    z-index: 1;
+}
+
+.cover-slider {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.cover-slider__slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  list-style: none;
+  z-index: 0;
+  opacity: 1;
+}
+.cover-slider__slide.active {
+  -webkit-animation-duration: 2500ms;
+          animation-duration: 2500ms;
+  -webkit-animation-name: slidein;
+          animation-name: slidein;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.cover-slider__slide.inactive {
+  -webkit-animation-duration: 2500ms;
+          animation-duration: 2500ms;
+  -webkit-animation-name: slideout;
+          animation-name: slideout;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes slidein {
+  from {
+    left: 0;
+    right: 100%;
+  }
+  to {
+    left: 0;
+    right: 0;
+  }
+}
+@keyframes slidein {
+  from {
+    left: 0;
+    right: 100%;
+  }
+  to {
+    left: 0;
+    right: 0;
+  }
+}
+@-webkit-keyframes slideout {
+  from {
+    left: 0;
+    right: 0;
+  }
+  to {
+    left: 100%;
+    right: 0;
+  }
+}
+@keyframes slideout {
+  from {
+    left: 0;
+    right: 0;
+  }
+  to {
+    left: 100%;
+    right: 0;
+  }
+}
+.cover-slider__slide:nth-child(1) {
+  background-image: url("../images/home_1/slide-big-1.jpg");
+}
+.cover-slider__slide:nth-child(2) {
+  background-image: url("../images/home_1/slide-big-2.jpg");
+}
+.cover-slider__slide:nth-child(3) {
+  background-image: url("../images/home_1/slide-big-3.jpg");
+}
+.overlay-home1 {
+    background-color: #000;
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.hide {
+  position: absolute;
+  left: -9999px;
+}

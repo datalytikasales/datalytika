@@ -1,0 +1,514 @@
+@media (min-width: 768px) {
+  .no-padding-sm {
+    padding: 0; }
+
+  .pull-right-sm {
+    float: right; } }
+@media (min-width: 1200px) {
+  .clear-lg {
+    clear: both; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .medic-navigation-menu ul.nav.navbar-nav.navbar-right {
+    float: none !important; }
+  .medic-navigation-menu .navbar-default .navbar-nav > li {
+    font-size: 9px; }
+
+  .clear-sm {
+    clear: both; }
+
+  .medic-footer .content-footer .input-group {
+    margin-bottom: 20px; }
+
+  .departmens-tabs.tab-content .content {
+    padding: 20px; }
+  .departmens-tabs.tab-content .heading {
+    font-size: 16px;
+    margin-bottom: 10px; }
+  .departmens-tabs.tab-content .subheading {
+    margin-bottom: 10px; }
+  .departmens-tabs.tab-content .info {
+    font-size: 13px; }
+  .departmens-tabs.tab-content .btn-medic {
+    margin: 4px 0 0; }
+
+  .medic-pricing-plans .pricing-column {
+    width: 31%;
+    margin-right: 1%;
+    margin-left: 1%; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .medic-navigation-menu .navbar-default .navbar-nav > li {
+    font-size: 11px; }
+
+  .medic-team .medic-team-slider {
+    margin-bottom: 50px; }
+
+  .clear-md {
+    clear: both; }
+
+  .our-team-info ul.short-info li {
+    font-size: 11.9px; }
+
+  .section-gallery.doctor-details .info-block-1 {
+    width: auto; }
+
+  .section-products .product-info.classic {
+    min-height: 190px; }
+  .section-products .icon-details.classic {
+    margin-top: 10px;
+    margin-left: 5px; }
+
+  .medic-footer .social-icons {
+    padding: 10px 0; }
+  .medic-footer .content-footer .footer-info.bottom-line {
+    padding-bottom: 27px;
+    margin-bottom: 27px; }
+
+  .departmens-tabs.tab-content .subheading {
+    margin-bottom: 16px; }
+  .departmens-tabs.tab-content .content {
+    padding: 30px 90px 30px 20px; }
+
+  .medic-testimonials-slider.big-slider-x {
+    margin-top: -32px; }
+
+  .doctor-details.classic {
+    margin-bottom: -15px; }
+
+  .doctor-details.classic-style .info-block-3 {
+    padding: 37px 30px; }
+
+  .medic-pricing-plans .pricing-content {
+    min-height: 330px; }
+    .medic-pricing-plans .pricing-content .plan-list {
+      padding-left: 5px; }
+  .medic-pricing-plans .pricing-content.bg-info {
+    padding-top: 13px; }
+
+  .doctor-details.pricing-info .info-block-3 {
+    min-height: 320px; } }
+@media (min-width: 1200px) {
+  .no-padding-left-lg {
+    padding-left: 0; } }
+@media (min-width: 1200px) and (max-width: 1299px) {
+  header strong {
+    font-size: 11px; } }
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .lg-medic {
+    width: 50%; }
+
+  .lg-full {
+    width: 100%; }
+
+  .lg-medic-clear {
+    clear: both; }
+
+  .doctor-details .info-block-1 .info.classic {
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%); }
+
+  .doctor-details .medic-img.section-details {
+    width: 60%;
+    margin: 0 auto; }
+
+  .doctor-details .info-block-2.classic.top.section-details,
+  .doctor-details .info-block-3.modern.section-details,
+  .medic-testimonials-slider.big-slider.big.details-big {
+    width: 60%;
+    margin: 0 auto; } }
+@media (max-width: 1299px) {
+  .medic-footer .footer-head {
+    transform: skewX(0);
+    -ms-transform: skewX(0);
+    -webkit-transform: skewX(0);
+    text-align: center;
+    padding-left: 0;
+    margin-top: -10px; }
+    .medic-footer .footer-head p {
+      transform: skewX(0);
+      -ms-transform: skewX(0);
+      -webkit-transform: skewX(0); }
+  .medic-footer .medic-wrapper:after {
+    content: none; }
+  .medic-footer .medic-wrapper:before {
+    content: none; }
+
+  .auto-width {
+    width: auto !important; }
+
+  .slider-content.bg-info {
+    width: 92%;
+    margin: 170px auto; } }
+@media (max-width: 1200px) {
+  .no-padding-md {
+    padding-right: 0;
+    padding-left: 0; } }
+@media (max-width: 1199px) {
+  .text-md-center {
+    text-align: center; }
+
+  .container-auto-md {
+    width: auto; }
+
+  .doctor-details .info-block-2.classic.top.section-details,
+  .doctor-details .info-block-3.modern.section-details,
+  .medic-testimonials-slider.big-slider.big.details-big,
+  .doctor-details .info-block-2.classic.top.modern-top.section-classic,
+  .doctor-details .info-block-3.modern.modern-style.section-classic {
+    width: 45%;
+    margin: 0 auto 30px; }
+
+  .section-details {
+    height: auto !important; }
+
+  .doctor-details .info-block-1 {
+    width: 75%;
+    margin: 0 auto 30px;
+    margin-bottom: 30px; }
+  .doctor-details .info-block-2 {
+    margin-bottom: 30px; }
+  .doctor-details .info-block-3 {
+    margin-bottom: 30px; }
+
+  .doctors-slider.big-slider .medic-img {
+    height: auto; }
+
+  .section-products .img-product {
+    width: 100%; }
+
+  .slider-content.bg-info {
+    padding-right: 10px; }
+    .slider-content.bg-info .group-select {
+      margin-bottom: 0; } }
+@media (max-width: 991px) {
+  .col-md-responsive {
+    width: 100%;
+    text-align: center; }
+
+  .slider-content.bg-info {
+    width: 70%; }
+
+  .text-sm-center {
+    text-align: center; }
+
+  .medic-our-services .wrapper.modern .medic-content-solution {
+    width: auto; }
+  .medic-our-services .medic-solutions-info {
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: auto; }
+    .medic-our-services .medic-solutions-info img.img-medic {
+      width: 100%;
+      width: 70%;
+      margin: 0 auto; }
+    .medic-our-services .medic-solutions-info .wrapper {
+      width: 85%;
+      margin: 0 auto; }
+      .medic-our-services .medic-solutions-info .wrapper .wrapper-img img {
+        width: 100%; }
+      .medic-our-services .medic-solutions-info .wrapper .medic-content-solution {
+        width: 100%; }
+  .medic-our-services .medic-content-solution {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; }
+  .medic-our-services .section-info.modern .info {
+    margin-bottom: 50px; }
+
+  .medic-department .content {
+    margin-bottom: 20px; }
+
+  .medic-solutions .medic-solutions-content #accordion {
+    width: 80%;
+    margin: 20px auto; }
+
+  .medic-services-slider .square {
+    margin-top: 30px; }
+
+  .medic-team .medic-team-slider {
+    margin-bottom: 20px; }
+  .medic-team .our-team-info .heading {
+    margin-top: 30px; }
+  .medic-team .our-team-info ul.short-info {
+    margin-top: 20px; }
+
+  .section-testimonials .img-bg {
+    min-height: 630px; }
+  .section-testimonials .block-info {
+    padding: 20px 10px 25px 10px; }
+
+  .contact-block .heading {
+    text-align: center; }
+  .contact-block .subheading {
+    text-align: center; }
+  .contact-block .contact-btn {
+    text-align: center; }
+
+  .section-our-team .wrapper {
+    width: 70%;
+    margin: 0 auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-bottom: 50px; }
+
+  .doctor-details .info-block-1 .info {
+    padding: 5px 7px 0; }
+
+  .our-team-info.classic {
+    margin-top: 50px; }
+    .our-team-info.classic .heading {
+      margin-top: 30px; }
+
+  .sidebar-info .input-group {
+    margin-top: 100px; }
+
+  .section-products .img-product.classic {
+    margin-top: 30px; }
+  .section-products .sale.classic {
+    top: 40px; }
+
+  .banner-info {
+    margin: 70px auto;
+    display: block;
+    width: 80%; }
+
+  .doctor-details.classic-style {
+    margin-top: 30px; }
+
+  .medic-pricing-plans.more-plans .pricing-column {
+    padding: 0; } }
+@media (max-width: 767px) {
+  .clear-xs {
+    clear: both; }
+
+  .full-width-xs {
+    width: 100% !important; }
+
+  .banner-info {
+    width: 95%; }
+
+  .medic-input {
+    margin-bottom: 10px !important; }
+
+  .medic-our-services .medic-solutions-info {
+    padding-bottom: 100px; }
+
+  .doctor-details .info-block-1.classic-style {
+    width: 65%; }
+
+  .doctor-details .info-block-2.classic.top.section-details,
+  .doctor-details .info-block-3.modern.section-details,
+  .medic-testimonials-slider.big-slider.big.details-big {
+    width: 70%;
+    margin: 0 auto 30px; }
+
+  .doctor-details .info-block-2.classic.top.modern-top.section-classic,
+  .doctor-details .info-block-3.modern.modern-style.section-classic {
+    width: 65%;
+    margin: 0 auto 30px; }
+
+  .text-xs-center {
+    text-align: center; }
+
+  .medic-top-header {
+    text-align: center; }
+    .medic-top-header .links {
+      display: block;
+      float: none; }
+
+  .main-menu li.menu-item-has-children > .sub-menu > .menu-item.active a {
+    background-color: transparent;
+    color: #a1abaf; }
+
+  .medic-navigation-menu ul.nav.navbar-nav {
+    margin: 7.5px -15px; }
+  .medic-navigation-menu .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff; }
+    .medic-navigation-menu .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+      background-color: #0284ba; }
+  .medic-navigation-menu .navbar-default .navbar-right li a {
+    margin-left: 10px;
+    margin-left: 10px; }
+  .medic-navigation-menu .navbar-nav > li > .dropdown-menu li a:hover {
+    color: #000;
+    background-color: #f5f5f5; }
+
+  header .social-icon {
+    margin-bottom: 70px; }
+  header .logo {
+    width: 90%; }
+
+  .medic-team .medic-customers .info {
+    padding: 20px; }
+
+  .medic-footer .content-footer .input-group {
+    margin-bottom: 20px; }
+
+  .section-testimonials .img-bg {
+    min-height: 630px; }
+  .section-testimonials .section-header .title {
+    font-size: 13px; }
+  .section-testimonials .section-header .heading {
+    font-size: 22px; }
+
+  .medic-classic-style .section-our-team .wrapper .team-doctor .more-info {
+    top: 60px; }
+
+  .short-block-info .btn-medic-group {
+    text-align: center; }
+  .short-block-info .medic-content-info {
+    text-align: center; }
+
+  .section-products .img-product {
+    width: 70%;
+    margin: 0 auto !important; }
+  .section-products .product-info {
+    width: 70%;
+    margin: 0 auto 40px; }
+  .section-products .sale {
+    top: 20px;
+    left: 20%; }
+  .section-products .icon-details {
+    margin-top: 10px;
+    margin-left: 5px; }
+
+  .contact-us .m-top {
+    margin-top: 0; }
+
+  .medic-departments {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .comments-blog .contact-us .btn-medic {
+    margin-top: 0; }
+
+  .departmens-tabs.tab-content .img-responsive {
+    margin: 0 auto;
+    float: none;
+    width: 80%; }
+  .departmens-tabs.tab-content .content {
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto; }
+  .departmens-tabs.tab-content .heading {
+    font-size: 16px;
+    margin-bottom: 10px; }
+  .departmens-tabs.tab-content .subheading {
+    margin-bottom: 10px; }
+  .departmens-tabs.tab-content .info {
+    font-size: 13px; }
+  .departmens-tabs.tab-content .btn-medic {
+    margin: 4px 0 0; }
+
+  .medic-pricing-plans .pricing-column {
+    width: 49%;
+    margin-right: 0.5%;
+    margin-left: 0.5%; }
+
+  .clear-xs {
+    clear: both; }
+
+  .dropdown.dropdown-departmenst .btn {
+    width: 100%; }
+    .dropdown.dropdown-departmenst .btn .fa {
+      right: 10px; } }
+@media (max-width: 550px) {
+  .col-xs-mobile {
+    width: 100%; }
+
+  .medic-solutions .medic-solutions-content #accordion {
+    width: 80%;
+    margin: 20px auto; }
+  .medic-solutions .medic-solutions-content .panel-title span {
+    font-size: 13px; }
+  .medic-solutions .medic-solutions-content .panel-title button.last {
+    font-size: 13px; }
+  .medic-solutions .medic-solutions-content .panel-title button {
+    margin-right: 5px; }
+
+  .section-our-team .wrapper {
+    width: 75%;
+    width: 75%; }
+    .section-our-team .wrapper .team-doctor .more-info {
+      top: 190px; }
+
+  .doctor-details .info-block-1 {
+    width: 90%; }
+
+  .section-products .img-product, .section-products .product-info {
+    width: 90%; }
+
+  .medic-our-services .medic-content-solution {
+    width: 100%; }
+  .medic-our-services .medic-solutions-info img.img-medic {
+    width: 100%; }
+
+  .medic-departments {
+    width: 80%; }
+
+  .medic-pricing-plans .pricing-column {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; }
+
+  .xs-mobile {
+    width: 100%; } }
+@media (max-width: 450px) {
+  .section-our-team .wrapper .team-doctor .more-info {
+    top: 120px; }
+
+  .doctor-details .info-block-1.classic-style {
+    width: 100%; }
+
+  .doctor-details .info-block-2.classic.top.section-details,
+  .doctor-details .info-block-3.modern.section-details,
+  .medic-testimonials-slider.big-slider.big.details-big {
+    width: 100%;
+    margin: 0 auto 30px; }
+
+  .doctor-details .info-block-2.classic.top.modern-top.section-classic,
+  .doctor-details .info-block-3.modern.modern-style.section-classic {
+    width: 100%;
+    margin: 0 auto 30px; }
+
+  .medic-departments {
+    width: 100%; }
+
+  .slider-content.bg-info .btn-medic {
+    font-size: 9px; }
+
+  .col-xs-responsive {
+    width: 100%;
+    text-align: center; }
+
+  .medic-solutions .medic-solutions-content #accordion {
+    width: 80%;
+    padding-left: 10px;
+    margin-top: 10px; } }
+@media (max-width: 350px) {
+  .medic-top-header {
+    font-size: 11px; }
+
+  .medic-solutions .medic-solutions-content .panel-title span {
+    font-size: 12px; }
+  .medic-solutions .medic-solutions-content .panel-title button.last {
+    font-size: 12px; }
+
+  .section-our-team .wrapper {
+    width: 100%;
+    width: 100%; }
+    .section-our-team .wrapper .team-doctor .more-info {
+      top: 110px; }
+
+  .doctor-details .info-block-1 {
+    width: 90%;
+    margin: 0 auto; }
+
+  .medic-input {
+    margin-bottom: 10px; }
+
+  .medic-our-services .medic-solutions-info .wrapper {
+    width: 100%; } }
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,353 @@
+
+/*    
+Aveo WordPress Theme Dynamic Styles
+Theme name : AVEO
+Author : lmpixels
+Version : 1.2.3
+*/
+
+
+/* =============================================================================
+
+1. General
+2. Typography
+3. Logo
+4. Backgrounds
+5. Colors
+6. Borders
+7. Page Titles and Paage Content Area
+8. Portfolio Grid
+9. Pages Shadow
+10. Custom Styles
+
+============================================================================= */
+
+/* ============================================================================= 
+1. General
+============================================================================= */
+.header .header-content,
+.pt-page,
+.single-page-content .content-area {
+    max-width: 1140px;
+}
+
+.pt-page .section-inner,
+.single-page-content .content-area {
+    border-radius: 15px;
+}
+
+
+/* ============================================================================= 
+2. Typography
+============================================================================= */
+body,
+p {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 0;
+    font-style: normal;
+    color: #424242;
+}
+
+.form-control,
+.form-control:focus,
+.has-error .form-control,
+.has-error .form-control:focus,
+.testimonial-author,
+.form-control,
+.form-control:focus,
+.has-error .form-control,
+.has-error .form-control:focus,
+.testimonial-author {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #212121;
+}
+
+h1 {
+    font-size: 30px;
+    color: #212121;
+}
+h2 {
+    font-size: 24px;
+    color: #212121;
+}
+h3 {
+    font-size: 18px;
+    color: #212121;
+}
+h4 {
+    font-size: 15px;
+    color: #212121;
+}
+h5 {
+    font-size: 13px;
+    color: #212121;
+}
+h6 {
+    font-size: 11px;
+    color: #212121;
+}
+
+.site-title {
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media only screen and (min-width: 991px) {
+  .site-main-menu li a, .site-main-menu li a:hover {
+    color: #49515d;
+  }
+
+  .header.sticked .site-main-menu li a, .header.sticked .site-main-menu li a:hover {
+    color: #49515d;
+  }
+}
+
+
+
+
+/* ============================================================================= 
+3. Logo
+============================================================================= */
+.header .logo img {
+    height: 40px;
+    max-height: 40px;
+    width: 40px;
+}
+
+@media only screen and (min-width: 991px) {
+    .site-title {
+        color: #49515d    }
+
+    .header.sticked .site-title {
+        color: #49515d    }
+}
+
+
+
+
+/* ============================================================================= 
+4. Backgrounds
+============================================================================= */
+body {
+    background-color: #f5f5f5;
+}
+
+@media only screen and (min-width: 991px) {
+    .header.sticked {
+        background-color: #ffffff;
+    }
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+button, input[type="button"], input[type="submit"],
+.site-main-menu > li > a:after,
+.timeline-item:after,
+.skill-percentage,
+.service-icon,
+.lm-pricing .lm-package-wrap.highlight-col .lm-heading-row span:after,
+.portfolio-filters li.active a,
+.portfolio-filters li.active a:hover,
+.testimonials.owl-carousel .owl-nav .owl-prev:hover,
+.testimonials.owl-carousel .owl-nav .owl-next:hover,
+.clients.owl-carousel .owl-nav .owl-prev:hover,
+.clients.owl-carousel .owl-nav .owl-next:hover,
+.share-buttons a:hover,
+.fw-pricing .fw-package-wrap.highlight-col .fw-heading-row span:after,
+.cat-links li a,
+.cat-links li a:hover,
+.post-navigation .meta-nav:hover,
+.calendar_wrap td#today,
+.nothing-found p,
+.form-control + .form-control-border,
+.blog-sidebar .sidebar-title h4:after {
+    background-color: #2196f3;
+}
+
+.content-page-with-sidebar .blog-sidebar {
+    background-color: #fcfcfc;
+}
+
+@media only screen and (max-width: 991px) {
+  .header {
+    background-color: #2196f3;
+  }
+  .mobile-header {
+    background-color: #2196f3;
+  }
+}
+
+
+
+
+/* ============================================================================= 
+5. Colors
+============================================================================= */
+a,
+.form-group-with-icon.form-group-focus i,
+.site-title span,
+.header-search button:hover,
+.header-search button:focus,
+.block-title h3 span,
+.header-search button:hover,
+.header-search button:focus,
+.timeline-item .item-period,
+.fun-fact-block .fun-value,
+.blog-card .post-date span,
+.info-block-w-icon i,
+.ajax-page-nav > div.nav-item a:hover,
+.project-general-info .fa,
+.portfolio-page-nav > div.nav-item a:hover,
+.comment-author a:hover,
+.comment-list .pingback a:hover,
+.comment-list .trackback a:hover,
+.comment-metadata a:hover,
+.comment-reply-title small a:hover,
+.entry-title a:hover,
+.entry-meta a:hover,
+.entry-content .edit-link a:hover,
+.post-navigation a:hover,
+.image-navigation a:hover,
+.lmpixels-arrows-nav > div:hover i {
+    color: #2196f3;
+}
+
+.start-page-content .page-header .title-block h2 {
+    color: #ffffff;
+}
+
+.start-page-content .page-header .title-block .sp-subtitle {
+    color: #ffffff;
+}
+
+a {
+    color: #2196f3;
+}
+
+a:hover {
+    color: #ff9800;
+}
+
+
+
+
+/* ============================================================================= 
+6. Borders
+============================================================================= */
+.border-top,
+.border-bottom,
+.timeline-item,
+.timeline-item:before,
+blockquote,
+.page-links a:hover,
+.paging-navigation .page-numbers.current,
+.paging-navigation a:hover {
+    border-color: #2196f3;
+}
+
+.testimonial-content .testimonial-text,
+.preloader-spinner:after {
+    border-top-color: #2196f3;
+}
+
+
+
+
+/* ============================================================================= 
+7. Page Titles and Paage Content Area
+============================================================================= */
+
+.section-inner > .page-header,
+.content-area > .page-header {
+    background-color: #2196f3;
+    background-image: url(../../../uploads/2017/09/sp_main_bg.png);
+}
+
+.page-header h2 {
+    color: #ffffff;
+    font-size: 44px;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.page-content,
+.custom-page-content .page-content,
+.portfolio-page-content,
+.content-page-with-sidebar .page-content,
+.start-page-content .page-content,
+.single-page-content .content-area .page-content {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================================= 
+8. Portfolio Grid
+============================================================================= */
+.portfolio-grid figure .portfolio-preview-desc .portfolio-preview-desc-inner {
+    background-color: rgba(33,150,243,0.8); ?>
+}
+
+.portfolio-grid figure:nth-child(even) .portfolio-preview-desc .portfolio-preview-desc-inner {
+    background-color: rgba(158,81,243,0.8); ?>
+}
+
+
+
+
+/* ============================================================================= 
+9. Pages Shadow
+============================================================================= */
+
+
+
+
+
+/* ============================================================================= 
+10. Custom Styles
+============================================================================= */

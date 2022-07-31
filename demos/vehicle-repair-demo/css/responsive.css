@@ -1,0 +1,519 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 0px;
+        top: 40%;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        right: 0px;
+        top: 40%;
+    }
+    .about_text {
+        width: 60%;
+    }
+    .engine_text {
+        font-size: 26px;
+    }
+    .choose_text {
+        width: 60%;
+    }
+    .choose_section::after {
+        left: 25px;
+    }
+    .choose_section {
+        background: linear-gradient(110deg, #020201 59%, rgba(126, 90, 90, 0) 57%), url(../images/img-3.png);
+        padding-bottom: 52px;
+    }
+    .repair_text {
+        width: 60%;
+    }
+    .btn_main {
+        width: 43%;
+    }
+    .client_text {
+        width: 65%;
+    }
+    .contact_main {
+        width: 60%;
+    }
+    .call_text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 0px;
+        top: 40%;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        right: 0px;
+        top: 40%;
+    }
+    .about_text {
+        width: 80%;
+    }
+    .box_main {
+        margin-top: 210px;
+    }
+    .engine_text {
+        font-size: 16px;
+    }
+    .choose_section::after {
+        left: 35px;
+    }
+    .choose_section {
+        background: #020201;
+    }
+    .choose_text {
+        width: 100%;
+    }
+    .lorem_text {
+        width: 90%;
+    }
+    .repair_taital {
+        font-size: 35px;
+    }
+    .repair_text {
+        width: 80%;
+    }
+    .btn_main {
+        width: 58%;
+    }
+    .client_text {
+        width: 85%;
+    }
+    .contact_main {
+        width: 100%;
+    }
+    .footer_section {
+        padding-top: 60px;
+    }
+    .footer_taital {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .carousel-caption {
+        display: none;
+    }
+    .header {
+        padding-top: 0px;
+    }
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .logo {
+        width: 70%;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .banner_section {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .about_taital {
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    .about_section {
+        padding-bottom: 40px;
+    }
+    .about_text {
+        width: 100%;
+        font-size: 15px;
+    }
+    .image_2 {
+        padding-top: 50px;
+    }
+    .box_main {
+        margin-top: 190px;
+        padding: 40px 5px 25px 5px;
+    }
+    .engine_text {
+        font-size: 16px;
+    }
+    .box_main_1 {
+        padding: 40px 5px 25px 5px;
+    }
+    .choose_section {
+        background: #020201;
+        padding-bottom: 90px;
+    }
+    .choose_section::after {
+        left: 8px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 305px;
+        right: 0px;
+    }
+    .choose_taital {
+        font-size: 40px;
+        text-align: center;
+    }
+    .choose_text {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .lorem_text {
+        width: 100%;
+        font-size: 15px;
+    }
+    .repair_taital {
+        font-size: 26px;
+    }
+    .repair_text {
+        width: 100%;
+        font-size: 18px;
+    }
+    .repair_section::after {
+        height: 190px;
+        width: 305px;
+        background-size: 100%;
+        top: 56px;
+    }
+    .repair_section {
+        margin-top: 0px;
+        padding-top: 120px;
+    }
+    .service_section_2 {
+        padding-top: 140px;
+    }
+    .client_box {
+        margin-top: 30px;
+    }
+    .more_bt {
+        width: 135px;
+    }
+    .contact_bt {
+        width: 135px;
+        margin-left: 20px;
+    }
+    .btn_main {
+        width: 57%;
+        padding-top: 50px;
+    }
+    .client_text {
+        width: 100%;
+        font-size: 16px;
+    }
+    .client_section::after {
+        height: 195px;
+        width: 305px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .contact_section::after {
+        height: 200px;
+        width: 305px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .contact_main {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .email_bt {
+        width: 100%;
+    }
+    .email_bt_1 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .footer_section {
+        padding-top: 60px;
+    }
+    .footer_taital {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .carousel-caption {
+        display: none;
+    }
+    .header {
+        padding-top: 0px;
+    }
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+    .logo {
+        width: 70%;
+    }
+    .header_section {
+        background-size: cover;
+    }
+    .vehicle_taital {
+        font-size: 25px;
+    }
+    .banner_section {
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .about_taital {
+        font-size: 26px;
+        padding-top: 0px;
+    }
+    .about_text {
+        width: 100%;
+    }
+    .image_2 {
+        padding-top: 0px;
+    }
+    .box_main {
+        margin-top: 30px;
+    }
+    .engine_text {
+        font-size: 26px;
+    }
+    .choose_section {
+        background: #020201;
+        padding-bottom: 90px;
+    }
+    .choose_section::after {
+        left: 8px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 305px;
+        right: 0px;
+    }
+    .choose_taital {
+        font-size: 40px;
+        text-align: center;
+    }
+    .choose_text {
+        width: 100%;
+        text-align: center;
+    }
+    .lorem_text {
+        width: 100%;
+        font-size: 15px;
+    }
+    .repair_taital {
+        font-size: 23px;
+    }
+    .repair_text {
+        width: 100%;
+        font-size: 18px;
+    }
+    .repair_section::after {
+        height: 190px;
+        width: 305px;
+        background-size: 100%;
+        top: 56px;
+    }
+    .repair_section {
+        margin-top: 0px;
+    }
+    .service_section_2 {
+        padding-top: 140px;
+    }
+    .client_box {
+        margin-top: 30px;
+    }
+    .more_bt {
+        width: 135px;
+    }
+    .contact_bt {
+        width: 135px;
+        margin-left: 20px;
+    }
+    .btn_main {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .client_text {
+        width: 100%;
+        font-size: 15px;
+    }
+    .client_section::after {
+        height: 195px;
+        width: 305px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .contact_section::after {
+        height: 200px;
+        width: 305px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .contact_main {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .email_bt {
+        width: 100%;
+    }
+    .email_bt_1 {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .footer_section {
+        padding-top: 60px;
+    }
+    .footer_taital {
+        padding-top: 30px;
+    }
+    .service_section::after {
+        height: 203px;
+        width: 307px;
+        background-size: 100%;
+    }
+}

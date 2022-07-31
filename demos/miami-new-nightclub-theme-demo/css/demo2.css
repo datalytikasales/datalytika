@@ -1,0 +1,306 @@
+/*HEADER TEXT COLOR*/
+.header .logo .logo-text {
+	color: #FFFFFF;
+}
+/*HEADER TEXT COLOR*/
+
+
+
+/*MAIN THEME COLOR - ROSE */
+.a-btn,
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.banner-slider-wrap .pagination span.swiper-active-switch,
+.custom-popup,
+.pagination.custom span.swiper-active-switch::after,
+.service-block:hover,
+#imagelightbox-close:hover,
+#imagelightbox-caption,
+.events-wrapper .tabs-header2 ul li.active::after, 
+.events-wrapper .tabs-header2 ul li:hover::after,
+.contacts,
+.events-wrapper .tabs-content2 .colum .price::before,
+.banner-slider-wrap .left-block .date,
+.banner-slider-wrap .right-block .event_btn:hover,
+.team-social a:hover,
+.banner-slider-wrap .right-block .event_btn:before,
+.service-block:hover {
+    background: #ff5f82;
+}
+
+@media screen and (max-width: 600px){
+    .events-wrapper .tabs-header2 ul li.active a,
+    .events-wrapper .tabs-header2 ul li:hover a{
+        background-color: #ff5f82;
+    }
+}
+
+.imagelightbox-arrow:hover,
+.a-btn:hover, 
+button:hover, 
+button[disabled]:hover, 
+button[disabled]:focus:hover, 
+input[type="button"]:hover, 
+input[type="button"][disabled]:hover, 
+input[type="button"][disabled]:focus:hover, 
+input[type="reset"]:hover, 
+input[type="reset"][disabled]:hover, 
+input[type="reset"][disabled]:focus:hover, 
+input[type="submit"]:hover, 
+input[type="submit"][disabled]:hover, 
+input[type="submit"][disabled]:focus:hover,
+.a-btn:hover i,
+button:hover i,
+button[disabled]:hover:hover i,
+button[disabled]:focus:hover i,
+input[type="button"]:hover i,
+input[type="button"][disabled]:hover:hover i,
+input[type="button"][disabled]:focus:hover i,
+input[type="reset"]:hover i,
+input[type="reset"][disabled]:hover:hover i,
+input[type="reset"][disabled]:focus:hover i,
+input[type="submit"]:hover i,
+input[type="submit"][disabled]:hover:hover i,
+input[type="submit"][disabled]:focus:hover i,
+.comments .sub-wrap:hover::before,
+.block-header .block-icon .miami-icon,
+.service-block .block-icon .miami-icon,
+body span.wpcf7-not-valid-tip {
+    color: #ff5f82;
+}
+
+.cssload-cssload-spinner:before,
+.events-wrapper .tabs-header2 li.active a::before,
+.events-wrapper .tabs-header2 li:hover a::before,
+.a-btn:hover,
+button:hover,
+button[disabled]:hover:hover,
+button[disabled]:focus:hover,
+input[type="button"]:hover,
+input[type="button"][disabled]:hover:hover,
+input[type="button"][disabled]:focus:hover,
+input[type="reset"]:hover,
+input[type="reset"][disabled]:hover:hover,
+input[type="reset"][disabled]:focus:hover,
+input[type="submit"]:hover,
+input[type="submit"][disabled]:hover:hover,
+input[type="submit"][disabled]:focus:hover,
+.banner-slider-wrap .right-block .event_btn {
+    border-color: #ff5f82;
+}
+/*MAIN THEME COLOR - ROSE */
+
+
+/*FRONT COLOR - WHITE */
+body,
+.wp-caption .wp-caption-text,
+.page-links a,
+.a-btn,
+button,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:focus,
+.post-password-form label,
+.gallery-caption,
+.wp-caption .wp-caption-text,
+.post-nav > span:first-child,
+.post-nav > .pages,
+.post-nav a:hover,
+.post-nav a,
+.a-btn,
+button,
+input[type="button"] i,
+input[type="reset"] i,
+input[type="submit"] i,
+.banner-wrap .content .subtitle,
+.banner-wrap .content .title,
+.banner-wrap .content .text,
+.banner-slider-wrap .slider-content .title,
+.banner-slider-wrap .slider-content .text,
+.custom-popup input[type="submit"],
+.custom-popup .submit-wrap:hover input,
+.custom-popup .submit-wrap i,
+.popup-close,
+.popup-close:hover,
+.c-form-label,
+.popup-title,
+.block-title,
+.block-text,
+.about-title,
+.about-text,
+.pagination.custom span,
+.team-item .descr,
+.team-social a,
+.team-social a:hover,
+.service-block,
+.gal-title,
+.gal-subtitle,
+.wpcf7 input:not([type="submit"]),
+.wpcf7 textarea,
+.wpcf7 .submit-wrapper .submit-wrap i,
+.testimoanial-item .content,
+.testimoanial-item .testimoanial-title,
+.testimoanial-item .testimoanial-text,
+.copy,
+.contacts,
+.contacts a,
+.contacts a:hover,
+.blog-content .title,
+.blog-content .descr,
+.blog-content .categories,
+.blog-content .categories a,
+.blog-content .categories a:hover,
+.blog-content .info-item,
+.blog-content .info-item a,
+.blog-list .navigation .nav-links span a,
+.widget ul li,
+.widget a,
+.widget .widget-title,
+.widget input[type="search"],
+.widget.widget_search .search-wrap::before,
+.widget.widget_categories ul li::before,
+.widget.widget_tag_cloud .tagcloud a,
+.widget #wp-calendar caption,
+.widget #wp-calendar th,
+.widget #wp-calendar td,
+.widfet .widget_text a:hover,
+.single-page .post-content,
+.single-page .content p,
+.single-page .content a,
+.single-page .content p ol li,
+.single-page .content p ul li,
+.single-page .tags a,
+.single-page .content blockquote::before,
+.single-page .content blockquote p,
+.single-page .content blockquote,
+.single-page .single-category ul li a,
+.single-page .pagination-single .nav-previous a,
+.single-page .pagination-single .nav-next a,
+.comments .main-title,
+.comments .comment-form input:not([type="submit"]),
+.comments .comment-form textarea,
+.comments .sub-wrap::before,
+.comments .com-title,
+.comments .comment-entry .name,
+.comments .comment-entry .name a,
+.comments .comment-entry .date,
+.comments .comment-entry .text p,
+.comments .comment-entry .text p a,
+.comments .comment-entry .comment-reply-link,
+.news.type-1 .news-type,
+.news.type-1 .news-type:hover,
+.news.type-1 .news-likes,
+.news.type-1 .news-likes:hover,
+.news.type-1 .news-likes a,
+.news h4 a,
+.news .news-date,
+.events-wrapper > .tabs > .tabs-header > ul li a,
+.tabs2,
+.tabs,
+.events-wrapper .tabs-content2 .colum .date,
+.events-wrapper .tabs-content2 .colum .wrap-title .title,
+.events-wrapper .tabs-content2 .colum .text,
+.events-wrapper .tabs-content2 .colum .time,
+.events-wrapper .tabs-content2 .colum .price span:first-child,
+.events-wrapper .tabs-content2 .colum .price span:last-child,
+.tabs2 a,
+.a-btn i,
+button i,
+button[disabled] i,
+button[disabled]:focus:hover i,
+input[type="button"] i,
+input[type="button"][disabled] i,
+input[type="button"][disabled]:focus i,
+input[type="reset"]:hover i,
+input[type="reset"][disabled] i,
+input[type="reset"][disabled]:focus i,
+input[type="submit"]:hover i,
+input[type="submit"][disabled] i,
+input[type="submit"][disabled]:focus i,
+.tabs a,
+.banner-slider-wrap .right-block .event_btn:hover,
+.banner-slider-wrap .left-block .date,
+.banner-slider-wrap .left-block .title,
+.banner-slider-wrap .right-block .description,
+.banner-slider-wrap .right-block .hashtags a,
+.service-block:hover .block-icon .miami-icon,
+body div.wpcf7-validation-errors,
+body div.wpcf7-mail-sent-ok,
+.banner-slider-wrap .right-block .event_btn:before,
+body .fox_widget_content .tab_title a,
+body .blog-list .navigation .nav-links span, 
+body .blog-list .navigation .nav-links a,
+body .widget.widget_categories ul li,
+body .fox-postmeta>div  {
+    color: #fff;
+}
+
+.team-social a::after,
+.team-social a:hover::after,
+.banner-slider-wrap .swiper-arrow-left:after, .banner-slider-wrap .swiper-arrow-right:after {
+    border-color: #fff;
+}
+
+.banner-slider-wrap .swiper-arrow:before {
+    background-color: #fff;
+}
+/*FRONT COLOR - WHITE */
+
+
+/*MENU LINKS COLOR*/
+.header .centered-menu-wrap .main-nav > ul > li > a,
+.header .centered-menu-wrap .main-nav ul li ul.dopwown-menu li a  {
+    color: #fff;
+}
+
+.header .cmn-toggle-switch.active:before,
+.header .cmn-toggle-switch.active:after,
+.header .cmn-toggle-switch span:before,
+.header .cmn-toggle-switch span:after,
+.header .cmn-toggle-switch span {
+    background: #fff;
+}
+/*MENU LINKS COLOR*/
+
+/*BASE COLOR HOVER - BLUE*/
+.custom-popup input[type="submit"],
+.c-form-group input,
+.team-item .descr::before,
+.gal-desc::before,
+#imagelightbox-close,
+.blog-content .info::before,
+.events-wrapper .tabs-content2 .colum,
+body {
+    background-color: #283052;
+}
+body {
+	background-color: #283052 !important;
+}
+@media (max-width: 767px) {
+  .header {
+    background-color: #283052;
+  }
+}
+
+.custom-popup input[type="submit"]:hover,
+.custom-popup .submit-wrap:hover i{
+    color: #283052;
+}
+.custom-popup .submit-wrap input {
+	border-color: #283052;
+}
+/*BASE COLOR HOVER - BLUE*/

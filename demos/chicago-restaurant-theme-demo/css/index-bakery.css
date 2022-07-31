@@ -1,0 +1,966 @@
+
+/*------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*------------------------------------------------------------------------------*/
+/* Template Name: Chicago */
+/* Version: 1.0 Initial Release */
+/* Build Date: 07-29-2016 */
+/* Author: Fox Teams */
+/* Website: foxthemes.com */
+/* Copyright: (C) 2016 */
+/*-------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Text setting
+3. Header
+4. 1 block
+5. 2 block
+6. 3 block
+7. 4 block
+8. 5 block
+9. Footer
+
+
+
+/*--------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+@font-face {
+  font-family: 'Ginebra';
+  src: url("../fonts/ginebra_font-webfont.woff") format("woff2"), url("../fonts/ginebra_font-webfont.woff") format("woff"), url("../fonts/ginebra_font-webfont.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Apple Chancery';
+  src: url("../fonts/apple-chancery.woff") format("woff2"), url("../fonts/apple-chancery.woff") format("woff"), url("../fonts/apple-chancery.eot") format("eot"), url("../fonts/apple-chancery.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+*,
+h5,
+h4,
+h6,
+p,
+span,
+a {
+  font-family: 'Droid Serif', serif;
+  font-weight: 400; }
+
+h3 {
+  font-family: 'Ginebra', serif;
+  color: #333;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'Apple Chancery', serif;
+  color: #bfa158;
+  font-weight: 400;
+  font-size: 35px; }
+
+h1 {
+  font-family: 'Ginebra', serif;
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 70px;
+  text-transform: uppercase; }
+
+/*--------------------------------------------------------------------------------------*/
+/* Header */
+/*--------------------------------------------------------------------------------------*/
+.wpc-header-menu .menu-item .menu-item a {
+  line-height: 50px; }
+
+.wpc-header-menu .menu-item {
+  padding: 50px 0;
+  box-sizing: border-box; }
+
+.wpc-header-menu .menu-item a {
+  line-height: 65px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  padding: 0 45px;
+  display: inline-block; }
+
+.wpc-header-menu .menu-item:first-child a {
+  border: none; }
+
+.wpc-header-menu .menu-item:last-child a {
+  border: none; }
+
+.main-menu {
+  display: inline-block; }
+
+.wpc-header-menu-light .menu-item a:after, .wpc-header-menu-light .menu-item a:before {
+  display: none; }
+
+.main-menu li {
+  margin-right: 0; }
+
+.wpc-header-menu .menu-item.logo {
+  padding: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: auto;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #bfa158;
+  background-color: #bfa158;
+  vertical-align: middle;
+  border-radius: 50%;
+  position: relative; }
+  .wpc-header-menu .menu-item.logo:after {
+    content: '';
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    border: 3px solid #bfa158;
+    border-radius: 50%;
+    position: absolute;
+    left: -12px;
+    top: -12px;
+    z-index: 1; }
+  .wpc-header-menu .menu-item.logo a {
+    z-index: 2;
+    position: relative;
+    color: white;
+    font-family: 'Apple Chancery', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 85px;
+    padding: 0;
+    border: none; }
+    .wpc-header-menu .menu-item.logo a:hover {
+      color: #fff;
+      opacity: 1; }
+
+.wpc-header-menu-light.active .menu-item.logo a:hover {
+  color: #fff; }
+
+.wpc-header-menu .menu-item ul li {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.wpc-header-menu .menu-item ul a {
+  line-height: 60px; }
+
+.main-menu .sub-menu {
+  top: 100%; }
+
+.wpc-header-menu-light {
+  border: none; }
+
+.wpc-header-menu-light.active .menu-item.logo a {
+  color: #fff; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 1 Block*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-bakery-info h2 {
+  color: #c8a85a;
+  font-family: 'Apple Chancery', serif;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 83px;
+  letter-spacing: 0; }
+
+.wpc-bakery-info p {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; }
+
+.wpc-bakery-info a {
+  display: inline-block;
+  margin: auto;
+  background-color: #c7a75b;
+  color: #fffefe;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 60px;
+  margin-top: 50px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+  .wpc-bakery-info a:hover {
+    opacity: .8; }
+
+.wpc-bakery-info h1 {
+  letter-spacing: 6px;
+  line-height: 70px;
+  position: relative; }
+  .wpc-bakery-info h1:after {
+    position: relative;
+    bottom: 10px;
+    content: '';
+    display: inline-block;
+    background: transparent url("../img/bakery/h-after.png") 0 0 no-repeat;
+    width: 330px;
+    height: 22px; }
+
+.wpc-bakery-info .wpc-info-block-body {
+  padding-bottom: 200px;
+  padding-top: 320px; }
+
+.wpc-bakery-info {
+  position: relative; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 2  Block* */
+/*--------------------------------------------------------------------------------------*/
+.wpc-bakery-text .wpc-header {
+  padding-left: 0; }
+
+.wpc-bakery-text h2 {
+  letter-spacing: 3px;
+  line-height: 1; }
+
+.wpc-bakery-text h3:after {
+  right: auto;
+  background: transparent url("../img/bakery/h-after2.png") 0 0 no-repeat;
+  width: 218px;
+  height: 15px;
+  bottom: 30px; }
+
+.wpc-bakery-text span {
+  word-spacing: 2.5px;
+  width: 100%;
+  max-width: 490px; }
+
+.wpc-bakery-text p {
+  max-width: 490px; }
+
+.wpc-bakery-text a {
+  color: #fffefe;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding: 0 30px;
+  background-color: #c7a75b;
+  display: inline-block;
+  margin-top: 30px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+  .wpc-bakery-text a:hover {
+    opacity: .8; }
+
+.wpc-bakery-img1 {
+  padding-left: 20px; }
+
+.wpc-bakery-img2 {
+  margin-top: -75px;
+  padding-left: 85px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 3  Block* */
+/*--------------------------------------------------------------------------------------*/
+.wpc-bakery-info2 {
+  padding-top: 90px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .wpc-bakery-info2:after {
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 50%;
+    content: '';
+    display: block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.wpc-bakery-food-item {
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 2;
+  padding-left: 100px; }
+  .wpc-bakery-food-item .wpc-bakery-logo {
+    position: absolute;
+    left: 0;
+    margin-left: -65px;
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #c7a75b; }
+    .wpc-bakery-food-item .wpc-bakery-logo:after {
+      content: '';
+      display: inline-block;
+      width: 120px;
+      height: 120px;
+      border: 3px solid #c7a75b;
+      border-radius: 50%;
+      margin-left: -10px;
+      margin-top: -10px; }
+  .wpc-bakery-food-item h4 {
+    color: white;
+    letter-spacing: 0.45px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  .wpc-bakery-food-item p {
+    opacity: 0.6;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px; }
+  .wpc-bakery-food-item span {
+    font-family: DroidSerif;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px; }
+    .wpc-bakery-food-item span i {
+      color: #c7a75b;
+      font-weight: 700; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 4  Block* */
+/*--------------------------------------------------------------------------------------*/
+.wpc-bakery-3block-header {
+  text-align: center; }
+  .wpc-bakery-3block-header h2 {
+    letter-spacing: 3px; }
+  .wpc-bakery-3block-header h3 {
+    position: relative;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding-bottom: 10px; }
+    .wpc-bakery-3block-header h3:after {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      background: transparent url("../img/bakery/h-after2.png") 0 0 no-repeat;
+      width: 218px;
+      height: 15px;
+      bottom: -20px;
+      left: 0;
+      right: 0;
+      margin: auto; }
+
+.wpc-bakery-3block {
+  background-color: white;
+  box-shadow: 0 0 183px #e5e6eb;
+  padding: 160px 0 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  position: relative; }
+  .wpc-bakery-3block:after {
+    top: 0;
+    left: 0;
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.wpc-bakery-3block-slider {
+  max-height: 780px; }
+  .wpc-bakery-3block-slider .swiper-wrapper {
+    max-height: 500px; }
+  .wpc-bakery-3block-slider .pagination {
+    display: none; }
+  .wpc-bakery-3block-slider .swiper-slide {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: 690px;
+    -webkit-transition: height 0.5s ease-in;
+    transition: height 0.5s ease-in; }
+    .wpc-bakery-3block-slider .swiper-slide .wpc-bakery-3block {
+      width: 100%;
+      padding-top: 160px;
+      margin-top: 85px; }
+    .wpc-bakery-3block-slider .swiper-slide h4 {
+      color: #bfa158;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 84px;
+      text-transform: uppercase;
+      margin-bottom: 35px;
+      position: relative;
+      z-index: 2; }
+      .wpc-bakery-3block-slider .swiper-slide h4:after {
+        position: absolute;
+        display: inline-block;
+        content: '';
+        width: 43px;
+        height: 1px;
+        background-color: #bfa158;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; }
+    .wpc-bakery-3block-slider .swiper-slide span {
+      position: relative;
+      z-index: 2;
+      color: white;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 26px;
+      padding-left: 15px;
+      padding-right: 15px; }
+  .wpc-bakery-3block-slider .swiper-slide-active {
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-transition: height 0.5s ease-in;
+    transition: height 0.5s ease-in;
+    padding-left: 50px;
+    padding-right: 50px; }
+    .wpc-bakery-3block-slider .swiper-slide-active .wpc-bakery-3block:after {
+      display: none; }
+    .wpc-bakery-3block-slider .swiper-slide-active .wpc-bakery-3block {
+      background-color: #fff;
+      z-index: 2;
+      height: auto; }
+    .wpc-bakery-3block-slider .swiper-slide-active:after {
+      display: none; }
+    .wpc-bakery-3block-slider .swiper-slide-active h4 {
+      color: #fff;
+      margin-bottom: 25px; }
+    .wpc-bakery-3block-slider .swiper-slide-active span {
+      color: #fff; }
+    .wpc-bakery-3block-slider .swiper-slide-active .wpc-bakery-3block {
+      padding: 480px 0 75px; }
+
+.swiper-slide-duplicate:last-child {
+  display: none; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 5  Block* */
+/*--------------------------------------------------------------------------------------*/
+.wpt-dish-bg:after {
+  background: transparent; }
+
+.wpc-bakery-dish {
+  background-size: 100%; }
+  .wpc-bakery-dish h2 {
+    letter-spacing: 3px; }
+  .wpc-bakery-dish h3 {
+    color: #333;
+    font-size: 50px;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    .wpc-bakery-dish h3:after {
+      background: transparent url("../img/bakery/h-after2.png") 0 0 no-repeat;
+      width: 218px;
+      height: 15px;
+      bottom: 0px; }
+  .wpc-bakery-dish .tabs-header li {
+    border: 2px solid #333; }
+    .wpc-bakery-dish .tabs-header li a {
+      color: #333; }
+    .wpc-bakery-dish .tabs-header li.active {
+      position: relative;
+      z-index: 2; }
+
+.wpc-tabs-more {
+  margin-top: 55px;
+  letter-spacing: 1px; }
+
+.wpc-bakery-3block-slider .swiper-slide-active .wpc-bakery-3block {
+  position: relative; }
+  .wpc-bakery-3block-slider .swiper-slide-active .wpc-bakery-3block:after {
+    display: inline-block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: -webkit-linear-gradient(bottom, transparent 50%, transparent 70%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to top, transparent 50%, transparent 70%, rgba(0, 0, 0, 0.8) 100%); }
+
+/*--------------------------------------------------------------------------------------*/
+/* 6  Block* */
+/*--------------------------------------------------------------------------------------*/
+.wpc-info-block h3 {
+  line-height: 1;
+  letter-spacing: 3px;
+  padding-bottom: 60px;
+  font-size: 60px; }
+  .wpc-info-block h3:after {
+    background: transparent url("../img/bakery/h-after2.png") 0 0 no-repeat;
+    width: 218px;
+    height: 15px;
+    bottom: 25px; }
+
+.wpc-info-block h2 {
+  letter-spacing: 3px;
+  font-size: 35px; }
+
+.wpc-bakery-img3 {
+  padding-left: 85px; }
+
+.wpc-bakery-img4 {
+  margin-top: -75px;
+  padding-left: 15px; }
+
+.wpc-bakery-text p {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*--------------------------------------------------------------------------------------*/
+/* Footer */
+/*--------------------------------------------------------------------------------------*/
+.wpc-bakery-footer {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative; }
+  .wpc-bakery-footer:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    background-color: rgba(21, 27, 40, 0.15);
+    top: 0;
+    left: 0px;
+    right: 0;
+    margin: auto; }
+
+.wpc-bakery-footer-item {
+  padding-left: 15px; }
+  .wpc-bakery-footer-item h5 {
+    color: #c7a75b;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px; }
+  .wpc-bakery-footer-item h6 {
+    color: #bfa158;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase; }
+  .wpc-bakery-footer-item span {
+    color: #888;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px; }
+  .wpc-bakery-footer-item input,
+  .wpc-bakery-footer-item textarea {
+    float: left;
+    background-color: transparent;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #888;
+    font-family: 'Droid Serif',
+ serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    border: none;
+    border-bottom: 3px solid #f5f7fa; }
+    .wpc-bakery-footer-item input:focus,
+    .wpc-bakery-footer-item textarea:focus {
+      border: none;
+      outline: none;
+      border-bottom: 3px solid #f5f7fa; }
+  .wpc-bakery-footer-item input {
+    width: 45%;
+    margin-right: 5%;
+    min-height: 40px; }
+    .wpc-bakery-footer-item input:nth-child(2n) {
+      margin-right: 0; }
+    .wpc-bakery-footer-item input:nth-child(2), .wpc-bakery-footer-item input:first-child {
+      margin-bottom: 30px; }
+  .wpc-bakery-footer-item textarea {
+    width: 73%;
+    margin-right: 5%;
+    min-height: 35px;
+    line-height: 1;
+    resize: vertical;
+    margin-top: 30px; }
+  .wpc-bakery-footer-item input::-webkit-input-placeholder,
+  .wpc-bakery-footer-item textarea::-webkit-input-placeholder,
+  .wpc-bakery-footer-item input::-moz-placeholder,
+  .wpc-bakery-footer-item textarea::-moz-placeholder {
+    color: #888; }
+  .wpc-bakery-footer-item button {
+    margin-top: 25px;
+    background-color: #bfa158;
+    display: inline-block;
+    color: white;
+    font-family: 'Droid Serif', serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 0 50px;
+    line-height: 40px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+    .wpc-bakery-footer-item button:hover {
+      opacity: .8; }
+    .wpc-bakery-footer-item button:focus {
+      outline: none; }
+  .wpc-bakery-footer-item span {
+    text-transform: uppercase; }
+  .wpc-bakery-footer-item ul {
+    margin-top: 18px; }
+    .wpc-bakery-footer-item ul:nth-child(2) {
+      margin-top: 30px; }
+
+.wpc-bakery-copyright {
+  background-color: #edeff2;
+  padding: 30px 0; }
+  .wpc-bakery-copyright .wpc-copyright {
+    padding: 0;
+    text-align: center; }
+    .wpc-bakery-copyright .wpc-copyright span {
+      padding-top: 20px;
+      color: #333;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0px;
+      word-spacing: 4px;
+      text-transform: uppercase; }
+  .wpc-bakery-copyright .logo {
+    text-align: left; }
+    .wpc-bakery-copyright .logo a {
+      line-height: 55px;
+      color: #c7a75b;
+      font-family: 'Apple Chancery', serif;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 3px; }
+  .wpc-bakery-copyright ul li {
+    display: inline-block;
+    line-height: 55px; }
+
+.soc-net {
+  float: right; }
+  .soc-net h6 {
+    color: #333;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px; }
+  .soc-net ul {
+    margin: 0; }
+    .soc-net ul a {
+      display: inline-block;
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+      border: 1px solid #1e2633;
+      -webkit-transition: all 0.3s ease-in;
+      transition: all 0.3s ease-in; }
+      .soc-net ul a:before {
+        font-size: 12px;
+        color: #1e2633;
+        -webkit-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in; }
+      .soc-net ul a:hover {
+        border: 1px solid #bfa158; }
+        .soc-net ul a:hover:before {
+          color: #bfa158; }
+    .soc-net ul h6 {
+      letter-spacing: 1px;
+      line-height: 50px; }
+    .soc-net ul li {
+      margin: 5px 3px;
+      line-height: 33px;
+      text-align: center; }
+      .soc-net ul li:last-child {
+        margin-right: 0; }
+
+.logo2 {
+  display: none; }
+
+.wpc-mains.wpc-header h3:after,
+.wpc-dishes h3:after,
+.wpt-map h3:after,
+.wpc-team h3:after,
+.wpc-info-block2 h3:after,
+.wpc-proposes.wpc-header h3:after,
+.wpc-info-block2 h3:after,
+.wpc-testi h3:after,
+.wpc-select-form h3:after,
+.wpc-our-service .wpc-header h3:after,
+.wpc-product-text .wpc-header h3:after,
+.wpc-blog-h3 h3:after,
+.wpc-blog-h3-item-body h5:after {
+  background: transparent url("../img/bakery/h-after2.png") 0 0 no-repeat;
+  width: 218px;
+  height: 15px; }
+
+.wpc-dishes-logo img {
+  border-radius: 0; }
+
+/* Custom, iPhone Retina */
+.wpc-header-menu-light.active .menu-item.logo a:hover {
+  color: #fff;
+  opacity: 1; }
+
+@media only screen and (min-width: 1800px) {
+  .wpc-bakery-dish,
+  .wpc-bakery-foote {
+    background-size: cover; } }
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1500px) {
+  .wpc-bakery-info .wpc-info-block-body {
+    padding: 200px 0 100px; }
+  .wpc-header-menu .main-menu li {
+    padding: 10px 0; }
+  .wpc-header-menu .menu-item.logo a {
+    line-height: 80px; }
+  .wpc-header-menu .menu-item.logo {
+    width: 80px;
+    height: 80px; }
+  .wpc-header-menu .menu-item.logo:after {
+    display: none; }
+  .main-menu {
+    padding: 0 10px; }
+  .wpc-bakery-footer {
+    background-image: none !important; }
+  .wpc-header-menu .menu-item.logo a {
+    font-size: 22px; } }
+
+@media only screen and (max-width: 1200px) {
+  .wpc-bakery-img3 {
+    clear: both; }
+    .wpc-bakery-img3 img {
+      float: right; }
+  .wpc-bakery-img4 {
+    clear: both;
+    padding-right: 30px;
+    text-align: right; }
+    .wpc-bakery-img4 img {
+      margin-top: -50px;
+      float: right; }
+  .wpc-header-menu .menu-item a {
+    padding: 0 20px; }
+  .wpc-bakery-3block-slider .swiper-slide-active .wpc-bakery-3block {
+    width: 500px;
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    z-index: 3; }
+  .wpc-bakery-3block-slider .swiper-slide-active {
+    padding-left: 0;
+    padding-right: 0; }
+  .wpc-bakery-3block-slider .swiper-slide .wpc-bakery-3block {
+    margin-top: 20px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .wpc-header-menu-light {
+    background-color: transparent; }
+  .wpc-header-menu .menu-item a {
+    color: #fff; } }
+
+@media only screen and (max-width: 991px) {
+  .wpc-bs-img-info {
+    display: none; }
+  .wpc-bakery-info h1 {
+    font-size: 40px; }
+  .wpc-bakery-text h2,
+  .wpc-bakery-text h2 {
+    font-size: 35px; }
+  .wpc-header-menu-light {
+    background-color: transparent; }
+  .wpc-bakery-info2:after {
+    width: 100%; }
+  .wpc-bakery-img1,
+  .wpc-bakery-img2,
+  .wpc-bakery-img4,
+  .wpc-bakery-img3 {
+    display: none; }
+  .wpc-bakery-text {
+    text-align: center; }
+    .wpc-bakery-text h3:after {
+      right: 0;
+      left: 0; }
+  .wpc-header-menu-light {
+    height: auto; }
+  .wpc-header-menu .menu-item a {
+    padding: 0 10px; }
+  .wpc-bakery-food-item {
+    padding-left: 130px; }
+    .wpc-bakery-food-item .wpc-bakery-logo {
+      margin-left: 10px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .main-menu {
+    display: none; }
+  .wpc-header-menu-light {
+    background-color: #fff; }
+  .logo2 {
+    display: block; }
+  .wpc-bakery-info h1 {
+    font-size: 35px;
+    line-height: 1.2; }
+  .wpc-bakery-info h2 {
+    font-size: 35px;
+    line-height: 1.2; }
+  .wpc-bakery-text h2,
+  .wpc-bakery-text h2,
+  .wpc-bakery-dish h2,
+  .wpc-info-block h2,
+  .wpc-bakery-3block-header h2 {
+    font-size: 35px; }
+  .wpc-info-block2 h3,
+  .wpc-bakery-dish h3,
+  .wpc-info-block h3,
+  .wpc-team h3,
+  h3,
+  .wpc-blog-h3 h3,
+  .wpc-select-form h3,
+  .wpc-info-block5 h2,
+  .wpc-our-menu h3,
+  .wpc-our-service .wpc-header h3,
+  .wpc-info-block4 h3,
+  .wpc-bakery-3block-header h3 {
+    font-size: 30px; }
+  .wpc-info-block5 h3 {
+    font-size: 25px; }
+  .wpc-info-block h3.fz-110 {
+    font-size: 50px; }
+  .wpc-bakery-3block-slider .swiper-slide-active .wpc-bakery-3block {
+    width: 100%;
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  .wpc-bakery-3block-slider,
+  .wpc-bakery-3block-slider .swiper-wrapper {
+    max-height: none;
+    height: auto; }
+  .wpc-bakery-3block-slider .swiper-slide {
+    padding-top: 0; }
+  .wpc-bakery-footer-item {
+    padding: 0 30px; }
+  .wpc-bakery-footer-item textarea,
+  .wpc-bakery-footer-item input {
+    width: 100%;
+    margin-bottom: 30px; }
+  .wpc-bakery-copyright .soc-net,
+  .wpc-bakery-copyright .logo,
+  .wpc-bakery-footer-item,
+  .wpc-bakery-copyright {
+    text-align: center;
+    float: none;
+    margin: 10px 0; }
+  .menu-item-has-children > a span:before {
+    margin-top: 0; }
+  .wpc-bakery-info2 {
+    padding-top: 50px; }
+  .wpc-bakery-3block-slider .swiper-slide-active .wpc-bakery-3block,
+  .wpc-bakery-3block-slider .swiper-slide .wpc-bakery-3block {
+    margin-top: 0;
+    padding: 160px 0 180px; }
+  .wpc-bakery-3block-slider .swiper-slide-active {
+    padding-left: 0;
+    padding-right: 0; }
+  .wpc-bakery-3block-slider .swiper-slide-active h4,
+  .wpc-bakery-3block-slider .swiper-slide h4 {
+    margin-bottom: 40px; }
+  .wpc-bakery-text {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .wpc-bakery-3block-slider .swiper-slide span {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-info-block h3.fz-110 {
+    font-size: 40px; }
+  .wpc-navigation.active .main-menu {
+    margin-top: 0; }
+  .wpc-navigation.active .main-menu:first-child {
+    margin-top: 40px; }
+  .nav-menu-icon {
+    top: 27px; }
+  .wpc-header-menu .menu-item a {
+    color: #333; }
+  .wpc-header-menu-light.active-mob .wpc-navigation {
+    width: 100%;
+    text-align: left; }
+  .wpc-header-menu .main-menu li {
+    text-align: left;
+    padding-left: 20px; }
+  .main-menu .sub-menu {
+    padding: 5px 0; }
+  .wpc-header-menu .menu-item a {
+    line-height: 40px; }
+  .menu-item-has-children > a span:before {
+    line-height: 40px; }
+  .wpc-header-menu .menu-item a {
+    position: static; }
+  .menu-item-has-children > a span:before {
+    line-height: 40px;
+    height: 40px; }
+  .menu-item-has-children > a span {
+    top: auto;
+    bottom: auto;
+    right: 0; }
+  .menu-item-has-children > a span:before {
+    text-align: center; }
+  .conf-button {
+    top: 50%;
+    margin-top: -40px; }
+  .menu-item-has-children > a span.wpc-arrow {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg); }
+  .main-menu .sub-menu {
+    display: block;
+    position: absolute; }
+  .wpc-header-menu-light .menu-item-has-children > .sub-menu {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in; }
+  .wpc-header-menu-light .menu-item-has-children.active > .sub-menu {
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    z-index: 1; }
+  .wpc-header-menu-light .menu-item-has-children.active > .sub-menu a {
+    color: #fff; }
+  .wpc-header-menu-light.active .main-menu .sub-menu {
+    width: 100%; }
+  .wpc-bakery-copyright {
+    margin-bottom: 0; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 767px) {
+  .wpc-header-menu.active-mob .wpc-navigation {
+    margin-top: 40px; } }
+
+@media only screen and (max-width: 480px) {
+  .wpc-bakery-food-item {
+    padding-left: 15px; }
+  .wpc-bakery-food-item .wpc-bakery-logo {
+    position: static;
+    margin: 30px auto; } }
+
+/* Custom, iPhone Retina */

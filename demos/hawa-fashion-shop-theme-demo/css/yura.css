@@ -1,0 +1,699 @@
+
+/* additional clases  */
+@media (max-width: 767px){
+	.padd-only-xs{
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+}
+
+
+@media (max-width: 480px){
+	.hawa-headings .title-headings .title h1 {
+	    font-size: 40px;
+	    letter-spacing: 4px;
+	}
+}
+
+
+html{
+	overflow-x: hidden;
+}
+
+/* header  */
+.hawa-logo{
+	padding-top: 22px;
+}
+
+
+@media (max-width: 767px){
+	.hawa-logo {
+	    padding-top: 18px;
+	}
+
+	.hawa-logo a{
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 480px){
+	.hawa-logo {
+	    padding-top: 12px;
+	}
+}
+
+
+.hawa-navigation .main-menu > .menu-item {
+    display: inline-block;
+    position: relative;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+/* first submenu */
+.hawa-main-header .hawa-navigation .main-menu > li > .sub-menu{
+    top: 67px;
+    background: rgba(30,30,30, .97)!important;
+    padding: 15px 0;
+}
+
+/* megamenu first submenu */
+.hawa-main-header .hawa-navigation .main-menu > li.mega-menu > .sub-menu{
+    padding: 15px;
+}
+
+/* second submenu */
+.hawa-navigation .main-menu > li > .sub-menu li > .sub-menu{
+    background: rgba(30,30,30, .97);
+    top: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0;
+}
+
+/* megamenu second submenu */
+.hawa-navigation .main-menu > li.mega-menu > .sub-menu li > .sub-menu{
+    background: transparent;
+    top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.hawa-navigation .mega-menu .sub-menu li ul li a{
+    display: block;
+    width: 100%;
+    height: auto;
+    line-height: 1.3;
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 11px 15px;
+    font-size: 13px;
+    text-align: left;
+    text-transform: none;
+    color: #b0b0b0;
+}
+
+
+.hawa-navigation ul li .sub-menu li a {
+    display: block;
+    width: 100%;
+    padding: 11px 15px;
+    font-size: 14px;
+}
+
+/* links hover */
+.hawa-navigation .mega-menu .sub-menu li ul li a:hover, .hawa-navigation .main-menu.white-submenu ul li a:hover{
+    background: rgba(255,255,255, .09);
+    color: #f5f5f5 !important;    
+}
+
+
+.hawa-navigation .main-menu.white-submenu .sub-menu .current-menu-item > a, .hawa-navigation .main-menu.white-submenu .sub-menu .current-menu-ancestor > a, .hawa-navigation .main-menu.white-submenu .sub-menu .current-menu-parent > a {
+    background: rgba(255,255,255, .09);
+    color: #f5f5f5 !important;
+}  
+
+.hawa-navigation .main-menu.white-submenu .sub-menu .current-menu-ancestor > a{
+    color: #8d8d8d!important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+/* arrow hover */
+.hawa-navigation .main-menu li .sub-menu .menu-item-has-children > a:hover:after{
+    color: #fff;
+}
+
+
+/* rectangle */
+.hawa-navigation .main-menu.white-submenu .sub-menu:before, .hawa-navigation ul li .sub-menu:before {
+    border: 9px solid transparent;
+    border-bottom: 11px solid rgba(30,30,30, .97);
+}
+
+@media (max-width: 1199px){
+    .hawa-navigation .main-menu > .menu-item {
+        padding: 25px 7px 25px 7px;
+    }    
+
+    .hawa-search-btn .fa {
+        padding: 0 14px;
+        margin-right: 0!important;
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 992px){
+    /* list items */
+    .hawa-navigation .main-menu > .menu-item {
+        padding: 0 10px 0 10px;
+    }
+
+    .hawa-navigation ul li .sub-menu .menu-item, .hawa-navigation .main-menu .menu-item{
+        padding: 0;
+    }
+
+    /* links */
+    .hawa-navigation .main-menu .menu-item a{
+        display: block;
+        text-align: left;
+        line-height: 38px;
+        border-bottom: 1px solid rgba(255,255,255, .065);
+    }
+
+    .hawa-navigation ul li .sub-menu li a {
+        padding: 0 15px;
+    }
+
+    .hawa-navigation .main-menu .menu-item.active > a{
+        color: #fff!important;
+    }
+
+    /* arrows */
+    .hawa-navigation .main-menu .fa-angle-down{
+        float: right;
+        margin-top: 12px;
+    }
+
+    .hawa-main-header .hawa-navigation .main-menu > li > .sub-menu {
+        background-color: #333!important;
+        top: 0;
+        padding: 0;
+    }
+
+
+
+    .hawa-navigation .main-menu{
+        background: rgba(30,30,30, .97)!important;
+    }
+    
+    /* first submenu */
+    .hawa-navigation ul li .sub-menu li span.fa {
+        top: 0;
+    }
+    
+    /* second submenu */
+    .hawa-navigation .main-menu > li > .sub-menu li > .sub-menu{
+        top: 0;
+        padding-top: 0!important;
+        padding-bottom: 0!important;
+    }
+
+    /* megamenu */
+    .hawa-main-header .hawa-navigation .main-menu > li.mega-menu > .sub-menu{
+        padding: 0;
+        width: 100%;
+    }
+
+    .hawa-navigation li.mega-menu .sub-menu li:last-child > a {
+        padding-bottom: 0;
+    }
+
+    .hawa-navigation .mega-menu .sub-menu li ul li a{
+        line-height: 38px;
+        padding: 0px 15px;
+    }
+    
+    /* megamenu second submenu*/
+    .hawa-navigation .main-menu > li.mega-menu > .sub-menu li > .sub-menu{
+        background: rgba(30,30,30, .97);    
+    }
+
+    .hawa-navigation .main-menu > li > .sub-menu li > .sub-menu{
+            background: rgba(30,30,30, .97)!important;
+    }
+
+    .hawa-main-header.dark .hawa-navigation nav{
+    	background: transparent!important;
+    }
+
+    .hawa-main-header .hawa-navigation{
+		height: 70px;
+	}
+
+	.hawa-main-header.header-animate .hawa-navigation{
+		height: auto;
+	}
+
+	.hawa-main-header.header-animate  {
+		position: fixed;
+		overflow-y: auto;
+		top: 0;
+		height: 100%;
+		width: 100%;
+	}
+
+}
+
+
+@media (max-width: 767px){
+	.hawa-main-header{
+		padding: 0;
+	}	
+	.hawa-navigation{
+        right: 0;
+    }
+
+    .hawa-logo{
+        left: 0;
+    }
+
+    .hawa-navigation, .hawa-main-header .hawa-navigation nav {
+        width: 100%!important;
+    }
+
+    .hawa-navigation .main-menu{
+        padding-top: 73px;
+        padding-bottom: 0;
+    }
+
+
+}
+
+@media (max-width: 480px){
+	.hawa-main-header .hawa-navigation{
+		height: 52px;
+	}
+
+	.hawa-main-header.header-animate .hawa-navigation{
+		height: auto;
+	}
+}
+
+/* footer */
+.footer-widget .mc4wp-response{
+	margin-top: 10px;
+}
+
+.footer-widget .mc4wp-response .mc4wp-error p {
+	color: #FF3D5F;
+}
+
+.footer-widget .mc4wp-response .mc4wp-success p {
+	color: #6A9A62;
+}
+
+/* Blog */
+
+.masonry.has-none-sidebar .col-md-6 {
+	width: 50%;
+}
+
+@media (min-width: 992px){
+	.left-sidebar {
+	    margin-left: 0;
+	}
+}
+
+@media (max-width: 991px){
+	.has-none-sidebar .hawa-post {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+
+@media (max-width: 767px){
+	.masonry.has-none-sidebar .col-md-6 {
+	    width: 100%;
+	}
+}
+
+@media (max-width: 480px){
+	.has-none-sidebar .hawa-post {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.column-blog.has-none-sidebar{
+		margin-left: 0;
+	    margin-right: 0;
+	}
+}
+
+
+/* shop */
+.next.page-numbers:before{
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#category-tilter:after, .woocommerce-ordering:after{
+	pointer-events: none;
+}
+
+/* shop product single*/
+.woocommerce-message a{
+	display: inline-block;
+}
+
+.woocommerce-message a.button.wc-forward{
+	margin: 0;
+	float: none;
+	height: 30px;
+}
+
+@media (max-width: 991px){
+	.product .entry-summary{
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 767px){
+	.single-product .hawa-page-header {
+	    margin-bottom: 60px;
+	}
+
+	.single-product .related-products {
+	    padding-top: 40px;
+	}
+
+	.single-product .main-footer {
+	    margin-top: 40px;
+	}
+
+	.single-product .hawa-shop-tabs .tabs li {
+	    display: block;
+	    margin-bottom: 30px;
+	}
+
+	.single-product .hawa-shop-tabs {
+	    margin-top: 40px;
+	    margin-bottom: 40px;
+	}
+
+	.hawa-shop-content {
+	    margin-top: 50px;
+	}
+
+	.woocommerce-result-count{
+        float: left!important;
+	    display: block;
+	    margin-top: 20px;
+	    margin-bottom: 30px;
+	    width: 100%;	
+	}
+}
+
+@media (max-width: 450px){
+	#category-tilter, .woocommerce-ordering{
+		width: 100%;
+		float: none;
+	    padding-right: 0;
+	    margin-bottom: 10px;
+	}
+  	
+	#category-tilter select, .woocommerce-ordering .orderby{
+		width: 100%;
+		padding-right: 0;
+	}
+
+	#category-tilter:after {
+	    right: 0;
+	}
+}
+
+/* banner */
+@media (max-width: 991px){
+	.hawa-banner .content .titles h5{
+		font-size: 55px!important;
+	}
+}
+
+
+
+@media (max-width: 767px){
+	.hawa-banner .img-simple {
+	    width: auto;
+	    max-height: 550px;
+	}
+}
+
+@media (max-width: 480px){
+	.hawa-banner .content .titles h5{
+		font-size: 40px!important;
+	}
+}
+
+@media (max-width: 450px){
+
+	.hawa-page-header .title-blog-banner {
+	    width: 100%;
+	}
+}
+
+/* 404 */
+.hawa-page-404{
+    height: 100vh;
+    padding: 0 15px;
+}
+
+.hawa-page-404 .hawa-not-found{
+	margin: 0;
+}
+
+@media (max-width: 480px){
+	.hawa-page-404 .hawa-not-found{
+		max-width: initial;
+	    left: 15px;
+	    right: 15px;
+	    width: auto;
+	}
+}
+
+
+/* portfolio */
+.hawa-video-banner.text-center .video-content .video-info-btn {
+    max-width: initial;
+    width: auto;
+}
+
+.single-portfolio .hawa-banner .img-simple {
+    visibility: visible;
+}
+
+/* contact form */
+.hawa-contact-form input[type="text"], .hawa-contact-form input[type="email"] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 11px 0;
+}
+
+.wpcf7-form-control-wrap .wpcf7-not-valid-tip{
+    font: 400 15px 'Josefin Sans', sans-serif;
+    color: #FF3D5F;
+}
+
+.hawa-contact-form div.wpcf7-validation-errors {
+    margin: 1em 0 1em;
+    padding: 0.2em 0;
+    font: 400 15px 'Josefin Sans', sans-serif;
+    color: #FF3D5F;
+    border: none;
+}
+
+
+/* popup search */
+.popup-search{
+	position: fixed;
+}
+
+
+
+.fluid-width-video-wrapper{
+	min-height: 300px;
+}
+
+
+
+/* cart */
+.woocommerce-cart .cart-table-wrapp{
+	overflow-x: auto;
+	margin-bottom: 20px;
+}
+
+.woocommerce-cart .hawa-cart-page .shop_table.shop_table_responsive.cart{
+	min-width: 600px;
+}
+
+.woocommerce-cart .hawa-cart-page .shop_table .product-quantity > div > span{
+	display: none;
+}
+
+.woocommerce-cart .hawa-cart-page .coupon .input-text{
+	width: 100%;
+	max-width: 370px;
+}
+
+#payment_method_paypal + label img{
+	display: block;
+	max-width: 100%;
+}
+
+@media (max-width: 1199px){
+	.woocommerce-cart .hawa-cart-page .coupon .input-text{
+		max-width: 300px;
+	}
+}
+
+
+@media (max-width: 991px){
+	.woocommerce-cart .hawa-cart-page .coupon{
+		margin-bottom: 40px;
+		max-width: 100%;
+	}
+
+	.woocommerce-cart .hawa-cart-page .coupon .input-text{
+		max-width: 500px;
+	}
+
+	
+}
+
+@media (max-width: 767px){
+	.woocommerce-cart .hawa-cart-page .coupon .input-text{
+		max-width: 330px;
+	}
+}
+
+@media (max-width: 480px){
+	.woocommerce-cart .hawa-cart-page .coupon .input-text{
+		max-width: 230px;
+	}
+
+	.woocommerce-cart .hawa-cart-page .cart_totals {
+	    margin-top: 50px;
+	}
+}
+
+@media (max-width: 380px){
+	.woocommerce-cart .hawa-cart-page .coupon .input-text{
+		max-width: 160px;
+	}
+
+	.woocommerce-cart .hawa-cart-page .buttons a{
+		margin-right: 0;
+	    padding: 10px 35px 18px 15px;
+	}
+}
+
+
+/* checkout */
+@media (max-width: 991px){
+	.woocommerce-checkout .checkout_coupons{
+		margin-top: 40px;
+	}
+
+	.woocommerce-checkout .hawa-blt{
+	    padding-bottom: 30px;
+	}
+
+	.woocommerce-checkout .hawa-billing, .woocommerce-checkout #order_review, .woocommerce-checkout #payment {
+	    margin-top: 50px;
+	}
+}
+
+
+@media (max-width: 480px){
+	.woocommerce-checkout .checkout_coupons .input-text{
+		width: 100%;
+		max-width: 150px;
+	}
+
+	.hawa-order-table {
+    	width: calc(100% - 30px);
+	}
+
+	.woocommerce-checkout #shipping_city_field, 
+	.woocommerce-checkout #shipping_first_name_field, 
+	.woocommerce-checkout #billing_city_field, 
+	.woocommerce-checkout #billing_email_field,
+	.woocommerce-checkout #billing_last_name_field, 
+	.woocommerce-checkout #billing_first_name_field {
+	    display: block;
+	    width: 100%;
+	    float: none;
+	}
+
+	.woocommerce-checkout #shipping_state_field, 
+	.woocommerce-checkout #shipping_last_name_field, 
+	.woocommerce-checkout #billing_state_field, 
+	.woocommerce-checkout #billing_phone_field, 
+	.woocommerce-checkout #billing_last_name_field {
+	    display: block;
+	    width: 100%;
+	    padding-left: 0;
+	    float: left;
+	}
+}
+
+/* counters */
+@media (max-width: 767px){
+	.page-template-default .hawa-counter{
+		text-align: center;
+	}
+	.page-template-default .hawa-counter .devider{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+@media (max-width: 991px){
+	.hawa-icon-text {
+	    padding: 35px 0;
+	}
+}
+
+
+
+
+
+/* slider arrows animation */
+.home .hawa-slider .slide-prev:before, .home .hawa-slider .slide-next:before, .home .hawa-slider .slide-prev:after, .home .hawa-slider .slide-next:after{
+    -moz-transition: all .3s cubic-bezier(.175,.885,.4,1.4);
+    -o-transition: all .3s cubic-bezier(.175,.885,.4,1.4);
+    -webkit-transition: all .3s cubic-bezier(.175,.885,.4,1.4);
+    transition: all .3s cubic-bezier(.175,.885,.4,1.4);
+}
+
+
+.home .hawa-slider .slide-prev:hover:after{
+
+	    width: 88px;
+}
+
+.home .hawa-slider .slide-prev:hover:before{
+	left: calc( 50% - 13px );
+}
+
+.hawa-slider .slide-next:hover:after{
+
+	    width: 88px;
+}
+
+.hawa-slider .slide-next:hover:before{
+    left: calc( 50% + 13px );
+
+}
+
+
+/* scroll arrow animation */
+#scroll-top:before, #scroll-top:after{
+	-moz-transition: all .3s cubic-bezier(.175,.885,.4,1.4);
+    -o-transition: all .3s cubic-bezier(.175,.885,.4,1.4);
+    -webkit-transition: all .3s cubic-bezier(.175,.885,.4,1.4);
+    transition: all .3s cubic-bezier(.175,.885,.4,1.4);
+}
+
+#scroll-top:hover:before{
+	top: calc( 50% - 10px);
+}
+
+#scroll-top:hover:after{
+	top: 20px;
+	height: 60px;
+}

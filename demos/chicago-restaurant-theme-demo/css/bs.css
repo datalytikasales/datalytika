@@ -1,0 +1,1300 @@
+
+/*------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*------------------------------------------------------------------------------*/
+/* Template Name: Chicago */
+/* Version: 1.0 Initial Release */
+/* Build Date: 07-29-2016 */
+/* Author: Fox Teams */
+/* Website: foxthemes.com */
+/* Copyright: (C) 2016 */
+/*-------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Text setting
+3. Header
+4. 1 block
+5. 2 block
+6. 3 block
+7. 4 block
+8. 5 block
+10. 6 block
+11. 7 block
+12. Color style
+
+-------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url("../fonts/bebasneue_regular.woff") format("woff2"), url("../fonts/bebasneue_regular.woff") format("woff"), url("../fonts/bebasneue_regular.html");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SodaFountainOutline';
+  src: url("../fonts/sodafountain-outline.woff") format("woff2"), url("../fonts/sodafountain-outline.woff") format("woff"), url("../fonts/SodaFountain-Outline.html");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'SodaFountain';
+  src: url("../fonts/sodafountain.woff") format("woff2"), url("../fonts/sodafountain.woff") format("woff"), url("../fonts/SodaFountain.html");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Light.html");
+  font-weight: 300;
+  font-style: normal; }
+
+*,
+h5,
+h4,
+h6,
+p,
+span,
+a {
+  font-family: 'Montserrat', sans-serif; }
+
+h3 {
+  font-family: 'SodaFountain', serif;
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'BebasNeueRegular', sans-serif;
+  color: #fe502d;
+  font-size: 40px;
+  font-weight: 600; }
+
+h1 {
+  color: white;
+  font-family: 'SodaFountainOutline', serif;
+  font-size: 70px;
+  text-transform: uppercase; }
+
+html.popup {
+  overflow: hidden; }
+
+.wpc-info-block-body h2 {
+  font-size: 56px;
+  font-weight: 600; }
+
+/*--------------------------------------------------------------------------------------*/
+/* HEADER*/
+/*--------------------------------------------------------------------------------------*/
+.wpt-menu-form form{
+  padding-top: 20px;
+}
+.wpc-header-bs {
+  padding: 0 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: #fff;
+  width: 100%; }
+
+.logo {
+  float: left; }
+  .logo a {
+    line-height: 90px; }
+
+.main-menu {
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0; }
+  .main-menu li {
+    padding: 0 45px;
+    margin: 0; }
+    .main-menu li a {
+      line-height: 90px;
+      font-size: 12px;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: #333; }
+      .main-menu li a.active {
+        color: #fe502d; }
+      .main-menu li a:hover {
+        color: #fe502d; }
+
+.wpc-navigation {
+  display: block; }
+
+/*--------------------------------------------------------------------------------------*/
+/* First block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-bs-info-block h1 {
+  padding-top: 15px;
+  letter-spacing: 2px;
+  padding-bottom: 120px;
+  position: relative; }
+  .wpc-bs-info-block h1:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 35px;
+    content: '';
+    display: inline-block;
+    width: 325px;
+    height: 47px;
+    background: transparent url("../img/bs/h-after.png") 0 0 no-repeat; }
+
+.wpc-bs-info-block h2 {
+  letter-spacing: 1px; }
+
+.wpc-bs-info-block p {
+  font-weight: 300;
+  color: #fffefe;
+  font-size: 14px;
+  line-height: 24px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 2 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-about-bs {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: center; }
+  .wpc-about-bs h2 {
+    color: #fe502d;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 68px; }
+  .wpc-about-bs h3 {
+    color: #333;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 100px;
+    position: relative; }
+    .wpc-about-bs h3:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: 15px;
+      content: '';
+      display: inline-block;
+      width: 235px;
+      height: 44px;
+      background: transparent url("../img/bs/h-after2.png") 0 0 no-repeat; }
+  .wpc-about-bs span {
+    color: #666;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    display: inline-block;
+    max-width: 750px;
+    padding-bottom: 40px; }
+  .wpc-about-bs p {
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 1px;
+    color: #888;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    max-width: 800px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 3 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-our-service h2 {
+  color: #fe502d;
+  font-size: 40px;
+  font-weight: 400; }
+
+.wpc-our-service h3 {
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-transform: uppercase; }
+  .wpc-our-service h3:after {
+    width: 230px;
+    height: 22px;
+    background: transparent url("../img/bs/h-after4.png") 0 0 no-repeat; }
+
+.wpc-service-logo:after {
+  display: none; }
+
+.wpc-our-service .wpc-header h3:after {
+  bottom: -5px; }
+
+.swiper-slide .wpc-service-item h3 {
+  padding-top: 0;
+  padding-bottom: 0;
+  top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase; }
+
+.wpc-service-item p {
+  max-width: 255px; }
+
+.wpc-our-service .pagination {
+  bottom: 40px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 4 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-bs-prop {
+  padding-bottom: 185px;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom; }
+  .wpc-bs-prop h2 {
+    color: #fe502d;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 1px; }
+  .wpc-bs-prop h3 {
+    color: #333;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 70px;
+    text-transform: uppercase;
+    position: relative; }
+    .wpc-bs-prop h3:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -45px;
+      content: '';
+      display: inline-block;
+      width: 230px;
+      height: 22px;
+      background: transparent url("../img/bs/h-after4.png") 0 0 no-repeat; }
+
+.wpc-hide-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background: transparent url("../img/bs/hide.png") center no-repeat;
+  background-color: #fe502d;
+  width: 100px;
+  height: 100px;
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in; }
+
+.wpc-bistro-prop-item {
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+  position: relative; }
+  .wpc-bistro-prop-item .wpc-show {
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; }
+  .wpc-bistro-prop-item .wpc-hide {
+    -webkit-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in;
+    background-color: rgba(55, 55, 55, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; }
+  .wpc-bistro-prop-item:hover .wpc-hide {
+    opacity: 1; }
+  .wpc-bistro-prop-item:hover .wpc-hide-item {
+    width: 86px;
+    height: 86px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 5 block*/
+/*--------------------------------------------------------------------------------------*/
+.wpc-bs-menu {
+  padding-bottom: 140px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%; }
+  .wpc-bs-menu .pagination {
+    display: none; }
+  .wpc-bs-menu .swiper-arrow-left,
+  .wpc-bs-menu .slide-prev,
+  .wpc-bs-menu .slide-next,
+  .wpc-bs-menu .swiper-arrow-right {
+    width: 40px;
+    height: 37px;
+    top: auto;
+    bottom: 0;
+    background-color: #fe502d;
+    z-index: 2;
+    left: 50%;
+    margin-left: -50px;
+    -webkit-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in; }
+    .wpc-bs-menu .swiper-arrow-left:after,
+    .wpc-bs-menu .slide-prev:after,
+    .wpc-bs-menu .slide-next:after,
+    .wpc-bs-menu .swiper-arrow-right:after {
+      content: '';
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 9px 6.5px 0 6.5px;
+      border-color: #ffffff transparent transparent transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; }
+  .wpc-bs-menu .slide-prev:hover {
+    opacity: .8; }
+  .wpc-bs-menu .slide-prev:hover {
+    opacity: .8; }
+  .wpc-bs-menu .slide-prev {
+    margin-left: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-color: #d1d1d1; }
+    .wpc-bs-menu .slide-prev:after {
+      border-color: #9b9a9a transparent transparent transparent; }
+  .wpc-bs-menu h2 {
+    color: #fe502d;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 15px;
+    letter-spacing: 1px; }
+  .wpc-bs-menu h3 {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 70px;
+    text-transform: uppercase;
+    position: relative; }
+    .wpc-bs-menu h3:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -55px;
+      content: '';
+      display: inline-block;
+      width: 227px;
+      height: 33px;
+      background: transparent url("../img/bs/h-after3.png") 0 0 no-repeat; }
+  .wpc-bs-menu .tabs {
+    background-color: #fff;
+    height: auto; }
+  .wpc-bs-menu .tabs-header {
+    width: 67%;
+    float: left;
+    position: relative;
+    min-height: 700px; }
+    .wpc-bs-menu .tabs-header ul {
+      margin-bottom: 0; }
+    .wpc-bs-menu .tabs-header li {
+      float: left;
+      width: 33.33%;
+      display: inline-block;
+      border: 1px solid #d1d1d1;
+      border-top: none;
+      height: auto; }
+      .wpc-bs-menu .tabs-header li:first-child, .wpc-bs-menu .tabs-header li:last-child {
+        border: none;
+        border-bottom: 1px solid #d1d1d1; }
+      .wpc-bs-menu .tabs-header li.active {
+        background-color: #3d3d3d; }
+        .wpc-bs-menu .tabs-header li.active a {
+          color: #fff; }
+    .wpc-bs-menu .tabs-header a {
+      color: #3d3d3d;
+      display: inline-block;
+      padding: 25px 0;
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase; }
+    .wpc-bs-menu .tabs-header .wpc-bs-elems-text a {
+      margin-top: 15px;
+      padding: 0 45px;
+      letter-spacing: 1px;
+      color: white;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      background-color: #fe502d;
+      line-height: 53px;
+      -webkit-transition: all 0.35s ease-in;
+      transition: all 0.35s ease-in; }
+      .wpc-bs-menu .tabs-header .wpc-bs-elems-text a:hover {
+        opacity: .8; }
+  .wpc-bs-menu .tabs-content {
+    box-sizing: border-box;
+    height: auto;
+    width: 33%;
+    float: left; }
+    .wpc-bs-menu .tabs-content .tabs-item {
+      height: 100%;
+      padding-bottom: 70px;
+      margin-bottom: 0;
+      border-left: 1px solid #d1d1d1; }
+
+.wpc-menu-item {
+  min-height: 125px;
+  padding-top: 50px;
+  border-bottom: 1px solid #d1d1d1; }
+
+.wpc-menu-item {
+  padding-left: 170px; }
+  .wpc-menu-item span {
+    color: #3d3d3d;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase; }
+  .wpc-menu-item img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    margin: auto; }
+
+.wpc-menu-item {
+  position: relative; }
+
+.wpc-bs-sub-elem {
+  background-repeat: no-repeat;
+  background-position: center 75px; }
+
+.wpc-bs-elems-text {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 75px; }
+  .wpc-bs-elems-text span {
+    display: inline-block;
+    width: 100%;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: 400; }
+  .wpc-bs-elems-text i {
+    color: #fe502d;
+    font-size: 22px;
+    font-weight: 700;
+    display: block; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 6 block */
+/*--------------------------------------------------------------------------------------*/
+.bootstrap-select.btn-group .dropdown-toggle span {
+  color: #7e7e7e;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-weight: 100; }
+
+.wpc-reservation {
+  padding-bottom: 125px;
+  text-align: center;
+  background: transparent url("../img/bs/bg-elem2.jpg") 0 0 repeat;
+  background-size: cover; }
+  .wpc-reservation input::-webkit-input-placeholder,
+  .wpc-reservation textarea::-webkit-input-placeholder,
+  .wpc-reservation input::-moz-placeholder,
+  .wpc-reservation textarea::-moz-placeholder {
+    color: #7e7e7e; }
+  .wpc-reservation input {
+    color: #7e7e7e;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    width: 100%;
+    font-weight: 100; }
+  .wpc-reservation .btn-info:hover,
+  .wpc-reservation .btn-info:focus,
+  .wpc-reservation .btn-info:active,
+  .wpc-reservation .btn-info.active,
+  .wpc-reservation .open > .dropdown-toggle.btn-info,
+  .wpc-reservation input:active,
+  .wpc-reservation button:active,
+  .wpc-reservation input:focus,
+  .wpc-reservation button:focus,
+  .wpc-reservation input:hover,
+  .wpc-reservation button:hover,
+  .wpc-reservation input,
+  .wpc-reservation button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #1f1f1f;
+    min-height: 55px; }
+  .wpc-reservation input {
+    padding-left: 10px; }
+  .wpc-reservation label {
+    display: block;
+    width: 100%;
+    text-align: left; }
+  .wpc-reservation .wpc-persons label {
+    cursor: pointer;
+    display: inline-block;
+    text-align: left;
+    margin-right: 2.5%;
+    min-height: 85px;
+    padding-top: 20px;
+    width: 22%;
+    vertical-align: top;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    position: relative;
+    padding-left: 80px; }
+    .wpc-reservation .wpc-persons label i {
+      -webkit-transition: all 0.35s ease-in;
+      transition: all 0.35s ease-in;
+      display: inline-block;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 15px;
+      position: absolute; }
+    .wpc-reservation .wpc-persons label input {
+      visibility: hidden;
+      position: absolute; }
+    .wpc-reservation .wpc-persons label span {
+      -webkit-transition: all 0.35s ease-in;
+      transition: all 0.35s ease-in;
+      display: block;
+      color: #3d3d3d;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase; }
+  .wpc-reservation .wpc-ico1 {
+    width: 50px;
+    height: 48px;
+    background: transparent url(../img/bs/ico1.png) 0 0 no-repeat; }
+  .wpc-reservation .wpc-ico2 {
+    width: 45px;
+    height: 50px;
+    background: transparent url(../img/bs/ico2.png) 0 0 no-repeat; }
+  .wpc-reservation .wpc-ico3 {
+    width: 43px;
+    height: 47px;
+    background: transparent url(../img/bs/ico3.png) 0 0 no-repeat; }
+  .wpc-reservation .wpc-ico4 {
+    width: 47px;
+    height: 37px;
+    background: transparent url(../img/bs/ico4.png) 0 0 no-repeat; }
+  .wpc-reservation h4 {
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-bottom: 30px; }
+  .wpc-reservation .wpc-label-head {
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-bottom: 10px; }
+  .wpc-reservation h2 {
+    color: #fe502d;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 65px; }
+  .wpc-reservation h3 {
+    color: #333;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative; }
+    .wpc-reservation h3:after {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      bottom: -80px;
+      content: '';
+      display: inline-block;
+      width: 230px;
+      height: 40px;
+      background: transparent url("../img/bs/h-after2.png") 0 0 no-repeat; }
+
+.wpc-reservation .wpc-persons label.active {
+  border: 1px solid #e54116; }
+  .wpc-reservation .wpc-persons label.active span {
+    color: #e54116; }
+  .wpc-reservation .wpc-persons label.active .wpc-ico1 {
+    background: transparent url(../img/bs/ico1a.png) 0 0 no-repeat; }
+  .wpc-reservation .wpc-persons label.active .wpc-ico2 {
+    background: transparent url(../img/bs/ico2a.png) 0 0 no-repeat; }
+  .wpc-reservation .wpc-persons label.active .wpc-ico3 {
+    background: transparent url(../img/bs/ico3a.png) 0 0 no-repeat; }
+  .wpc-reservation .wpc-persons label.active .wpc-ico4 {
+    background: transparent url(../img/bs/ico4a.png) 0 0 no-repeat; }
+
+.wpc-bs-date {
+  margin-top: 70px;
+  text-align: left; }
+  .wpc-bs-date label {
+    display: inline-block;
+    vertical-align: top;
+    width: 26%;
+    margin-right: 3%; }
+    .wpc-bs-date label:last-child {
+      width: 38%;
+      margin-right: 0; }
+    .wpc-bs-date label h4 {
+      margin-bottom: 20px; }
+  .wpc-bs-date .datepicker {
+    background: transparent url("../img/bs/ico5.png") 95% center no-repeat; }
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 100%; }
+
+.wpc-contacts {
+  margin-top: 45px;
+  text-align: left; }
+  .wpc-contacts label {
+    display: inline-block;
+    vertical-align: top;
+    width: 26%;
+    margin-right: 3%; }
+    .wpc-contacts label h4 {
+      margin-bottom: 15px; }
+    .wpc-contacts label:last-child {
+      width: 38%;
+      margin-right: 0; }
+
+.wpc-contacts-submit {
+  margin-top: 55px; }
+  .wpc-contacts-submit span {
+    width: 72%;
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .wpc-contacts-submit button {
+    letter-spacing: 1.3px;
+    background-color: #fe502d;
+    padding: 0 50px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in; }
+    .wpc-contacts-submit button:hover {
+      opacity: .8;
+      background-color: #fe502d;
+      border: none;
+      outline: none; }
+
+.wpc-bg1 {
+  background-color: #fff; }
+
+.wpc-reservation-img {
+  background-repeat: no-repeat; }
+
+.wpc-reservation-form {
+  padding-top: 70px;
+  padding-left: 5px;
+  padding-bottom: 80px; }
+
+.wpc-footer h2 {
+  font-size: 34px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 7  block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-copyright {
+  border-top: 1px solid rgba(255, 255, 255, 0.3); }
+
+/*--------------------------------------------------------------------------------------*/
+/* Color style */
+/*--------------------------------------------------------------------------------------*/
+.wpt-dish-bg h2 {
+  color: #fe502d;
+  font-weight: 400;
+  line-height: 57px; }
+
+.wpt-dish-bg h3 {
+  color: #333;
+  font-weight: 900;
+  line-height: 48px;
+  text-transform: uppercase; }
+  .wpt-dish-bg h3:after {
+    width: 405px;
+    height: 13px;
+    background: transparent url("../img/bs/h-after2.png") 0 0 no-repeat; }
+
+.wpc-dishes .tabs-header li:hover,
+.wpc-dishes .tabs-header li.active:hover,
+.wpc-dishes .tabs-header li,
+.wpc-dishes .tabs-header li.active {
+  border: none; }
+
+.wpt-dish-tabs h4 {
+  color: #fe502d;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 145px;
+  text-transform: uppercase;
+  margin-top: 75px;
+  margin-bottom: 50px; }
+
+.wpc-dishes-info span {
+  color: #888;
+  font-size: 12px;
+  line-height: 26px;
+  font-weight: 300; }
+
+.wpc-dishes-info h6 {
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px; }
+
+.wpc-dishes-info:after {
+  display: none; }
+
+.wpc-dishes-logo {
+  width: auto;
+  height: auto; }
+  .wpc-dishes-logo a {
+    width: auto;
+    height: auto; }
+
+.wpc-header {
+  text-align: center; }
+
+.wpt-dish-bg h3,
+.wpc-dishes .tabs-header li a {
+  color: #fff; }
+
+.wpc-food-menu2-bg1 {
+  background: none; }
+
+.wpc-story-text {
+  text-align: center; }
+
+.wpc-food-menu2-about h3,
+.wpc-food-menu2-about h2,
+.wpc-food-menu2-about {
+  text-align: left; }
+
+.wpt-bistro-dish {
+  background-size: cover;
+  background-position: center bottom;
+  border-bottom: 1px solid #ebebeb; }
+  .wpt-bistro-dish:after {
+    display: none; }
+
+.wpc-dishes .tabs-header li a {
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent; }
+
+.wpc-dishes .tabs-header li.active a {
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fe502d;
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #fe502d; }
+
+.wpc-dishes .tabs-header a {
+  color: #333;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.wpt-dish-itemH .wpc-dishes-price span {
+  color: #333;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px; }
+
+.wpc-dishes .tabs-header li {
+  padding: 0 65px; }
+
+.wpc-dishes .tabs-header a {
+  letter-spacing: 1.3px; }
+
+.wpt-dish-itemH .wpc-dishes-info {
+  padding-left: 60px; }
+
+.wpt-dish-itemH .wpc-dishes-price {
+  text-align: right; }
+
+.wpc-tabs-body h6 {
+  padding-top: 10px;
+  padding-bottom: 0; }
+
+.wpc-dishes-info span {
+  max-width: 770px;
+  display: inline-block; }
+
+.wpt-dish-item {
+  margin-bottom: 55px; }
+
+.wpt-dish-item:nth-child(2n) {
+  padding-left: 0; }
+
+.wpt-dish-itemH .wpc-dishes-price {
+  padding: 0;
+  padding-right: 10px;
+  height: 100%;
+  margin-top: 5px; }
+  .wpt-dish-itemH .wpc-dishes-price span {
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 25px; }
+
+.main-menu li a {
+  font-weight: 600; }
+
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+.wpc-testi-body h5,
+.wpc-hour span i,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu .tabs-header li.active a,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu-body span,
+.wpc-blog-h3-item-body .wpc-blog-h3-by h4,
+.wpc-blog-h3-item-body .wpc-blog-h3-info span:before,
+.wpc-blog-h3-item-body h3,
+.wpc-our-wrap .wpc-service-item span,
+.wpc-our-wrap .wpc-service-item .wpc-our-wrap-mail,
+.wpc-select-form-item .bootstrap-select.btn-group .dropdown-toggle .caret,
+.wpc-select-form-item1 .caret,
+.wpc-service-item span i,
+.wpc-hour span i,
+.wpc-testi-body h5,
+.wpc-blog-post .wpc-blog-post-info span:before,
+.wpc-b-posts-info span:before,
+.wpc-mains span,
+.wpc-blog-post-aside form button:before,
+.wpc-dishes .tabs-header li:hover a,
+.wpc-comments h4,
+.wpt-dish-ib-price span .wpc-add-com h4,
+.wpc-comments-text span:before,
+.wpc-dishes-price span,
+.wpc-dishes .tabs-header li.active a,
+.wpc-proposes-text span i,
+.wpc-footer h2,
+.wpc-work-time i,
+.wpt-dish-bg h2,
+.wpt-dish-tabs h4,
+.wpc-twitter a,
+.wpt-dish-ib-price span,
+.wpc-dishes .tabs-header li.active a,
+.wpc-copyright a,
+.wpc-add-com h4,
+.wpc-select-form .icon-left:before {
+  color: #fe502d; }
+
+.wpc-food-menu2-bg2,
+.wpc-comments h4,
+.wpc-add-com h4,
+.wpc-add-com input,
+.wpc-add-com textarea,
+.wpc-blog-post-aside form input,
+.wpc-dishes .tabs-header li:hover,
+.wpc-dishes .tabs-header li.active {
+  border-color: #fe502d; }
+
+.wpc-proposes-t-bg:hover:after,
+.wpc-service-logo,
+.wpc-tabs-more,
+.wpc-team-item h3:after,
+.wpc-info-block6:after,
+.wpc-comments-text a,
+.wpc-info-block4 a,
+.wpc-add-com button,
+.wpc-contact-form button,
+.wpc-food-menu2-about a,
+.wpc-food-menu2-bg2 .wpc-food-menu2-chef a,
+.pagination .swiper-active-switch,
+.wpc-select-form-item .wpc-find-but,
+.wpc-testi .swiper-container .swiper-active-switch {
+  background-color: #fe502d; }
+
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle:focus,
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle,
+.wpc-select-form-item1 input {
+  border-bottom: 1px solid #fe502d; }
+
+.wpc-service-logo:after,
+.wpc-our-menu .tabs-header li:hover,
+.wpc-our-menu .tabs-header li.active,
+.wpc-blog-h3-item {
+  border: 2px solid #fe502d; }
+
+.pagination .swiper-active-switch:after {
+  border: 1px solid #fe502d; }
+
+.wpc-info-block h3:after {
+  width: 540px;
+  height: 16px;
+  background: transparent url("../img/bistro/h-after.png") 0 0 no-repeat; }
+
+.wpc-mains.wpc-header h3:after,
+.wpc-dishes h3:after,
+.wpt-map h3:after,
+.wpc-team h3:after,
+.wpc-our-menu h3:after,
+.wpc-info-block2 h3:after,
+.wpc-proposes.wpc-header h3:after,
+.wpc-info-block2 h3:after,
+.wpc-testi h3:after,
+.wpc-select-form h3:after,
+.wpc-our-service .wpc-header h3:after,
+.wpc-product-text .wpc-header h3:after,
+.wpc-blog-h3 h3:after {
+  width: 227px;
+  height: 33px;
+  background: transparent url("../img/bs/h-after3.png") 0 0 no-repeat; }
+
+.wpc-blog-h3-item-body h5:after {
+  width: 227px;
+  height: 33px;
+  background: transparent url("../img/bs/h-after3.png") 0 0 no-repeat; }
+
+.wpc-product-logo1 {
+  background: url("../img/bs/product-logo1.png") 0 0px no-repeat; }
+
+.wpc-product-logo2 {
+  background: url("../img/bs/product-logo2.png") 0 0px no-repeat; }
+
+.wpc-product-logo3 {
+  background: url("../img/bs/product-logo3.png") 0 0px no-repeat; }
+
+.wpc-product-logo4 {
+  background: url("../img/bs/product-logo4.png") 0 0px no-repeat; }
+
+.wpc-header-menu .menu-item a:after,
+.wpc-header-menu .menu-item a:before {
+  display: none; }
+
+.wpc-header-menu .menu-item a:hover {
+  color: #f0ae11; }
+
+.wpc-info-block h3:after {
+  width: 325px;
+  height: 47px;
+  background: transparent url("../img/bs/h-after.png") 0 0 no-repeat;
+  bottom: 0; }
+
+.wpc-info-block2 h3,
+.wpc-team h3,
+.wpc-mains.wpc-header h3,
+.wpc-product-text .wpc-header h3,
+.wpc-blog-h3 h3 {
+  color: #333; }
+
+.wpc-info-block5 h2 {
+  font-size: 35px; }
+
+.wpc-info-block5 h3 {
+  font-size: 28px; }
+
+.wpc-team-item h3:after {
+  bottom: -40px; }
+
+.wpc-navigation .logo a,
+.wpc-navigation .logo,
+.wpc-footer .logo {
+  height: 55px;
+  color: #fe502d;
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.wpt-menu-form {
+  top: 10px; }
+
+.wpt-menu-form {
+  right: 0; }
+
+.wpt-menu-form form {
+  position: relative; }
+  .wpt-menu-form form input {
+    cursor: pointer; }
+  .wpt-menu-form form:hover i {
+    opacity: 0; }
+  .wpt-menu-form form i {
+    position: absolute;
+    right: 90px;
+    top: 5px; }
+
+.wpc-our-service h3 {
+  font-size: 20px; }
+
+.wpc-our-wrap .wpc-service-item h3 {
+  margin-top: 20px;
+  margin-bottom: 0; }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1800px) {
+  .wpc-about-bs {
+    background-size: cover; } }
+
+@media only screen and (max-width: 1199px) {
+  .wpc-reservation-img {
+    display: none; }
+  .wpc-reservation .wpc-persons label:last-child {
+    margin-right: 0; }
+  .wpc-reservation-form {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-reservation h3:after {
+    bottom: -45px; }
+  .main-menu li {
+    padding: 0 20px; }
+  .wpc-header-bs {
+    padding: 0 90px 0 15px; }
+  .wpc-dishes-info {
+    max-width: 100%; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+  .wpc-bs-img-info {
+    display: none; } }
+
+@media only screen and (max-width: 992px) {
+  .wpc-bs-prop {
+    padding-bottom: 50px; }
+  .wpc-menu-item img {
+    left: 0; }
+  .wpc-menu-item {
+    padding-left: 105px; }
+  .wpc-bs-prop h3 {
+    padding-bottom: 50px; }
+  .wpc-bistro-prop-item .wpc-show {
+    background-size: cover; }
+  .wpc-bs-prop h3:after {
+    bottom: 0; }
+  .wpc-dishes-logo a {
+    float: right; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .wpc-story-text {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-navigation .logo a {
+    line-height: 55px; }
+  .nav-menu-icon {
+    top: 18px; }
+  .wpc-our-service h3 {
+    padding-bottom: 0; }
+  .wpc-service-item {
+    margin-top: 100px; }
+  .wpc-navigation.active {
+    position: fixed;
+    overflow: auto;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; }
+  .wpc-about-bs {
+    background-image: none !important; }
+  .wpc-bs-menu .tabs-header {
+    width: 100%; }
+  .wpc-bs-menu .tabs-content {
+    width: 100%; }
+  .wpc-about-bs h2,
+  .wpc-bs-menu h2,
+  .wpc-info-block-body h2,
+  .wpc-reservation h2,
+  .wpc-bs-prop h2,
+  .wpc-our-service h2,
+  h2 {
+    font-size: 30px; }
+  h1 {
+    font-size: 40px; }
+  .wpc-info-block4 h3,
+  .wpc-select-form h3,
+  .wpc-our-menu h3,
+  .wpc-info-block6 .wpc-header h3,
+  .wpc-info-block h3,
+  .wpc-reservation h3,
+  .wpc-bs-menu h3,
+  h3,
+  .wpc-bs-prop h3,
+  .wpc-our-service h3,
+  .wpc-about-bs h3 {
+    font-size: 35px; }
+  .wpc-reservation h3:after,
+  .wpc-bs-menu h3:after,
+  .wpc-our-service .wpc-header h3:after,
+  .wpc-bs-prop h3:after,
+  .wpc-our-service h3:after,
+  .wpc-bs-info-block h1:after,
+  .wpc-info-block h3:after,
+  .wpc-food-menu2-about h3:after,
+  .wpc-blog-h3-item-body h5:after,
+  .wpc-mains.wpc-header h3:after,
+  .wpc-blog-h3 h3:after,
+  .wpc-about-bs h3:after,
+  .wpc-team h3:after,
+  .wpc-info-block2 h3:after,
+  .wpc-bs-menu h3:after {
+    display: none; }
+  .wpc-bs-prop h3 {
+    padding-bottom: 0; }
+  .wpc-bs-info-block h1,
+  .wpc-about-bs h3 {
+    padding-bottom: 50px; }
+  .wpc-reservation .wpc-persons label {
+    width: 45%;
+    margin: 5px; }
+    .wpc-reservation .wpc-persons label:last-child {
+      margin: 5px; }
+  .wpc-reservation h4 {
+    text-align: center; }
+  .wpc-contacts label,
+  .wpc-bs-date label {
+    width: 45%;
+    margin: 5px; }
+  .wpc-contacts label:last-child,
+  .wpc-bs-date label:last-child {
+    width: 100%;
+    margin: 15px 5px; }
+  .wpc-contacts,
+  .wpc-form-footer,
+  .wpc-reservation label,
+  .wpc-bs-date {
+    text-align: center; }
+  .wpc-contacts-submit h4 {
+    width: 100%; }
+  .wpc-contacts-submit button {
+    display: block;
+    width: 100%; }
+  .wpc-bistro-text {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-info-block-body {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .logo {
+    padding-left: 15px; }
+  .main-menu li {
+    text-align: center; }
+  .wpc-info-block4 h3,
+  .wpc-select-form h3,
+  .wpc-our-menu h3,
+  .wpc-info-block6 .wpc-header h3,
+  .wpc-info-block5 h2 {
+    font-size: 38px; }
+  .wpc-dishes-logo {
+    text-align: center; }
+    .wpc-dishes-logo a {
+      float: none; }
+  .wpc-dishes-info {
+    padding-left: 0;
+    padding-right: 30px; }
+  .wpt-dish-tabs h4 {
+    text-align: center;
+    padding-left: 0; }
+  .wpc-bistro-propose span {
+    padding: 30px 0 30px; }
+  .wpt-dish-item,
+  .wpt-dish-item:nth-child(2n),
+  .wpt-dish-itemH .wpc-dishes-info {
+    padding-left: 15px; }
+  .wpc-story-text {
+    text-align: center; }
+  .wpc-food-menu2-about h3,
+  .wpc-food-menu2-about h2,
+  .wpc-food-menu2-about {
+    text-align: center; }
+  .wpc-swiper h3,
+  .wpc-about-form h3,
+  .wpc-our-service .wpc-header h3,
+  .wpc-proposes .wpc-header h3,
+  .wpc-our-menu h3,
+  .wpc-info-block h3,
+  .wpc-info-block2 h3,
+  .wpc-dishes h3,
+  .wpc-about-title h3,
+  .wpc-select-form h3,
+  .wpc-info-b3 .wpc-header h3,
+  .wpc-info-block4 h3,
+  .wpc-info-block5 h2,
+  .wpc-mains.wpc-header h3,
+  .wpc-blog-post h3,
+  .wpc-info-block6 .wpc-info-price span,
+  .wpc-info-block6 .wpc-header h3,
+  h3 {
+    line-height: 1.2; }
+  .main-menu li {
+    text-align: left; }
+    .main-menu li a {
+      position: static;
+      line-height: 40px; }
+  .main-menu li li a,
+  .main-menu .current-menu-parent a,
+  .main-menu .current-menu-item a {
+    color: #fff; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .wpc-reservation .wpc-persons label i {
+    display: none; }
+  .wpc-reservation .wpc-persons label {
+    min-height: auto;
+    padding: 20px; }
+  .wpc-reservation .wpc-persons label span {
+    display: inline-block; }
+  .wpc-reservation .wpc-persons label,
+  .wpc-contacts label,
+  .wpc-bs-date label,
+  .wpc-contacts label:last-child,
+  .wpc-bs-date label:last-child,
+  .wpc-reservation .wpc-persons label:last-child {
+    margin: 5px 0;
+    width: 100%; }
+  .wpt-dish-itemH .wpc-dishes-price span {
+    font-size: 20px; } }
+
+/* Custom, iPhone Retina */

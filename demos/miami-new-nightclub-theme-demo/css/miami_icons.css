@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot');
+  src:  url('../fonts/icomoon.eot#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 30px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-balloons:before {
+  content: "\e900";
+}
+.icon-beer:before {
+  content: "\e901";
+}
+.icon-birthday-cake:before {
+  content: "\e902";
+}
+.icon-birthday-cake-1:before {
+  content: "\e903";
+}
+.icon-birthday-cake-2:before {
+  content: "\e904";
+}
+.icon-birthday-card:before {
+  content: "\e905";
+}
+.icon-bottle:before {
+  content: "\e906";
+}
+.icon-burger:before {
+  content: "\e907";
+}
+.icon-calendar:before {
+  content: "\e908";
+}
+.icon-candle:before {
+  content: "\e909";
+}
+.icon-candy:before {
+  content: "\e90a";
+}
+.icon-clown:before {
+  content: "\e90b";
+}
+.icon-crown:before {
+  content: "\e90c";
+}
+.icon-cupcake:before {
+  content: "\e90d";
+}
+.icon-cupcake-1:before {
+  content: "\e90e";
+}
+.icon-drink:before {
+  content: "\e90f";
+}
+.icon-flower:before {
+  content: "\e910";
+}
+.icon-frappe:before {
+  content: "\e911";
+}
+.icon-garlands:before {
+  content: "\e912";
+}
+.icon-gift:before {
+  content: "\e913";
+}
+.icon-gift-1:before {
+  content: "\e914";
+}
+.icon-gift-2:before {
+  content: "\e915";
+}
+.icon-gift-3:before {
+  content: "\e916";
+}
+.icon-gift-4:before {
+  content: "\e917";
+}
+.icon-gift-6:before {
+  content: "\e918";
+}
+.icon-gift-7:before {
+  content: "\e919";
+}
+.icon-gift-8:before {
+  content: "\e91a";
+}
+.icon-gift-9:before {
+  content: "\e91b";
+}
+.icon-gift-10:before {
+  content: "\e91c";
+}
+.icon-gift-11:before {
+  content: "\e91d";
+}
+.icon-hat:before {
+  content: "\e91e";
+}
+.icon-ice-cream:before {
+  content: "\e91f";
+}
+.icon-ice-cream-1:before {
+  content: "\e920";
+}
+.icon-ice-cream-2:before {
+  content: "\e921";
+}
+.icon-ice-cream-3:before {
+  content: "\e922";
+}
+.icon-letter:before {
+  content: "\e923";
+}
+.icon-magician:before {
+  content: "\e924";
+}
+.icon-magician-1:before {
+  content: "\e925";
+}
+.icon-martini:before {
+  content: "\e926";
+}
+.icon-mask:before {
+  content: "\e927";
+}
+.icon-microphone:before {
+  content: "\e928";
+}
+.icon-moustache:before {
+  content: "\e929";
+}
+.icon-photo-camera:before {
+  content: "\e92a";
+}
+.icon-picture:before {
+  content: "\e92b";
+}
+.icon-pizza:before {
+  content: "\e92c";
+}
+.icon-sandwich:before {
+  content: "\e92d";
+}
+.icon-soda:before {
+  content: "\e92e";
+}
+.icon-speakers:before {
+  content: "\e92f";
+}
+.icon-tag:before {
+  content: "\e930";
+}
+.icon-whistle:before {
+  content: "\e931";
+}
+

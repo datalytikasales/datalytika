@@ -1,0 +1,938 @@
+/*------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*------------------------------------------------------------------------------*/
+/* Template Name: Chicago */
+/* Version: 1.0 Initial Release */
+/* Build Date: 07-29-2016 */
+/* Author: Fox Teams */
+/* Website: foxthemes.com */
+/* Copyright: (C) 2016 */
+/*-------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Text setting
+3. Header
+4. 1 block
+5. 2 block
+6. 3 block
+7. 4 block
+8. 5 block
+9. 6 block
+9. Foooter
+
+
+
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@font-face {
+  font-family: 'Ailerons';
+  src: url("../fonts/ailerons-webfont.woff") format("woff2"), url("../fonts/ailerons-webfont.ttf") format("ttf"), url("../fonts/ailerons-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+*,
+h5,
+h4,
+h6,
+p,
+span,
+a {
+  font-family: 'Roboto', serif; }
+
+h3 {
+  font-family: 'Ailerons', serif;
+  color: #222;
+  font-size: 86px;
+  font-weight: 400; }
+
+h2 {
+  color: #e81638;
+  font-size: 60px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400; }
+
+/*--------------------------------------------------------------------------------------*/
+/* Header */
+/*--------------------------------------------------------------------------------------*/
+.wpc-header-sushi {
+  background-color: transparent;
+  padding-top: 50px; }
+
+.wpc-header-sushi .menu-item a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #fff; }
+
+.wpc-header-sushi .wpc-navigation {
+  padding-top: 15px; }
+
+.wpc-header-sushi .menu-item a {
+  letter-spacing: 2.1px; }
+
+.wpc-header-sushi .menu-item a:after {
+  top: -30px; }
+
+.wpc-header-sushi .menu-item a:before {
+  bottom: -30px; }
+
+.wpc-header-sushi .menu-item a:before, .wpc-header-sushi .menu-item a:after {
+  left: 30px;
+  right: auto;
+  margin: auto;
+  width: 20px;
+  height: 1px;
+  opacity: 0;
+  background-color: #fff;
+  content: '';
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; }
+
+.wpc-header-sushi .menu-item a:hover:before, .wpc-header-sushi .menu-item a:hover:after {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  left: 0;
+  right: auto; }
+
+.wpc-header-sushi .menu-item a.active {
+  color: #fff; }
+  .wpc-header-sushi .menu-item a.active:after {
+    top: -30px; }
+  .wpc-header-sushi .menu-item a.active:before {
+    bottom: -30px; }
+  .wpc-header-sushi .menu-item a.active:after, .wpc-header-sushi .menu-item a.active:before {
+    left: 0;
+    right: auto;
+    opacity: 1; }
+
+.wpc-header-sushi .menu-item a:hover:before {
+  left: 0; }
+
+.wpc-header-sushi .menu-item a:hover {
+  color: #fff; }
+
+.wpc-header-sushi .main-menu .sub-menu {
+  top: 100%;
+  background-color: #000; }
+
+.active-sushi {
+  background-color: #000;
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+  padding-top: 0; }
+  .active-sushi .logo {
+    -webkit-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in;
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    display: none; }
+  .active-sushi .wpc-navigation {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 1 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-sushi-info h2 {
+  font-size: 50px;
+  line-height: 1; }
+
+.wpc-sushi-info h1 {
+  font-family: 'Ailerons', serif;
+  position: relative;
+  padding-bottom: 85px;
+  font-weight: 400;
+  color: white;
+  font-size: 100px;
+  line-height: 1;
+  padding-top: 0;
+  letter-spacing: 20px;
+  padding-top: 5px;
+  text-transform: uppercase; }
+  .wpc-sushi-info h1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 25px;
+    width: 440px;
+    height: 36px;
+    background: transparent url("../img/sushi/h-after.png") 0 0 no-repeat; }
+
+.wpc-sushi-info p {
+  color: #fffefe;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .5px; }
+
+.wpc-sushi-disc {
+  background-size: cover;
+  background-position: bottom;
+  background-color: #fff; }
+
+.wpc-sushi-text h3 {
+  padding-top: 20px;
+  padding-bottom: 80px; }
+
+.wpc-sushi-text span {
+  font-weight: 600;
+  font-size: 12px;
+  color: #222; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 2  block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-sushi-text .wpc-header {
+  padding-left: 0; }
+
+.wpc-sushi-text h2 {
+  line-height: 50px; }
+
+.wpc-sushi-text h3 {
+  color: #222;
+  font-size: 86px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 15px;
+  word-spacing: 20px;
+  position: relative;
+  text-transform: uppercase; }
+  .wpc-sushi-text h3:after {
+    position: absolute;
+    content: '';
+    bottom: 15px;
+    width: 305px;
+    height: 25px;
+    background: transparent url("../img/sushi/h-after2.png") 0 0 no-repeat; }
+
+.wpc-sushi-text span {
+  opacity: 0.83;
+  line-height: 30px;
+  padding-bottom: 25px;
+  display: inline-block;
+  max-width: 465px; }
+
+.wpc-sushi-text p {
+  display: inline-block;
+  width: 100%;
+  max-width: 465px;
+  opacity: 0.83;
+  color: #888;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 30px; }
+
+.wpc-sushi-text a {
+  margin-top: 45px;
+  display: inline-block;
+  background-color: #e81638;
+  color: #fffefe;
+  padding: 0 40px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: .6px;
+  word-spacing: 0;
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in; }
+  .wpc-sushi-text a:hover {
+    opacity: .8; }
+
+.wpc-sushi-img {
+  text-align: center;
+  position: relative;
+  z-index: 2; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 3  block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-sushi-our-service .wpc-service-item {
+  position: relative;
+  z-index: 3; }
+
+.wpc-sushi-our-service img {
+  width: 100%; }
+
+.wpc-service-logo1 {
+  background-image: url("../img/sushi/ico1.png"); }
+
+.wpc-service-logo2 {
+  background-image: url("../img/sushi/ico2.png"); }
+
+.wpc-service-logo3 {
+  background-image: url("../img/sushi/ico3.png"); }
+
+.wpc-sushi-our-service img {
+  max-width: 100%; }
+
+.wpc-sushi-our-service .wpc-header h2 {
+  line-height: 59px;
+  padding: 0; }
+
+.wpc-sushi-our-service .wpc-header h3 {
+  color: white;
+  line-height: 1;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 15px;
+  word-spacing: 25px;
+  padding-bottom: 50px; }
+  .wpc-sushi-our-service .wpc-header h3:after {
+    content: '';
+    bottom: 0;
+    width: 305px;
+    height: 25px;
+    background: transparent url("../img/sushi/h-after3.png") 0 0 no-repeat; }
+
+.wpc-sushi-our-service .wpc-service-logo {
+  width: 113px;
+  height: 113px;
+  background-color: #e81638;
+  margin-top: -65px; }
+  .wpc-sushi-our-service .wpc-service-logo:after {
+    display: none; }
+
+.wpc-sushi-our-service .wpc-service-item {
+  border: none;
+  background-color: #fff;
+  padding-bottom: 65px; }
+  .wpc-sushi-our-service .wpc-service-item h3 {
+    margin-top: 30px;
+    color: #242424;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase; }
+  .wpc-sushi-our-service .wpc-service-item p {
+    opacity: 0.6;
+    color: #878787;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px; }
+  .wpc-sushi-our-service .wpc-service-item span {
+    font-size: 12px;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #242424;
+    font-weight: 900; }
+    .wpc-sushi-our-service .wpc-service-item span i {
+      color: #e81638;
+      font-weight: 700; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 4  block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-sushi-prop {
+  text-align: center; }
+  .wpc-sushi-prop h2 {
+    line-height: 59px; }
+  .wpc-sushi-prop h3 {
+    letter-spacing: 15px;
+    word-spacing: 13px;
+    line-height: 1.1; }
+    .wpc-sushi-prop h3:after {
+      display: none; }
+
+.wpc-sushi-prop-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 10px; }
+  .wpc-sushi-prop-item .wpc-hide {
+    -webkit-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in;
+    opacity: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 25px;
+    left: 30px;
+    right: 30px;
+    bottom: 25px;
+    padding: 35px 40px; }
+    .wpc-sushi-prop-item .wpc-hide h5 {
+      -webkit-transform: translateX(-50px);
+      transform: translateX(-50px);
+      -webkit-transition: all 0.35s ease-in;
+      transition: all 0.35s ease-in;
+      color: white;
+      word-spacing: 3px;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: .3px; }
+    .wpc-sushi-prop-item .wpc-hide h4 {
+      -webkit-transform: translateX(50px);
+      transform: translateX(50px);
+      -webkit-transition: all 0.35s ease-in;
+      transition: all 0.35s ease-in;
+      margin: 25px 0;
+      color: white;
+      font-size: 45px;
+      font-weight: 400;
+      text-transform: uppercase; }
+    .wpc-sushi-prop-item .wpc-hide a {
+      color: #fffefe;
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 35px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border: 2px solid #e81638;
+      display: inline-block;
+      padding: 0 25px;
+      word-spacing: 3px;
+      -webkit-transition: all 0.35s ease-in;
+      transition: all 0.35s ease-in; }
+      .wpc-sushi-prop-item .wpc-hide a:hover {
+        color: #e81638; }
+  .wpc-sushi-prop-item:hover h4 {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  .wpc-sushi-prop-item:hover h5 {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  .wpc-sushi-prop-item:hover .wpc-hide {
+    opacity: 1; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 5  block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-sushi-dish {
+  padding-bottom: 95px;
+  position: relative; }
+  .wpc-sushi-dish:after {
+    display: inline-block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8); }
+  .wpc-sushi-dish .wpc-header {
+    text-align: center; }
+  .wpc-sushi-dish h2 {
+    color: #e81638;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 59px; }
+  .wpc-sushi-dish h3 {
+    color: white;
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    word-spacing: 25px; }
+
+.wpc-sushi-price {
+  z-index: 3;
+  position: relative;
+  padding: 60px 40px 30px;
+  background-color: #fff; }
+  .wpc-sushi-price h4 {
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    letter-spacing: 8px;
+    text-transform: uppercase; }
+  .wpc-sushi-price span {
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .8px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2; }
+  .wpc-sushi-price i {
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    float: right;
+    position: relative;
+    z-index: 2;
+    background-color: #fff; }
+  .wpc-sushi-price li {
+    overflow: hidden;
+    position: relative;
+    padding-left: 67px;
+    line-height: 59px; }
+    .wpc-sushi-price li:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+      height: 1px;
+      border: 1px dotted #222;
+      position: absolute;
+      left: 70px;
+      bottom: 24px; }
+    .wpc-sushi-price li img {
+      background-color: #fff;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      position: absolute;
+      z-index: 2; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 6  block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-sushi-text2 h2 {
+  color: #e81638;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 59px; }
+
+.wpc-sushi-text2 h3 {
+  color: #222;
+  font-size: 86px;
+  font-weight: 400;
+  line-height: 75px;
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 80px; }
+  .wpc-sushi-text2 h3::after {
+    bottom: 10px; }
+
+.wpc-sushi-text2 span {
+  display: inline-block;
+  padding-bottom: 5px;
+  max-width: 380px;
+  opacity: 0.83;
+  color: #222;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 30px; }
+
+.wpc-sushi-text2 p {
+  opacity: 0.83;
+  color: #888;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 30px;
+  display: inline-block; }
+
+/*--------------------------------------------------------------------------------------*/
+/* FOOTER  */
+/*--------------------------------------------------------------------------------------*/
+.wpc-footer h2 {
+  color: #e81638;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-family: 'Ailerons', serif;
+  letter-spacing: 5px;
+  padding-bottom: 25px; }
+
+.wpc-footer h5 {
+  color: #e81638;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-transform: uppercase; }
+
+.wpc-footer p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: .3px;
+  display: inline-block;
+  padding-bottom: 15px; }
+
+.wpc-footer span {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.wpc-work-time span {
+  background: none; }
+
+.wpc-copyright {
+  background-color: #3d3d3d;
+  padding: 30px 0; }
+  .wpc-copyright span {
+    color: white;
+    letter-spacing: 3.5px;
+    position: static;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Ailerons', serif; }
+    .wpc-copyright span i {
+      position: static;
+      font-family: serif;
+      float: none; }
+
+.wpc-footer-item-info span {
+  padding-left: 45px;
+  padding-bottom: 5px;
+  line-height: 25px;
+  padding-bottom: 25px; }
+  .wpc-footer-item-info span i {
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    padding-right: 20px;
+    color: #fff; }
+
+.wpc-work-time li:after {
+  display: none; }
+
+.wpc-footer-item-time {
+  padding-left: 75px; }
+
+.wpc-footer i {
+  line-height: 100%;
+  float: left;
+  color: #fff;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  padding-right: 5px;
+  line-height: 18px; }
+
+h5.wpc-sushi-after:after,
+h3.wpc-sushi-after:after,
+.wpc-proposes.wpc-header h3.wpc-sushi-after:after {
+  content: '';
+  display: inline-block;
+  width: 305px !important;
+  height: 25px !important;
+  z-index: 2;
+  background: transparent url("../img/sushi/h-after2.png") 0 0 no-repeat !important; }
+
+h3.wpc-sushi-after2:after,
+.wpc-proposes.wpc-header h3.wpc-sushi-after2:after {
+  content: '';
+  display: inline-block;
+  width: 305px !important;
+  height: 25px !important;
+  z-index: 2;
+  background: transparent url("../img/sushi/h-after3.png") 0 0 no-repeat !important; }
+
+/*==========  Desktop First Method  ==========*/
+.wpc-proposes-text span i {
+  color: #fff; }
+
+.wpt-dish-ib-price span {
+  color: #222; }
+
+.wpc-testi-body h5,
+.wpc-hour span i,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu .tabs-header li.active a,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu-body span,
+.wpc-blog-h3-item-body .wpc-blog-h3-by h4,
+.wpc-blog-h3-item-body .wpc-blog-h3-info span:before,
+.wpc-blog-h3-item-body h3,
+.wpc-our-wrap .wpc-service-item span,
+.wpc-our-wrap .wpc-service-item .wpc-our-wrap-mail,
+.wpc-select-form-item .bootstrap-select.btn-group .dropdown-toggle .caret,
+.wpc-select-form-item1 .caret,
+.wpc-service-item span i,
+.wpc-hour span i,
+.wpc-testi-body h5,
+.wpc-blog-post .wpc-blog-post-info span:before,
+.wpc-b-posts-info span:before,
+.wpc-mains span,
+.wpc-blog-post-aside form button:before,
+.wpc-dishes .tabs-header li:hover a,
+.wpc-comments h4,
+.wpc-add-com h4,
+.wpc-comments-text span:before,
+.wpc-dishes-price span,
+.wpc-dishes .tabs-header li.active a,
+.wpc-select-form .icon-left:before {
+  color: #e81638; }
+
+.wpc-food-menu2-bg2,
+.wpc-comments h4,
+.wpc-add-com h4,
+.wpc-add-com input,
+.wpc-add-com textarea,
+.wpc-blog-post-aside form input,
+.wpc-dishes .tabs-header li:hover,
+.wpc-dishes .tabs-header li.active {
+  border-color: #e81638; }
+
+.wpc-proposes-t-bg:hover:after,
+.wpc-service-logo,
+.wpc-tabs-more,
+.wpc-team-item h3:after,
+.wpc-info-block6:after,
+.wpc-comments-text a,
+.wpc-info-block4 a,
+.wpc-add-com button,
+.wpc-contact-form button,
+.wpc-food-menu2-about a,
+.wpc-food-menu2-bg2 .wpc-food-menu2-chef a,
+.pagination .swiper-active-switch,
+.wpc-select-form-item .wpc-find-but,
+.wpc-testi .swiper-container .swiper-active-switch {
+  background-color: #e81638; }
+
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle:focus,
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle,
+.wpc-select-form-item1 input {
+  border-bottom: 1px solid #e81638; }
+
+.wpc-service-logo:after,
+.wpc-our-menu .tabs-header li:hover,
+.wpc-our-menu .tabs-header li.active,
+.wpc-blog-h3-item {
+  border: 2px solid #e81638; }
+
+.pagination .swiper-active-switch:after {
+  border: 1px solid #e81638; }
+
+.wpc-info-block4 a {
+  color: #fff; }
+
+.wpc-product-logo1 {
+  background: #fff url("../img/sushi/product-logo1.png") 0 0 no-repeat; }
+
+.wpc-product-logo2 {
+  background: #fff url("../img/sushi/product-logo2.png") 0 0 no-repeat; }
+
+.wpc-product-logo3 {
+  background: #fff url("../img/sushi/product-logo3.png") 0 0 no-repeat; }
+
+.wpc-product-logo4 {
+  background: #fff url("../img/sushi/product-logo4.png") 0 0 no-repeat; }
+
+.wpc-header-sushi .logo a {
+  font-size: 30px;
+  font-family: 'Kaushan Script', cursive;
+  color: #e81638; }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1500px) {
+  .wpc-prop {
+    width: 1290px; } }
+
+@media only screen and (max-width: 1500px) {
+  .wpc-header-sushi .main-menu li {
+    margin: 0 25px; }
+    .wpc-header-sushi .main-menu li a {
+      line-height: 80px; }
+  .wpc-header-sushi .logo {
+    line-height: 80px; }
+  .wpc-sushi-prop-item {
+    position: relative; }
+    .wpc-sushi-prop-item img {
+      max-width: 100%; }
+  .wpc-sushi-prop-item .wpc-hide {
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    padding: 30px 10px; }
+  .wpc-info-block-body {
+    margin-top: 200px;
+    margin-bottom: 200px; }
+  .wpc-header-sushi {
+    padding-top: 0; }
+  .wpc-header-sushi .logo {
+    line-height: 60px; }
+  .wpc-header-sushi .wpc-navigation {
+    padding-top: 0; }
+  .wpc-header-sushi .main-menu li a {
+    line-height: 60px; }
+  .active-sushi .wpc-navigation {
+    padding-bottom: 0; }
+  .wpc-sushi-choose {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #fff; } }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .wpc-sushi-our-service .wpc-service-item {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .wpc-header-sushi .main-menu li {
+    margin: 0; }
+  .wpc-sushi-disc {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .wpc-sushi-text h2,
+  .wpc-our-service h2,
+  .wpc-sushi-prop h2,
+  .wpc-sushi-dish h2,
+  .wpc-sushi-text2 h2,
+  .wpc-sushi-info h2 {
+    font-size: 50px; }
+  .wpc-sushi-info h1,
+  .wpc-sushi-prop h3,
+  .wpc-sushi-dish h3,
+  .wpc-sushi-text2 h3,
+  .wpc-sushi-our-service .wpc-header h3,
+  .wpc-sushi-text h3 {
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: 65px; }
+  .wpc-header-sushi {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-sushi-dish {
+    padding-bottom: 0; }
+  .wpc-sushi-img {
+    display: none; }
+  .wpc-sushi-our-service .wpc-service-item p {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-header-menu .menu-item {
+    padding: 0 20px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 991px) {
+  .wpc-bs-img-info {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  .wpc-header-sushi,
+  .wpc-navigation.active .main-menu {
+    background-color: #000; }
+  .wpc-header-sushi .main-menu li {
+    text-align: center; }
+  .wpc-sushi-our-service .wpc-service-item {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    max-width: 370px; }
+  .wpc-sushi-footer-item form {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-sushi-text {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-info-block h3.fz-110 {
+    font-size: 50px; }
+  .wpc-sushi-disc {
+    background: none !important; }
+  .wpc-sushi-our-service .pad-lg-0 {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-footer-item-time {
+    padding-left: 20px; }
+  .nav-menu-icon i,
+  .nav-menu-icon i:before,
+  .nav-menu-icon i:after {
+    background-color: #fff; }
+  .wpc-header-sushi .logo {
+    position: fixed;
+    top: 0;
+    left: 15px; }
+  .wpc-header-sushi.active {
+    min-height: 65px; }
+  .active-sushi .logo {
+    display: block;
+    z-index: 3;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  .nav-menu-icon {
+    top: 20px; }
+  .wpc-header-sushi .main-menu li {
+    text-align: left; }
+  .wpc-navigation.active .main-menu {
+    margin-top: 80px; }
+  .wpc-header-sushi .menu-item a:before,
+  .wpc-header-sushi .menu-item a:after {
+    display: none; }
+  .wpc-header-sushi .main-menu .sub-menu {
+    background-color: #fff; }
+  .wpc-header-menu .menu-item.active a,
+  .wpc-header-menu-light .menu-item-has-children.active > .sub-menu a {
+    color: #333; }
+  .wpc-header-sushi .main-menu li a {
+    line-height: 40px; }
+  .wpc-header-menu .menu-item.active a {
+    color: #fff; }
+  .wpc-header-menu .menu-item.active li a {
+    color: #333; }
+  .wpc-header-menu.active-sushi .logo {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    display: block; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 650px) {
+  .wpc-blog-h3 h3,
+  .wpc-food-map h3 {
+    font-size: 30px; } }
+
+@media only screen and (max-width: 480px) {
+  .wpc-sushi-text h2,
+  .wpc-our-service h2,
+  .wpc-sushi-prop h2,
+  .wpc-sushi-dish h2,
+  h2,
+  .wpc-sushi-text2 h2,
+  .wpc-sushi-info h2 {
+    font-size: 30px; }
+  .wpc-sushi-info h1,
+  .wpc-sushi-prop h3,
+  .wpc-sushi-dish h3,
+  .wpc-product-text .wpc-header h3,
+  .wpc-food-menu-testi .wpc-testi h3,
+  .wpc-sushi-text2 h3,
+  .wpc-info-block h3,
+  .wpc-team .wpc-header h3,
+  .wpc-sushi-our-service .wpc-header h3,
+  .wpc-sushi-text h3 {
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-size: 35px; }
+  .wpc-info-block6 .wpc-info-price i,
+  .wpc-info-block6 .wpc-info-price span {
+    font-size: 20px; }
+  .wpc-sushi-info h1 {
+    line-height: 50px; }
+  .wpc-sushi-price span {
+    font-size: 14px; }
+  .wpc-sushi-price i {
+    font-size: 13px; }
+  .wpc-sushi-info h1:after,
+  .wpc-sushi-our-service .wpc-header h3:after,
+  .wpc-sushi-text h3:after {
+    display: none; }
+  .wpc-sushi-our-service .wpc-header h3 {
+    padding-bottom: 0; }
+  .wpc-sushi-text h3,
+  .wpc-sushi-info h1 {
+    padding-bottom: 30px; } }
+
+/* Custom, iPhone Retina */

@@ -1,0 +1,984 @@
+/*------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*------------------------------------------------------------------------------*/
+/* Template Name: Chicago */
+/* Version: 1.0 Initial Release */
+/* Build Date: 07-29-2016 */
+/* Author: Fox Teams */
+/* Website: foxthemes.com */
+/* Copyright: (C) 2016 */
+/*-------------------------------------------------------------------------------*/
+
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Text setting
+3. Header
+4. 1 block
+5. 2 block
+6. 3 block
+7. 4 block
+8. 5 block
+9. 6 block
+10. 7 block
+11. 8 block
+12. Color change
+
+
+-------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/* TEXT SETTING */
+/*--------------------------------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700);
+*,
+p,
+span,
+a {
+  font-family: 'Josefin Sans', sans-serif; }
+
+h3 {
+  font-family: 'Lora', serif;
+  color: #333;
+  font-size: 45px;
+  text-transform: uppercase; }
+
+h2 {
+  font-family: 'Lora', serif;
+  color: #7dc353;
+  font-size: 20px;
+  font-weight: 400; }
+
+h1 {
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 70px;
+  text-transform: uppercase; }
+
+.wpc-about-pizzeria,
+.wpc-pizzeria-recipes-img {
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.wpt-dish-bg {
+  margin: 0; }
+
+.wpc-spizzeria-img {
+  background-size: cover;
+  width: 100%; }
+
+.wpc-dishes-logo img {
+  border-radius: 0; }
+
+.wpc-swiper h3 {
+  text-transform: none; }
+
+/*--------------------------------------------------------------------------------------*/
+/* HEADER*/
+/*--------------------------------------------------------------------------------------*/
+.nav-menu-icon {
+  top: 18px; }
+
+.wpc-header-pizzeria {
+  padding: 0 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  background-color: #171717;
+  margin-left: auto;
+  margin-right: auto; }
+
+.logo {
+  float: left; }
+  .logo a {
+    line-height: 55px; }
+
+.main-menu {
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0; }
+  .main-menu li {
+    margin: 0;
+    padding: 20px 0; }
+    .main-menu li:last-child {
+      padding-right: 0; }
+      .main-menu li:last-child a {
+        border: none;
+        padding-right: 0; }
+    .main-menu li a {
+      padding: 5px 35px;
+      border-right: 1px solid rgba(255, 255, 255, 0.3);
+      letter-spacing: 2px;
+      opacity: 0.72;
+      color: white;
+      font-size: 11px;
+      font-weight: 400;
+      text-transform: uppercase; }
+      .main-menu li a.active {
+        color: #7dc353; }
+      .main-menu li a:hover {
+        color: #7dc353; }
+    .main-menu li li {
+      padding: 0; }
+
+.main-menu li li:last-child a {
+  padding: 5px 35px; }
+
+.main-menu .sub-menu {
+  top: 100%;
+  background: #171717; }
+  .main-menu .sub-menu a {
+    opacity: 0.72;
+    color: white;
+    border: none; }
+
+.wpc-navigation {
+  display: block; }
+
+.wpc-header-pizzeria .logo a {
+  color: #7dc353;
+  font-size: 25px;
+  padding: 0;
+  font-family: 'Lora', serif; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 1 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-pizzeria-home .swiper-slide {
+  padding: 190px 0 190px; }
+
+.wpc-pizzeria-home .pagination {
+  width: 70px;
+  left: 85px;
+  right: auto;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  height: 350px; }
+  .wpc-pizzeria-home .pagination .swiper-pagination-switch {
+    -webkit-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in;
+    width: 100%;
+    border-radius: 0;
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    color: #fff;
+    height: auto;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'LiberationSans', sans-serif;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-top: 47px;
+    color: #d2d4d4; }
+    .wpc-pizzeria-home .pagination .swiper-pagination-switch:after {
+      display: none; }
+  .wpc-pizzeria-home .pagination .swiper-active-switch {
+    color: #7dc353;
+    border-bottom: 1px solid #7dc353; }
+
+.wpc-pizzeria-home h3 {
+  color: #7dc353;
+  font-size: 30px;
+  padding: 0;
+  font-weight: 400;
+  line-height: 1; }
+  .wpc-pizzeria-home h3:after {
+    display: none;
+    padding-bottom: 0; }
+
+.wpc-pizzeria-home h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 400;
+  margin-top: 25px;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 40px; }
+  .wpc-pizzeria-home h1:after {
+    display: inline-block;
+    content: '';
+    width: 560px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 9px;
+    position: absolute;
+    background: transparent url("../img/pizzeria/h-after.png") 0 0 no-repeat; }
+
+.wpc-pizzeria-home p {
+  height: 39px;
+  opacity: 0.7;
+  color: #fffefe;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 570px;
+  margin: 30px auto 50px;
+  display: block; }
+
+.wpc-pizzeria-home a {
+  color: #fffefe;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #7dc353;
+  padding: 0 35px;
+  display: inline-block;
+  line-height: 45px; }
+
+.wpc-pizzeria-home .swiper-slide-bg {
+  margin-top: 75px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 2 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-about-pizzeria {
+  background-size: contain;
+  background-position: bottom;
+  text-align: center; }
+  .wpc-about-pizzeria h2 {
+    color: #7dc353;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: none; }
+  .wpc-about-pizzeria h3 {
+    color: #333;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 28px;
+    text-transform: uppercase;
+    position: relative; }
+    .wpc-about-pizzeria h3:after {
+      display: inline-block;
+      content: '';
+      width: 230px;
+      bottom: 30px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 9px;
+      position: absolute;
+      background: transparent url("../img/pizzeria/h-after2.png") 0 0 no-repeat; }
+  .wpc-about-pizzeria p {
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 460px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px; }
+  .wpc-about-pizzeria span {
+    max-width: 500px;
+    display: inline-block;
+    color: #666;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 40px; }
+  .wpc-about-pizzeria img {
+    padding-left: 170px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 3 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-pizzeria-recipes-text {
+  text-align: left;
+  z-index: 2;
+  position: relative;
+  background-color: #fff;
+  padding: 70px 70px 60px; }
+  .wpc-pizzeria-recipes-text h2 {
+    color: #7dc353;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px; }
+  .wpc-pizzeria-recipes-text h3 {
+    padding-top: 10px;
+    color: #333;
+    letter-spacing: 4px;
+    padding-bottom: 65px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative; }
+    .wpc-pizzeria-recipes-text h3:after {
+      display: inline-block;
+      content: '';
+      width: 230px;
+      bottom: 20px;
+      left: 0;
+      height: 9px;
+      position: absolute;
+      background: transparent url("../img/pizzeria/h-after2.png") 0 0 no-repeat; }
+  .wpc-pizzeria-recipes-text p {
+    color: #888;
+    font-size: 16px;
+    letter-spacing: .4px;
+    font-weight: 300;
+    line-height: 26px; }
+  .wpc-pizzeria-recipes-text a {
+    color: #fffefe;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 45px;
+    text-transform: uppercase;
+    background-color: #7dc353;
+    display: inline-block;
+    margin-top: 25px;
+    letter-spacing: 1.5px;
+    padding: 0 30px; }
+
+.wpc-pizzeria-recipes-img {
+  margin-top: 185px;
+  margin-left: -100px; }
+
+.wpc-pizzeria-recipes {
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 4 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-pizzeria-prop {
+  text-align: center; }
+  .wpc-pizzeria-prop h2 {
+    color: #7dc353;
+    font-size: 20px;
+    font-weight: 400; }
+  .wpc-pizzeria-prop h3 {
+    color: #333;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 40px;
+    letter-spacing: 4px;
+    padding-top: 20px; }
+    .wpc-pizzeria-prop h3:after {
+      display: inline-block;
+      content: '';
+      width: 230px;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 9px;
+      position: absolute;
+      background: transparent url("../img/pizzeria/h-after2.png") 0 0 no-repeat; }
+  .wpc-pizzeria-prop h5 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px; }
+  .wpc-pizzeria-prop span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: white; }
+  .wpc-pizzeria-prop i {
+    color: #7dc353; }
+
+.wpt-dish-itemH .wpc-dishes-info {
+  padding-left: 5px; }
+
+.container.wpc-pizzeria-prop-item {
+  max-width: 1170px; }
+
+.wpc-pizzeria-prop-item {
+  margin: 5px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
+  .wpc-pizzeria-prop-item img {
+    max-width: 100%; }
+  .wpc-pizzeria-prop-item .wpc-hide {
+    opacity: 0;
+    padding-top: 165px;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    position: absolute;
+    -webkit-transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in; }
+  .wpc-pizzeria-prop-item:hover .wpc-hide {
+    opacity: 1; }
+
+/*--------------------------------------------------------------------------------------*/
+/*5 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-dishes h2 {
+  color: #7dc353;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 30px; }
+
+.wpc-dishes h3 {
+  padding-top: 20px;
+  color: white;
+  letter-spacing: 2px;
+  padding-bottom: 45px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase; }
+  .wpc-dishes h3:after {
+    width: 230px;
+    bottom: 0px;
+    height: 9px;
+    background: transparent url("../img/pizzeria/h-after2.png") 0 0 no-repeat; }
+
+.wpc-tabs-body span {
+  line-height: 1; }
+
+.wpc-tabs-body h6 {
+  font-size: 14px;
+  letter-spacing: -1px;
+  margin-bottom: 0; }
+
+.wpc-tabs-more {
+  margin-top: 40px; }
+
+.wpc-tabs-more {
+  color: #fffefe;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0 35px;
+  line-height: 50px;
+  text-transform: uppercase; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 6 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-info-block2 .wpc-header {
+  padding-left: 0; }
+
+.wpc-spizzeria-info {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0; }
+
+.wpc-spizzeria-text.wpc-info-block2 h3 {
+  color: #fff; }
+
+.wpc-spizzeria-text {
+  padding-left: 70px;
+  text-align: left;
+  width: 100%;
+  max-width: 800px;
+  float: right; }
+  .wpc-spizzeria-text h2 {
+    color: #7dc353;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 30px; }
+  .wpc-spizzeria-text h3 {
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-bottom: 70px; }
+    .wpc-spizzeria-text h3:after {
+      right: auto; }
+  .wpc-spizzeria-text p {
+    opacity: 0.6;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; }
+  .wpc-spizzeria-text a {
+    margin-top: 35px;
+    color: #fffefe;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #7dc353;
+    padding: 0 30px;
+    letter-spacing: 2px;
+    line-height: 45px; }
+
+.wpc-info-block2-item {
+  margin-left: 0;
+  margin-right: 30px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 7 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-info-block2_text h2 {
+  color: #7dc353;
+  font-size: 20px;
+  font-weight: 400; }
+
+.wpc-info-block2_text h3 {
+  color: #333;
+  padding-top: 25px;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding-bottom: 75px; }
+  .wpc-info-block2_text h3:after {
+    bottom: 25px; }
+
+.wpc-info-block2_text p {
+  color: #888;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 26px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 480px; }
+
+.wpc-info-block2_text span {
+  color: #666;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  display: inline-block;
+  max-width: 440px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*--------------------------------------------------------------------------------------*/
+/* 8 block */
+/*--------------------------------------------------------------------------------------*/
+.wpc-footer h2 {
+  color: #7dc353;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0;
+  padding-bottom: 25px; }
+
+.wpc-footer h5 {
+  color: #7dc353;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 35px;
+  letter-spacing: 2.4px;
+  text-transform: uppercase; }
+
+.wpc-footer p {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  display: inline-block;
+  padding-bottom: 15px; }
+
+.wpc-footer span {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.wpc-work-time span {
+  background: none; }
+
+.wpc-copyright {
+  background-color: #3d3d3d;
+  padding: 30px 0; }
+  .wpc-copyright span {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 0;
+    line-height: 1;
+    font-family: 'Lora', serif; }
+
+.wpc-footer-item-info span {
+  padding-left: 45px;
+  padding-bottom: 5px;
+  line-height: 25px;
+  padding-bottom: 25px; }
+  .wpc-footer-item-info span i {
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+    padding-right: 20px;
+    color: #fff; }
+
+.wpc-work-time li:after {
+  display: none; }
+
+.wpc-footer-item-time {
+  padding-left: 75px; }
+
+.wpc-footer i {
+  line-height: 100%;
+  float: left;
+  color: #fff;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  padding-right: 5px;
+  line-height: 18px; }
+
+/*--------------------------------------------------------------------------------------*/
+/* Color change */
+/*--------------------------------------------------------------------------------------*/
+.wpc-testi-body h5,
+.wpc-hour span i,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu .tabs-header li.active a,
+.wpc-our-menu .tabs-header li:hover a,
+.wpc-our-menu-body span,
+.wpc-blog-h3-item-body .wpc-blog-h3-by h4,
+.wpc-blog-h3-item-body .wpc-blog-h3-info span:before,
+.wpc-blog-h3-item-body h3,
+.wpc-our-wrap .wpc-service-item span,
+.wpc-our-wrap .wpc-service-item .wpc-our-wrap-mail,
+.wpc-select-form-item .bootstrap-select.btn-group .dropdown-toggle .caret,
+.wpc-select-form-item1 .caret,
+.wpc-service-item span i,
+.wpc-hour span i,
+.wpc-testi-body h5,
+.wpc-blog-post .wpc-blog-post-info span:before,
+.wpc-b-posts-info span:before,
+.wpc-mains span,
+.wpc-blog-post-aside form button:before,
+.wpc-dishes .tabs-header li:hover a,
+.wpc-comments h4,
+.wpt-dish-ib-price span .wpc-add-com h4,
+.wpc-comments-text span:before,
+.wpc-dishes-price span,
+.wpc-dishes .tabs-header li.active a,
+.wpc-proposes-text span i,
+.wpc-footer h2,
+.wpc-work-time i,
+.wpt-dish-bg h2,
+.wpt-dish-tabs h4,
+.wpc-twitter a,
+.wpt-dish-ib-price span,
+.wpc-dishes .tabs-header li.active a,
+.wpc-copyright a,
+.wpc-add-com h4,
+.wpc-select-form .icon-left:before {
+  color: #7dc353; }
+
+.wpc-food-menu2-bg2,
+.wpc-comments h4,
+.wpc-add-com h4,
+.wpc-add-com input,
+.wpc-add-com textarea,
+.wpc-blog-post-aside form input,
+.wpc-dishes .tabs-header li:hover,
+.wpc-dishes .tabs-header li.active {
+  border-color: #7dc353; }
+
+.wpc-proposes-t-bg:hover:after,
+.wpc-service-logo,
+.wpc-tabs-more,
+.wpc-team-item h3:after,
+.wpc-info-block6:after,
+.wpc-comments-text a,
+.wpc-info-block4 a,
+.wpc-add-com button,
+.wpc-contact-form button,
+.wpc-food-menu2-about a,
+.wpc-food-menu2-bg2 .wpc-food-menu2-chef a,
+.pagination .swiper-active-switch,
+.wpc-select-form-item .wpc-find-but,
+.wpc-testi .swiper-container .swiper-active-switch {
+  background-color: #7dc353; }
+
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle:focus,
+.wpc-select-form-item .bootstrap-select > .dropdown-toggle,
+.wpc-select-form-item1 input {
+  border-bottom: 1px solid #7dc353; }
+
+.wpc-service-logo:after,
+.wpc-our-menu .tabs-header li:hover,
+.wpc-our-menu .tabs-header li.active,
+.wpc-blog-h3-item {
+  border: 2px solid #7dc353; }
+
+.pagination .swiper-active-switch:after {
+  border: 1px solid #7dc353; }
+
+.wpc-info-block h3:after {
+  width: 560px;
+  height: 9px;
+  background: transparent url("../img/pizzeria/h-after.png") 0 0 no-repeat; }
+
+.wpc-mains.wpc-header h3:after,
+.wpc-dishes h3:after,
+.wpt-map h3:after,
+.wpc-team h3:after,
+.wpc-our-menu h3:after,
+.wpc-info-block2 h3:after,
+.wpc-proposes.wpc-header h3:after,
+.wpc-info-block2 h3:after,
+.wpc-testi h3:after,
+.wpc-select-form h3:after,
+.wpc-our-service .wpc-header h3:after,
+.wpc-product-text .wpc-header h3:after,
+.wpc-blog-h3 h3:after {
+  width: 230px;
+  height: 9px;
+  background: transparent url("../img/pizzeria/h-after2.png") 0 0 no-repeat; }
+
+.wpc-blog-h3-item-body h5:after {
+  width: 230px;
+  height: 9px;
+  background: transparent url("../img/pizzeria/h-after2.png") 0 0 no-repeat; }
+
+.wpc-product-logo1 {
+  background: url("../img/pizzeria/product-logo1.png") 0 0px no-repeat; }
+
+.wpc-product-logo2 {
+  background: url("../img/pizzeria/product-logo2.png") 0 0px no-repeat; }
+
+.wpc-product-logo3 {
+  background: url("../img/pizzeria/product-logo3.png") 0 0px no-repeat; }
+
+.wpc-product-logo4 {
+  background: url("../img/pizzeria/product-logo4.png") 0 0px no-repeat; }
+
+.wpc-header-menu .menu-item a:after,
+.wpc-header-menu .menu-item a:before {
+  display: none; }
+
+.wpc-header-menu .menu-item a:hover {
+  color: #7dc353; }
+
+.wpc-info-block h3:after {
+  width: 560px;
+  height: 9px;
+  background: transparent url("../img/pizzeria/h-after.png") 0 0 no-repeat;
+  bottom: 0; }
+
+.wpc-info-block2 h3,
+.wpc-team h3,
+.wpc-mains.wpc-header h3,
+.wpc-product-text .wpc-header h3,
+.wpc-blog-h3 h3 {
+  color: #333; }
+
+.wpc-swiper {
+  padding-left: 0;
+  padding-right: 0; }
+  .wpc-swiper h3 {
+    letter-spacing: 0; }
+  .wpc-swiper h1 {
+    letter-spacing: 7px; }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1799px) {
+  .wpc-info-block2-item {
+    margin: 7px; } }
+
+@media only screen and (max-width: 1400px) {
+  .wpc-header-menu .menu-item {
+    padding: 0 20px; }
+  .wpc-pizzeria-home .pagination {
+    bottom: 15px;
+    left: 15px;
+    top: auto;
+    height: auto; }
+  .wpc-header-pizzeria {
+    padding: 0; }
+  .wpc-navigation {
+    padding: 0 15px; } }
+
+@media only screen and (max-width: 1200px) {
+  .wpt-dish-item {
+    padding-left: 15px; }
+  .wpc-info-block2-item {
+    margin: 2px; }
+  .wpc-pizzeria-home .pagination .swiper-pagination-switch {
+    margin-top: 0; }
+  .wpc-pizzeria-home .pagination {
+    left: 15px;
+    bottom: 15px; }
+  .wpc-footer-item {
+    padding-left: 15px; }
+  .wpc-pizzeria-recipes-img {
+    margin-top: 50px; }
+  .wpc-pizzeria-recipes-text {
+    padding: 60px 25px; }
+  .wpc-info-block2 {
+    padding-left: 15px; }
+  .main-menu li a {
+    padding: 5px 20px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .wpc-pizzeria-home h1 {
+    font-size: 50px; }
+  .wpc-pizzeria-home h3 {
+    font-size: 25px; }
+  .wpc-pizzeria-recipes-text h3,
+  .wpc-pizzeria-prop h3,
+  .wpc-dishes h3,
+  .wpc-spizzeria-text.wpc-info-block2 h3,
+  .wpc-info-block2 h3,
+  .wpc-about-pizzeria h3 {
+    font-size: 35px; }
+  .wpc-header-menu .menu-item a,
+  .wpc-header-menu .menu-item.logo a {
+    line-height: 60px;
+    color: #000;
+    position: static; }
+  .wpc-header-menu .menu-item.logo a {
+    color: #7dc353; }
+  .wpc-header-menu .menu-item.logo a span,
+  .wpc-header-menu:after,
+  .wpc-header-menu:before {
+    display: none; }
+  .wpc-pizzeria-home .swiper-slide {
+    padding: 50px 0 100px; }
+  .wpc-pizzeria-recipes-img {
+    display: none; }
+  .wpc-pizzeria-prop-item {
+    min-height: 375px; }
+  .wpc-spizzeria-text {
+    float: none; }
+  .wpc-spizzeria-img {
+    display: none; }
+  .wpc-pizzeria-recipes-text {
+    text-align: center; }
+  .wpc-pizzeria-recipes-text h3:after {
+    left: 0;
+    right: 0;
+    margin: auto; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 991px) {
+  .wpc-about-pizzeria {
+    background: none !important; }
+  .wpc-bs-img-info {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  .main-menu li a,
+  .menu-item-has-children > a span {
+    opacity: 1; }
+  .wpc-footer-item-time {
+    padding-left: 0; }
+  .wpc-footer-item-time {
+    padding: 20px; }
+  .wpc-header-menu.active-mob {
+    background-color: #fff; }
+  .menu-item-has-children > a span:before {
+    margin-top: 0;
+    line-height: 1; }
+  .wpc-pizzeria-home h1 {
+    font-size: 38px;
+    padding-bottom: 0; }
+  .wpc-pizzeria-home h1:after {
+    display: none; }
+  .wpc-pizzeria-home .swiper-slide {
+    padding: 50px 15px; }
+  .wpc-pizzeria-home .pagination {
+    width: 20px; }
+  .logo2 a {
+    color: #7dc353; }
+  .wpc-pizzeria-recipes-text h3,
+  .wpc-pizzeria-prop h3,
+  .wpc-dishes h3,
+  .wpc-spizzeria-text.wpc-info-block2 h3,
+  .wpc-info-block2 h3,
+  h3,
+  .wpc-about-pizzeria h3 {
+    font-size: 30px; }
+  .wpt-dish-item {
+    padding-left: 30px;
+    padding-right: 30px; }
+  .wpc-pizzeria-home p {
+    max-height: none;
+    height: auto;
+    margin: 15px auto; }
+  .nav-menu-icon i:after,
+  .nav-menu-icon i:before,
+  .nav-menu-icon i {
+    background-color: #fff; }
+  .wpc-navigation.active .main-menu {
+    background-color: #171717; }
+  .main-menu li {
+    text-align: center; }
+    .main-menu li a {
+      border: none; }
+  .menu-item-has-children > a span:before {
+    margin-top: 0; }
+  .wpc-navigation.active {
+    height: 100%; }
+  .active-pizza {
+    height: 100%; }
+  .wpc-pizzeria-home .swiper-slide {
+    padding-top: 0; }
+  .wpc-info-block2 span,
+  .wpc-info-block2 p {
+    width: 100%;
+    padding-right: 15px; }
+  .wpc-info-block2 {
+    padding-left: 0; }
+  .wpc-navigation {
+    padding: 0 30px; }
+  .wpc-pizzeria-home .pagination {
+    left: 5px;
+    bottom: 5px; }
+  .wpc-spizzeria-info,
+  .wpt-dish-itemH .wpc-dishes-info {
+    padding-left: 15px;
+    padding-right: 15px; }
+  .wpc-navigation {
+    padding-left: 0;
+    padding-right: 0; }
+  .wpc-navigation .logo {
+    margin-left: 30px; }
+  .menu-item-has-children > a {
+    position: static; }
+  .main-menu li:last-child a {
+    padding-right: 20px; }
+  .main-menu li {
+    text-align: left;
+    padding: 10px 0; }
+  .menu-item-has-children > a span {
+    top: 0;
+    bottom: 0; }
+  .menu-item-has-children.active > .sub-menu {
+    padding-left: 15px; }
+  .main-menu li {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .wpc-pizzeria-recipes-text {
+    padding: 15px;
+    text-align: center; }
+  .wpc-bistro-text {
+    padding: 15px; }
+  .wpc-about-pizzeria img {
+    padding-left: 0; } }
+
+/* Custom, iPhone Retina */

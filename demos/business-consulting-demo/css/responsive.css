@@ -1,0 +1,189 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1343px) and (max-width: 1500px) {
+
+  .owl-next {right:  -9%;}
+  .owl-prev {left: -9%;}
+
+}
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+  .full_bg {height: 100%; }
+  .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .creative::before {right: 0;}
+.creative::after {right: 0;}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .site-navbar ul li a {padding:0px 23px;}
+  .full_bg {height: 100%; }
+  .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .creative::before {position: inherit; background: inherit;}
+.creative::after {position: inherit; background: inherit;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.full_bg {height: 100%;}
+  .logo a img {padding-right: 7px;}
+  .site-navbar ul li a {padding:0px 10px; font-size: 17px;}
+.creative h1 {
+    font-size: 31px;
+    line-height: 39px;
+}
+.creative::before {position: inherit; background: inherit;}
+.creative::after {position: inherit; background: inherit;}
+ .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .titlepage h2 {
+    font-size: 21px;
+    line-height: 27px;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .d_none {display: none;}
+  .full_bg {height: 100%;}
+  .site-navbar ul li a {padding: 8px 9px; font-size: 16px;}
+.creative h1 {padding-top: 30px;}
+.creative::before {position: inherit; background: inherit;}
+.creative::after {position: inherit; background: inherit;}
+  .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .innva_img, .map-responsive, 
+  .market_img, .secret_img {padding-top: 30px;}
+  .services_box h3 {font-size: 20px; line-height: 25px;}
+.grid {display: grid;}
+.older {order: -1;}
+.main_form {max-width: inherit;}
+
+    /* navbar css for mobile start */
+    .navbar-area {
+    margin-top: -47px;
+    }
+    .nav-toggler {
+        display: block;
+        position: absolute;
+        right: 15px;
+        z-index: 99999;
+    }
+    .site-navbar {
+    min-height: 50px;
+   }
+    .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 29px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 3px 0 21px rgba(13, 3, 3, 0.10);
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+        z-index: 99999;
+    
+    }
+    .site-navbar ul li {
+        width: 100%;
+        text-align: left;
+        padding-right: 0;
+    }
+    .site-navbar ul li a {
+    padding: 14px 25px 10px 25px;
+}
+    .site-navbar ul.open {
+        max-height: 100vh;
+        overflow: visible;
+    }
+    /* navbar css for mobile end */
+
+}
+
+@media (max-width: 575px) {
+  .d_none {display: none;}
+  .full_bg {height: 100%;}
+  .site-navbar ul li a {padding: 8px 9px; font-size: 16px;}
+.creative h1 {
+    padding-top: 30px;
+    font-size: 40px;
+    line-height: 45px;
+}
+.creative::before {position: inherit; background: inherit;}
+.creative::after {position: inherit; background: inherit;}
+  .owl-carousel .owl-nav button.owl-next, 
+  .owl-carousel .owl-nav button.owl-prev {top: 95%;}
+  .owl-next {right:  0%;}
+  .owl-prev {left: 0%;}
+  .innva_img, .map-responsive, 
+  .market_img, .secret_img {padding-top: 30px;}
+.grid {
+    display: grid;
+  }
+.older {
+    order: -1;
+  }
+.titlepage h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+.main_form {max-width: inherit;}
+ul.conta li {padding-bottom: 10px;}
+.newslatter_form, ul.conta {display: inherit;}
+.subs_btn {
+  margin-left: 0;
+}
+    /* navbar css for mobile start */
+.navbar-area {
+    margin-top: -47px;
+    }
+    .nav-toggler {
+        display: block;
+        position: absolute;
+        right: 15px;
+        z-index: 99999;
+    }
+    .site-navbar {
+        min-height: 0px;
+    }
+    .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 30px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 3px 0 21px rgba(13, 3, 3, 0.10);
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+        z-index: 99999;
+    
+    }
+    .site-navbar ul li {
+        width: 100%;
+        text-align: left;
+        padding-right: 0;
+    }
+    .site-navbar ul li a {
+    padding: 14px 25px 10px 25px;
+}
+    .site-navbar ul.open {
+        max-height: 100vh;
+        overflow: visible;
+    }
+
+}

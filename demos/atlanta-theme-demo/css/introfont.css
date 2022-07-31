@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'intro_regular';
+    src: url('../fonts/intro-webfont.eot');
+    src: url('../fonts/intro-webfont.eot') format('embedded-opentype'),
+         url('../fonts/intro-webfont.woff') format('woff2'),
+         url('../fonts/intro-webfont.woff') format('woff'),
+         url('../fonts/intro-webfont.ttf') format('truetype'),
+         url('../fonts/intro-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
