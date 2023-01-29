@@ -1,9 +1,0 @@
-  =>  Template Name    : Insure - Insurance HTML Template
-
-  =>  Template Link    : https://datalytika.org/insurance-html-template
-
-  =>  Template License : https://datalytika.org/license (or read the LICENSE.txt file)
-
-  =>  Template Author  : HTML Websites
-
-  =>  Author Website   : https://datalytika.org
