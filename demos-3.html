@@ -609,53 +609,9 @@
                         </div>
                         <div class="bg-light text-align" style="padding: 30px;">
                             <p>We've noticed a surge in views and interest on these <button><a href="personal-portfolio-1-demo.html" target="_blank"> personal portfolio website demos </a></button>. Whether a <strong> freelancer </strong> or not, a <strong> personal portfolio </strong> showcases what you <strong> do, </strong> have <strong> done </strong>, and are <strong> capable of doing.</strong> <br><br> Typically, a resume would just tell. Potential <strong> clients </strong> and/or <strong> employers </strong> prefer to see your skills and abilities, and whether they’re relevant for the task or role. <br><br> You can do it yourself, or we can; <ol><li>curate/design your personal portfolio,</li> <li>write it up with content,</li> <li>with responsive forms, sending messages to your email,</li> <li> integrated chatboxes eg; whatsapp,</li> <li> subscription or pricing plans with payment options for your clients,</li><li> with a custom domain, and customised to your specialities</li></ol> in 24 hours for an all-inclusive price of just <strong> $99. </strong></p>
-                            <div class="btn btn-primary py-2 px-4 text-center">Book your slot now via paypal!</div>
-                            <div id="smart-button-container">
-                                <div style="text-align: center;">
-                                  <div id="paypal-button-container"></div>
-                                </div>
-                              </div>
-                            <script src="https://www.paypal.com/sdk/js?client-id=ActKBgLy94V4h5Ilf6WmdUk8VOTRcSx22Q-h39n5vgwp0--9--uA9mQt2vUo-rdrPjmuhqEdVSEQVf4i&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-                            <script>
-                              function initPayPalButton() {
-                                paypal.Buttons({
-                                  style: {
-                                    shape: 'rect',
-                                    color: 'gold',
-                                    layout: 'vertical',
-                                    label: 'paypal',
-                                    
-                                  },
-                          
-                                  createOrder: function(data, actions) {
-                                    return actions.order.create({
-                                      purchase_units: [{"description":"Personal Portfolio Website","amount":{"currency_code":"USD","value":97}}]
-                                    });
-                                  },
-                          
-                                  onApprove: function(data, actions) {
-                                    return actions.order.capture().then(function(orderData) {
-                                      
-                                      // Full available details
-                                      console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                          
-                                      // Show a success message within this page, e.g.
-                                      const element = document.getElementById('paypal-button-container');
-                                      element.innerHTML = '';
-                                      element.innerHTML = '<h3>Thank you for your payment!</h3>';
-                          
-                                      // Or go to another URL:  actions.redirect('thank_you.html');
-                                      
-                                    });
-                                  },
-                          
-                                  onError: function(err) {
-                                    console.log(err);
-                                  }
-                                }).render('#paypal-button-container');
-                              }
-                              initPayPalButton();
-                            </script>
+                            <div class="btn btn-primary py-2 px-4 text-center">Book your slot now via an appointment!</div>
+                           
+                            
                         </div>
                     </div>
                     <!-- Plain Text End -->
@@ -663,14 +619,15 @@
                     <!-- Category Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                            <h3 class="mb-0">Categories</h3>
+                            <h3 class="mb-0">Service Categories</h3>
                         </div>
                         <div class="link-animated d-flex flex-column justify-content-start">
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/analytics.html"><i class="bi bi-arrow-right me-2"></i>Analytics</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://github.com/datalytika/research-reports"><i class="bi bi-arrow-right me-2"></i>Research</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/development.html"><i class="bi bi-arrow-right me-2"></i>Development</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/blog"><i class="bi bi-arrow-right me-2"></i>Trend Reports</a>
-                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/visualisations.html"><i class="bi bi-arrow-right me-2"></i>Data Visualisation & Informatics</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/services/data.html"><i class="bi bi-arrow-right me-2"></i>Data Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/services/web.html"><i class="bi bi-arrow-right me-2"></i>Web Technologies</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/services/integration.html"><i class="bi bi-arrow-right me-2"></i>Integration</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/services/seo.html"><i class="bi bi-arrow-right me-2"></i>SEO Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/services/software.html"><i class="bi bi-arrow-right me-2"></i>Software Services</a>
+                            <a class="h5 fw-semi-bold bg-light rounded py-2 px-3 mb-2" href="https://datalytika.net/services/consulting.html"><i class="bi bi-arrow-right me-2"></i>Consult: IT Services</a>
                         </div>
                     </div>
                     <!-- Category End -->
@@ -836,5 +793,10 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/jlweya/datalytika-client-first-meet', text: 'Schedule Appointment for Website Design/Dev.', color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
+<!-- Calendly badge widget end -->
 <script type="text/javascript"  src="https://apiv2.popupsmart.com/api/Bundle/389416" async></script></body>
 </html>
